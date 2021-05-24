@@ -1,0 +1,266 @@
+/********************************
+
+      Basic Style Changes
+
+********************************/
+
+html{
+    background: #FFDE00;
+    max-width: 100%;
+    min-height: 100vh;
+    display: block;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    color:#000;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.row.landing_section {
+    margin-top: 30px;
+}
+
+
+.logo-container .brand img {
+    width: 400px;
+    max-width: 80%;
+}
+
+.yellow-background{
+    background-color: #FFDE00;
+    background-color: rgba(255,222,0,0.85);
+}
+
+.phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.phone img{
+    width: auto;
+    max-width: 100%;
+    max-height: 95vh;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.description {
+    margin-top: 40px;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    min-height: 560px;
+}
+
+
+
+/********************************
+
+      Button Style Changes
+
+********************************/
+
+button.btn.btn-neutral.btn-lg {
+    color: #fff;
+}
+
+.landing-page .parallax .buttons {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-info.btn-fill {
+    color: #fff;
+    background-color: #000;
+    opacity: 1;
+}
+
+.btn-info{
+    border-color:#000;
+}
+
+.btn-neutral {
+    border-color: #000;
+    color: white;
+}
+
+.btn {
+    border-width: 2px;
+    background-color: #000;
+    font-weight: 400;
+    opacity: 1;
+    filter: alpha(opacity=80);
+    padding: 8px 50px;
+    border-color: #000;
+    color: #fff;
+}
+
+.btn-neutral:hover, .btn-neutral:focus, .btn-neutral:active, .btn-neutral.active, .open > .btn-neutral.dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.85);
+}
+
+.btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open > .btn-info.btn-fill.dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    border-color: rgba(0, 0, 0, 0.85);
+}
+
+
+/********************************
+
+      Form Style Changes
+
+********************************/
+
+.form-control {
+    background-color: rgba(255,255,255,0.1);
+    background-image: none;
+     -webkit-transition: all .15s;
+    -o-transition: all .15s;
+     transition: all .15s;
+}
+
+.form-control:focus {
+    background-color: rgba(255,255,255,0.85);
+    border-color: #000;
+    outline: 0;
+    -webkit-box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.section-title {
+    color: #272a30;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border-bottom: 2px solid #272a30;
+    text-transform: uppercase;
+}
+
+.grey-background{
+    background-color: #272a30;
+    background-color: rgba(39, 42, 48, 0.9);
+
+}
+
+
+.grey-background .section-title {
+    color: #FFF;
+    border-bottom-color: #FFDE00;
+}
+
+#services {color: #fff;]}
+
+#services h3 {
+    color: #FFDE00;
+}
+
+#services .single-service {
+    margin-bottom: 60px;
+}
+
+#contact{margin-bottom: 0;}
+
+.btn.yellow{
+    background-color: #FFDE00;
+    color: #000;
+    border-color: #FFDE00;
+}
+
+#hero {padding-top: 0;}
+
+#video, #contact {padding-bottom: 60px;}
+
+.service-content p {
+    max-width: 370px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/********************************
+
+        Media queries
+
+********************************/
+
+@media (max-width: 992px){
+
+    .logo-container {
+        margin-top: 15px;
+    }
+
+    .logo-container .brand {text-align: center;}
+
+    .description {text-align: center;}
+
+    .buttons {text-align: center;}
+
+    .row.landing_section {
+        margin-top: 0px;
+    }
+    .section-contact{
+        padding: 0px 0  30px 0;
+    }
+    .vertical-align {
+        display: block;
+        /*align-items: center; */
+        height: auto;
+        min-height: unset;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+    {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+}
+
+@media (max-width: 530px){
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+
+}
+
+

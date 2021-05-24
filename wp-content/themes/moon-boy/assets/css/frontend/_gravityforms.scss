@@ -1,0 +1,148 @@
+.gform_wrapper h3.gform_title {
+  margin-bottom: 50px !important;
+  padding-bottom: 20px;
+  display: inline-block;
+  border-bottom: 2px solid #FFDE00;
+  color: #FFF;
+  border-bottom-color: #FFDE00;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px !important;
+  font-weight: 800;
+}
+
+.gform_heading, .gform_footer{
+  text-align: center;
+}
+
+.ginput_recaptcha{
+  > *{
+    margin: auto;
+  }
+  + .help-block{
+    text-align: center;
+  }
+}
+
+
+/**
+@todo find an alternative solution for everything below
+ */
+form {
+  text-align: left;
+
+  label.empty {
+    display: none !important;
+  }
+
+  &::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+
+  input, textarea {
+    &:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+
+  input, textarea {
+    &::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+
+  input, textarea {
+    &:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.6) !important;
+    }
+  }
+
+  input:not([type='radio']):not([type='checkbox']):not([type='submit']):not([type='button']):not([type='image']):not([type='file']),
+  textarea {
+
+    &:focus {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-color: #000;
+      outline: 0;
+      -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+      color: #111;
+    }
+
+  }
+
+  textarea.input-lg, .form-group-lg textarea.form-control{
+    height: auto;
+    max-width: 100%;
+  }
+
+  input[type=submit]{
+      cursor: pointer;
+      height: 43px;
+      min-height: 0px;
+      text-size-adjust: 100%;
+      touch-action: manipulation;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 147.031px;
+      perspective-origin: 73.5156px 21.5px;
+      transform-origin: 73.5156px 21.5px;
+      user-select: none;
+      background: rgb(255, 222, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+      border: 2px solid rgb(255, 222, 0);
+      border-radius: 2px 2px 2px 2px;
+      font: normal normal 400 normal 18px / 23.94px sans-serif;
+      padding: 8px 50px;
+
+    &:after {
+      box-sizing: border-box;
+      cursor: pointer;
+      text-size-adjust: 100%;
+      white-space: nowrap;
+      user-select: none;
+      font: normal normal 400 normal 18px / 23.94px sans-serif;
+    }
+
+    &:before {
+      box-sizing: border-box;
+      cursor: pointer;
+      text-size-adjust: 100%;
+      white-space: nowrap;
+      user-select: none;
+      font: normal normal 400 normal 18px / 23.94px sans-serif;
+    }
+
+  }
+
+  .form-control {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    font: normal normal 400 normal 16px / 22.8571px sans-serif;
+    padding: 20px 15px;
+    -webkit-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+    background-color: rgba(255,255,255,0.1);
+    background-image: none;
+
+    &:focus, &:valid, &:not(:empty){
+        background-color: rgba(255, 255, 255, 0.7);
+        border-color: #000;
+        outline: 0;
+        -webkit-box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+        box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    }
+  }
+
+  .input-lg, .form-group-lg .input-lg{
+      border-radius: 2px 2px 2px 2px;
+  }
+
+}
+
+.alert-success{
+  color: $primaryColor;
+  background-color: rgba(42,44,49,0.6);
+  border-color: rgba(225,222,1,0.5);
+}
+
+
+

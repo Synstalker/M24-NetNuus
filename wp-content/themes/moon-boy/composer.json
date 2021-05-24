@@ -1,0 +1,78 @@
+{
+    "name": "craigiswayne/moon-boy",
+    "description": "App Landing Page Theme built using underscores",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Wayne",
+            "email": "craigiswayne@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "craigiswayne/moon-boy-wiki",
+                "version": "dev-master",
+                "type": "library",
+                "source": {
+                    "url": "https://github.com/craigiswayne/moon-boy.wiki",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wp-premium/gravityforms",
+                "version": "2.3.2",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://github.com/wp-premium/gravityforms",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "composer/installers": "~1.0",
+        "htmlburger/carbon-field-number": "^2.2",
+        "htmlburger/carbon-fields": "~2.2",
+        "johnpbloch/wordpress": "^4.9",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "wp-premium/gravityforms": "^2.3",
+        "wpackagist-plugin/addthis": "^6.1",
+        "wpackagist-plugin/kirki": "3.*",
+        "wpackagist-plugin/open-graph-metabox": "~1.4",
+        "wpackagist-plugin/timber-library": "^1.7"
+    },
+    "require-dev": {
+        "craigiswayne/moon-boy-wiki": "1.*",
+        "overtrue/phplint": "^1.1"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "scripts":{
+        "post-install-cmd": [
+            "rm -r ./wordpress/",
+            "rm -r ./wp-content/",
+            "rm -r ./vendor/"
+        ],
+        "test": [
+            "@composer install",
+            "find -L . -name '*.php' -not -path './vendor/*' -not -path './wordpress/*' -not -path './wp-content/*' -print0 | xargs -0 -n 1 -P 4 php -l",
+            "./vendor/bin/phplint"
+        ]
+    }
+}

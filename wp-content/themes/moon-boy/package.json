@@ -1,0 +1,43 @@
+{
+  "name": "moon-boy",
+  "version": "1.2.18",
+  "description": "App Landing Page Theme built using underscores",
+  "main": "index.js",
+  "scripts": {
+    "lint-js": "./node_modules/.bin/eslint . --ext .jsx,.js --debug",
+    "lint-js-fix": "./node_modules/.bin/eslint . --ext .jsx,.js --debug --fix",
+    "TenUpAssetPathsValidator": "node tests/TenUpAssetPathsValidator.js",
+    "test": "npm i eslint && ./node_modules/.bin/eslint . --ext .jsx,.js --debug",
+    "browser-sync": "browser-sync start --proxy $(wp option get siteurl)",
+    "preversion": "grunt version && npm i --save-exact --no-audit && git add .",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigiswayne/moon-boy.git"
+  },
+  "author": "craigiswayne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigiswayne/moon-boy/issues"
+  },
+  "homepage": "https://github.com/craigiswayne/moon-boy#readme",
+  "devDependencies": {
+    "bootstrap": "^3.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-wordpress": "^2.0.0",
+    "font-awesome": "^4.2.0",
+    "globby": "^8.0.1",
+    "grunt": "^1.0.3",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-version": "^1.2.1",
+    "jquery-validation": "^1.17.0",
+    "manakin": "^0.5.1",
+    "perfect-scrollbar": "^1.3.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}

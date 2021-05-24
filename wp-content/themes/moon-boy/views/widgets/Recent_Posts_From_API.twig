@@ -1,0 +1,34 @@
+<div id="description-carousel" class="carousel fade" data-ride="carousel" data-interval="2500">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="{{ fallback_app_stream_image }}" alt="News Feed">
+            <div class="feed-container">
+                <div id="feed" class="feed" tabindex="0">
+                    {% for post in posts  %}
+                        <div class="card {{ post.css_class }}{{ post.videoUrl ? ' video' : '' }}{{ post.image.url ? '' : ' no-image' }}">
+                        {% if post.image.url %}
+                            <img alt="{{ post.excerpt }}" src="{{ post.image.url }}" />
+                        {% endif %}
+                        <p>{{ post.excerpt }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+                {% if show_scroll_indicator %}
+                <div class="mouse">
+                    <div class="mouse-icon">
+                        <div id="sd-container">
+                            <div class="arrow"></div>
+                            <div class="arrow"></div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+
+        </div>
+        <div class="phone">
+            <img src="{{ ios_phone_image }}" alt="Video">
+        </div>
+    </div>
+</div>
+

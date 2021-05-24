@@ -1,0 +1,9 @@
+{
+  "extends": "wordpress",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules":{
+    "strict": ["error","global"]
+  }
+}
