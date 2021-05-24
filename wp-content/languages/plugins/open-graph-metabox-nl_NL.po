@@ -1,0 +1,260 @@
+# Translation of Development (trunk) in Dutch
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-10 12:41:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: open-graph-metabox.php:402
+msgid "Settings updated successfully."
+msgstr "Instellingen met succes bijgewerkt."
+
+#: open-graph-metabox.php:459
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: open-graph-metabox.php:471 open-graph-metabox.php:524
+msgid "Save settings"
+msgstr "Instellingen bewaren"
+
+#: open-graph-metabox.php:408
+msgid "Set Open Graph defaults"
+msgstr "Open Graph standaardinstellingen"
+
+#: open-graph-metabox.php:411
+msgid "Post and page defaults"
+msgstr "Standaardinstellingen berichten en pagina's"
+
+#: open-graph-metabox.php:412
+msgid "Complete this form with the Open Graph defaults you wish to set automatically when posting or editing a post."
+msgstr "Gebruik het onderstaande formulier voor de standaard instellingen bij berichten en pagina's."
+
+#: open-graph-metabox.php:418 open-graph-metabox.php:481
+msgid "When empty the default title will be used."
+msgstr "Laat leeg om de standaard titel te gebruiken."
+
+#: open-graph-metabox.php:423 open-graph-metabox.php:486
+msgid "When empty the default excerpt will be used."
+msgstr "Laat leeg om de standaard samenvatting te gebruiken."
+
+#: open-graph-metabox.php:460
+msgid "Let's the Facebook scraper associate the meta data with your app (fb:app_id)"
+msgstr "Laat de Facebook scraper alle meta data verbinden met je Facebook app (fb:app_id)"
+
+#: open-graph-metabox.php:464
+msgid "Facebook Admins"
+msgstr "Facebook Beheerders"
+
+#: open-graph-metabox.php:465
+msgid "Let's Facebook associate admins for the website (fb:admins), multiple ID's seperated by , (comma)"
+msgstr "Laat Facebook beheerders associëren met de website (fb:admins), meerdere ID's scheiden met een , (komma)"
+
+#: open-graph-metabox.php:474
+msgid "Front-page defaults"
+msgstr "Voorpagina instellingen"
+
+#: open-graph-metabox.php:475
+msgid "These settings are applied to the frontpage of the website."
+msgstr "Deze instellingen worden gebruikt voor de voorpagina van de website."
+
+#. Plugin Name of the plugin/theme
+msgid "Open Graph Metabox"
+msgstr "Open Graph Metabox"
+
+#. Author URI of the plugin/theme
+msgid "http://media-enzo.nl"
+msgstr "http://media-enzo.nl"
+
+#. Author of the plugin/theme
+msgid "Media-Enzo"
+msgstr "Media-Enzo"
+
+#: open-graph-metabox.php:222 open-graph-metabox.php:435
+#: open-graph-metabox.php:498
+msgid "Type"
+msgstr "Type:"
+
+#: open-graph-metabox.php:217 open-graph-metabox.php:430
+#: open-graph-metabox.php:493
+msgid "Select image"
+msgstr "Afbeelding selecteren"
+
+#: open-graph-metabox.php:214 open-graph-metabox.php:427
+#: open-graph-metabox.php:490
+msgid "Image"
+msgstr "Afbeelding"
+
+#: open-graph-metabox.php:209 open-graph-metabox.php:422
+#: open-graph-metabox.php:485
+msgid "Description"
+msgstr "Beschijving"
+
+#: open-graph-metabox.php:98
+msgid "Movie"
+msgstr "Film"
+
+#: open-graph-metabox.php:99
+msgid "TV Show"
+msgstr "TV Programma"
+
+#: open-graph-metabox.php:204 open-graph-metabox.php:417
+#: open-graph-metabox.php:480
+msgid "Title"
+msgstr "Titel"
+
+#: open-graph-metabox.php:195
+msgid "Please provide optional Open Graph meta values to override the <a href=\"options-general.php?page=open-graph-metabox\">defaults</a>."
+msgstr "Geef extra Open Graph meta waardes op om de <a href=\"options-general.php?page=open-graph-metabox\">standaard</a> te overschrijven."
+
+#: open-graph-metabox.php:163
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: open-graph-metabox.php:97
+msgid "Song"
+msgstr "Liedje"
+
+#: open-graph-metabox.php:92
+msgid "Book"
+msgstr "Boek"
+
+#: open-graph-metabox.php:93
+msgid "Drink"
+msgstr "Drinken"
+
+#: open-graph-metabox.php:94
+msgid "Food"
+msgstr "Eten"
+
+#: open-graph-metabox.php:95
+msgid "Game"
+msgstr "Spel"
+
+#: open-graph-metabox.php:96
+msgid "Product"
+msgstr "Product"
+
+#: open-graph-metabox.php:86
+msgid "Landmark"
+msgstr "Herkenningspunt"
+
+#: open-graph-metabox.php:91
+msgid "Album"
+msgstr "album zijn"
+
+#: open-graph-metabox.php:87
+msgid "State province"
+msgstr "Provincie"
+
+#: open-graph-metabox.php:77
+msgid "Director"
+msgstr "Regisseur"
+
+#: open-graph-metabox.php:78
+msgid "Musician"
+msgstr "Muzikant"
+
+#: open-graph-metabox.php:79
+msgid "Politician"
+msgstr "Politicus"
+
+#: open-graph-metabox.php:84
+msgid "City"
+msgstr "Stand"
+
+#: open-graph-metabox.php:85
+msgid "Country"
+msgstr "Land"
+
+#: open-graph-metabox.php:80
+msgid "Public figure"
+msgstr "Publiek figuur"
+
+#: open-graph-metabox.php:70
+msgid "University"
+msgstr "Universiteit"
+
+#: open-graph-metabox.php:74
+msgid "Actor"
+msgstr "Acteur"
+
+#: open-graph-metabox.php:75
+msgid "Athlete"
+msgstr "Atleet"
+
+#: open-graph-metabox.php:76
+msgid "Author"
+msgstr "Auteur:"
+
+#: open-graph-metabox.php:54
+msgid "Cafe"
+msgstr "Café"
+
+#: open-graph-metabox.php:55
+msgid "Hotel"
+msgstr "Hotel"
+
+#: open-graph-metabox.php:56
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: open-graph-metabox.php:60
+msgid "Cause"
+msgstr "Oorzaak"
+
+#: open-graph-metabox.php:66
+msgid "Band"
+msgstr "Band"
+
+#: open-graph-metabox.php:67
+msgid "Government"
+msgstr "Overheid"
+
+#: open-graph-metabox.php:69
+msgid "School"
+msgstr "School"
+
+#: open-graph-metabox.php:61
+msgid "Sports league"
+msgstr "Sport competitie"
+
+#: open-graph-metabox.php:62
+msgid "Sports team"
+msgstr "Sport team"
+
+#: open-graph-metabox.php:68
+msgid "Non_profit"
+msgstr "Non-profit"
+
+#: open-graph-metabox.php:47
+msgid "Activity"
+msgstr "Activiteiten"
+
+#: open-graph-metabox.php:48
+msgid "Sport"
+msgstr "Sport"
+
+#: open-graph-metabox.php:52
+msgid "Bar"
+msgstr "Bar"
+
+#: open-graph-metabox.php:53
+msgid "Company"
+msgstr "Bedrijf"
+
+#: open-graph-metabox.php:43
+msgid "Article"
+msgstr "artikel"
+
+#: open-graph-metabox.php:42
+msgid "Website"
+msgstr "Website"
+
+#: open-graph-metabox.php:41
+msgid "Blog"
+msgstr "Site"

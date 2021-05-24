@@ -1,0 +1,1518 @@
+# Translation of Themes - Spacious in Czech
+# This file is distributed under the same license as the Themes - Spacious package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-09 06:57:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Themes - Spacious\n"
+
+#. Description of the theme
+msgid "Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 2 page templates, 4 blog display types, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in https://themegrill.com/support-forum/ and check the demo at https://demo.themegrill.com/spacious/."
+msgstr "Neuvěřitelně prostorná a víceúčelová šablona, kódovaná a navržená s velkou péčí a láskou. Můžete jej použít pro vaši firmu, portfolio, blogování nebo jakýkoli typ webu. Má 4 rozvržení stránek, 2 šablony stránek, 4 typy zobrazení blogů, 13 oblastí widgetů, 5 vlastních widgetů se zaměřením na podnikovou šablonu, úžasný posuvník, možnost primární barvy, která odpovídá vašemu logu a webové stránce,  překlad připraven a mnoho dalších. Bezplatnou podporu získáte v https://themegrill.com/support-forum/ a zkontrolujte demo na adrese https://demo.themegrill.com/spacious/."
+
+#. Theme Name of the theme
+#: inc/demo-config.php:30 inc/admin/class-spacious-admin.php:399
+msgid "Spacious"
+msgstr "Spacious"
+
+#: inc/related-posts.php:6
+msgid "You May Also Like"
+msgstr "Mohlo by se vám také líbit"
+
+#: inc/customizer.php:519
+msgid "Check to enable the author bio section just below the post."
+msgstr "Zaškrtněte, chcete-li povolit autorskou sekci bio těsně pod příspěvkem."
+
+#: inc/customizer.php:457
+msgid "Related Posts By Tags"
+msgstr "Související příspěvky podle štítků"
+
+#: inc/customizer.php:456
+msgid "Related Posts By Categories"
+msgstr "Související příspěvky podle rubrik"
+
+#: inc/customizer.php:452
+msgid "Related Posts Must Be Shown As:"
+msgstr "Související příspěvky musí být zobrazeny jako:"
+
+#: inc/customizer.php:438
+msgid "Check to activate the related posts"
+msgstr "Zkontrolujte, zda chcete aktivovat příslušné příspěvky"
+
+#: inc/customizer.php:425
+msgid "Related Posts"
+msgstr "Související Příspěvky"
+
+#: inc/admin/class-spacious-admin.php:360
+msgid " by WPEverest"
+msgstr "od WPEverest"
+
+#: inc/admin/class-spacious-admin.php:359
+msgid "Everest Forms – Easy Contact Form and Form Builder"
+msgstr "Everest Forms – Easy Contact Form and Form Builder"
+
+#. Template Name of the theme
+msgid "Page Builder Template"
+msgstr "Page Builder Template"
+
+#: inc/demo-config.php:34
+msgid "Spacious Blog"
+msgstr "Prostorný blog"
+
+#: inc/customizer.php:498
+msgid "Check to enable the featured image in single page."
+msgstr "Zaškrtněte, chcete-li povolit náhledový obrázek na jedné stránce."
+
+#: inc/customizer.php:485
+msgid "Featured Image In Single Page"
+msgstr "Náhledový obrázek na jedné stránce"
+
+#: inc/customizer.php:477
+msgid "Check to enable the featured image in single post page."
+msgstr "Zaškrtněte, chcete-li povolit náhledový obrázek na samostatné stránce příspěvků."
+
+#: inc/customizer.php:464
+msgid "Featured Image In Single Post Page"
+msgstr "Náhledový obrázek na samostatné stránce příspěvků"
+
+#: inc/customizer.php:198
+msgid "Switch to new responsive menu."
+msgstr "Přepnout na nové responzivní menu."
+
+#: inc/customizer.php:185
+msgid "Responsive Menu Style"
+msgstr "Vzhled responzivního menu"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá instalace pluginu %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Veškeré instalace byly dokončeny."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "Plugin %1$s byl úspěšně nainstalován."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces instalace byl zahájen. Na některých serverech může tato operace trvat delší dobu."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá instalace a aktivace pluginu %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Všechny instalace a aktivace byly úspěšně dokončeny."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Skrýt podrobnosti"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Zobrazit podrobnosti"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "Plugin %1$s byl úspěšně nainstalován a aktivován."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces instalace a aktivace byl zahájen. Na některých serverech může tato operace trvat delší dobu."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Instalace pluginu %1$s se nezdařila."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Při instalaci pluginu %1$s došlo k chybě: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Probíhá aktualizace pluginu %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktivace pluginu selhala."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "V tuto chvíli nejsou k dipozici žádné pluginy k aktivaci."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k aktivaci. Akce nebyla provedena."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "V tuto chvíli nejsou k dipozici žádné pluginy k aktualizaci."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "V tuto chvíli nejsou k dipozici žádné pluginy k instalaci."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k aktualizaci. Akce nebyla provedena."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Žádné pluginy nebyly vybrány k instalaci. Akce nebyla provedena."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktivovat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Aktualizovat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Zpráva aktualizace od autora pluginu:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktivovat %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Aktualizovat %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalovat %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Stav"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Verze"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Typ"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Zdroj"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Žádné pluginy k instalaci, aktualizaci nebo aktivaci."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Dostupná verze:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimální požadovaná verze:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Nainstalovaná verze:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "neznámá"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "K aktivaci <span class=\"count\">(%s)</span>"
+msgstr[1] "K aktivaci <span class=\"count\">(%s)</span>"
+msgstr[2] "K aktivaci <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Dostupné aktualizace <span class=\"count\">(%s)</span>"
+msgstr[1] "Dostupné aktualizace <span class=\"count\">(%s)</span>"
+msgstr[2] "Dostupné aktualizace <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "K instalaci <span class=\"count\">(%s)</span>"
+msgstr[1] "K instalaci <span class=\"count\">(%s)</span>"
+msgstr[2] "K instalaci <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Vše <span class=\"count\">(%s)</span>"
+msgstr[1] "Vše <span class=\"count\">(%s)</span>"
+msgstr[2] "Vše <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Doporučeno aktualizovat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Vyžaduje aktualizaci"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Vyžadovaná aktualizace není dostupná"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktivní"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Nainstalováno, ale neaktivováno"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Není nainstalováno"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Součástí šablony"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Externí zdroj"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Úložiště WordPressu"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Doporučený"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Požadovaný"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "a"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Vzdálený balíček pluginu obsahuje více než jeden soubor, ale soubory nejsou zabaleny ve složce."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Obraťte se prosím na poskytovatele pluginu a požádejte jej, aby plugin zabalil dle směrnic WordPressu."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Vzdálený komprimovaný plugin neobsahuje složku s vyžadovaným názvem v URL a přejmenování nefunguje."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Je vyžadována aktualizace"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Pro zajištění kompatibility s vaší šablonou, je nutné tento plugin aktualizovat."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:124
+msgid "Please contact the administrator of this site for help."
+msgstr "Pro pomoc, kontaktujte administrátora tohoto webu."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:123
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Existuje jeden nebo více požadovaných nebo doporučených pluginů k instalaci, aktualizaci, nebo aktivaci."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:122
+msgid "Dismiss this notice"
+msgstr "Zavřít toto oznámení"
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:121
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Všechny pluginy byly úspěšně nainstalovány a aktivovány. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:119
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin není aktivován. Pro tuto šablonu je zapotřebí vyšší verze pluginu %s. Aktualizujte tento plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:117
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nic se nestalo. Plugin %1$s již byl aktivní."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:115
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Následující plugin byl úspěšně aktivován:"
+msgstr[1] ""
+msgstr[2] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:114
+msgid "Plugin activated successfully."
+msgstr "Plugin byl úspěšně aktivován."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Návrat na nástěnku"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:113
+msgid "Return to Required Plugins Installer"
+msgstr "Návrat do instalátoru požadovaných pluginů"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:108
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Začít aktivaci pluginu"
+msgstr[1] "Začít aktivaci pluginů"
+msgstr[2] "Začít aktivaci pluginů"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:103
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Začít aktualizaci pluginu"
+msgstr[1] "Začít aktualizaci pluginů"
+msgstr[2] "Začít aktualizaci pluginů"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:98
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Začít instalaci pluginu"
+msgstr[1] "Začít instalaci pluginů"
+msgstr[2] "Začít instalaci pluginů"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:61
+msgid "Something went wrong with the plugin API."
+msgstr "Došlo k potížím s API pluginu."
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:60
+msgid "Updating Plugin: %s"
+msgstr "Aktualizace pluginu: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:58
+msgid "Installing Plugin: %s"
+msgstr "Instalace pluginu: %s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:56
+msgid "Install Plugins"
+msgstr "Instalovat pluginy"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:55
+msgid "Install Required Plugins"
+msgstr "Instalovat vyžadované pluginy"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+#: inc/admin/class-spacious-admin.php:208
+msgid "Install"
+msgstr "Instalovat"
+
+#: inc/admin/class-spacious-admin.php:206
+msgid "Needs ThemeGrill Demo Importer plugin."
+msgstr "Potřebujete ThemeGrill Demo import plugin."
+
+#: inc/admin/class-spacious-admin.php:205 functions.php:256
+msgid "Import Demo"
+msgstr "Importovat demo"
+
+#: inc/admin/class-spacious-admin.php:375
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/admin/class-spacious-admin.php:371
+msgid "Polylang"
+msgstr "Polylang"
+
+#: inc/admin/class-spacious-admin.php:368
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:365
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:362
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-spacious-admin.php:355
+msgid "Easy Social Sharing"
+msgstr "Easy Social Sharing"
+
+#: inc/admin/class-spacious-admin.php:541
+msgid "TG: Our Clients"
+msgstr "TG: Naši klienti"
+
+#: inc/admin/class-spacious-admin.php:536
+msgid "TG: Featured Posts"
+msgstr "TG: Doporučené příspěvky"
+
+#: inc/admin/class-spacious-admin.php:525
+msgid "TG: Featured widget (Recent Work/Portfolio)"
+msgstr "TG: Doporučený widget (Nejnovější práce/Portfolio)"
+
+#: inc/admin/class-spacious-admin.php:520
+msgid "TG: Featured Single page widget"
+msgstr "TG: Doporučený jednostránkový widget"
+
+#: inc/admin/class-spacious-admin.php:515
+msgid "TG: Call to Action widget"
+msgstr "TG: Widget výzvy k akci"
+
+#: inc/admin/class-spacious-admin.php:510
+msgid "TG: Services widget"
+msgstr "TG: Widget služeb"
+
+#: inc/admin/class-spacious-admin.php:507
+msgid "Forum + Emails/Support Ticket"
+msgstr "Fórum + emaily/Lístek podpory"
+
+#: inc/admin/class-spacious-admin.php:506
+msgid "Forum"
+msgstr "Fórum"
+
+#: inc/admin/class-spacious-admin.php:505
+msgid "Support"
+msgstr "Podpora"
+
+#: inc/admin/class-spacious-admin.php:500
+msgid "Demo Content"
+msgstr "Demo obsah"
+
+#: inc/admin/class-spacious-admin.php:497
+msgid "1,2,3,4 Columns"
+msgstr "1,2,3,4 sloupce"
+
+#: inc/admin/class-spacious-admin.php:496
+msgid "One Column"
+msgstr "Jeden sloupec"
+
+#: inc/admin/class-spacious-admin.php:495
+msgid "Footer Widgets Column"
+msgstr "Sloupec widget v zápatí"
+
+#: inc/admin/class-spacious-admin.php:490
+msgid "Footer Copyright Editor"
+msgstr "Úprava textu copyright v zápatí"
+
+#: inc/customizer.php:506 inc/admin/class-spacious-admin.php:485
+msgid "Author Bio"
+msgstr "Informace o autorovi"
+
+#: inc/admin/class-spacious-admin.php:480
+msgid "BreadCrumb Custom Text"
+msgstr "Vlastní text BreadCrumb"
+
+#: inc/admin/class-spacious-admin.php:475
+msgid "Breadcrumb NavXT Compatible"
+msgstr "Kompatibilní Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:470
+msgid "Polylang Compatible"
+msgstr "Kompatibilní s Polylang"
+
+#: inc/admin/class-spacious-admin.php:465
+msgid "WPML Compatible"
+msgstr "Kompatibilní s WPML"
+
+#: inc/admin/class-spacious-admin.php:460
+msgid "Translation Ready"
+msgstr "Přípraveno pro překlad"
+
+#: inc/admin/class-spacious-admin.php:455
+msgid "Woocommerce Page Layouts"
+msgstr "Woocommerce rozvržení stránky"
+
+#: inc/admin/class-spacious-admin.php:450
+msgid "Woocommerce Compatible"
+msgstr "Kompatibilní s WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:445
+msgid "Light & Dark Color skin"
+msgstr "Světlé a tmavé barevné schéma"
+
+#: inc/admin/class-spacious-admin.php:440
+msgid "Boxed & Wide layout option"
+msgstr "Rozložení v rámci i na celou šířku"
+
+#: inc/admin/class-spacious-admin.php:351
+#: inc/admin/class-spacious-admin.php:435
+msgid "Social Icons"
+msgstr "Ikony sociálních sítí"
+
+#: inc/admin/class-spacious-admin.php:432
+msgid "Social Icons + Menu + Header text option"
+msgstr "Ikony sociálních sítí + Menu + Možnost textu v záhlaví"
+
+#: inc/admin/class-spacious-admin.php:430
+msgid "Additional Top Header"
+msgstr "Doplňující horní záhlaví"
+
+#: inc/admin/class-spacious-admin.php:427
+msgid "Multiple Color Options"
+msgstr "Více barevných možností"
+
+#: inc/admin/class-spacious-admin.php:426
+msgid "Primary Color Option"
+msgstr "Výchozí možnost barev"
+
+#: inc/admin/class-spacious-admin.php:425
+msgid "Color Palette"
+msgstr "Barevná paleta"
+
+#: inc/admin/class-spacious-admin.php:420
+msgid "Font Size options"
+msgstr "Možnosti velikosti písma"
+
+#: inc/admin/class-spacious-admin.php:417
+msgid "600+"
+msgstr "600+"
+
+#: inc/admin/class-spacious-admin.php:415
+msgid "Google Fonts Option"
+msgstr "Možnosti písem Google"
+
+#: inc/admin/class-spacious-admin.php:412
+msgid "Slides type, duration & delay time"
+msgstr "Typy snímků, trvání, a čas prodlevy"
+
+#: inc/admin/class-spacious-admin.php:410
+msgid "Slider Settings"
+msgstr "Možnsti slideru"
+
+#: inc/admin/class-spacious-admin.php:407
+msgid "Unlimited Slides"
+msgstr "&infin;"
+
+#: inc/admin/class-spacious-admin.php:406
+msgid "5"
+msgstr "5"
+
+#: inc/admin/class-spacious-admin.php:400
+msgid "Spacious Pro"
+msgstr "Spacious PRO"
+
+#: inc/admin/class-spacious-admin.php:398
+msgid "Features"
+msgstr "Funkce"
+
+#: inc/admin/class-spacious-admin.php:372
+#: inc/admin/class-spacious-admin.php:376
+msgid "Fully Compatible in Pro Version"
+msgstr " - plně kompatibilní ve verzi PRO"
+
+#: inc/admin/class-spacious-admin.php:352
+#: inc/admin/class-spacious-admin.php:356
+msgid " by ThemeGrill"
+msgstr "od ThemeGrill"
+
+#: inc/admin/class-spacious-admin.php:348
+msgid "This theme recommends following plugins:"
+msgstr "Tato šablona doporučuje následující pluginy:"
+
+#: inc/admin/class-spacious-admin.php:294
+msgid "View changelog below:"
+msgstr "Níže je přehled změn:"
+
+#: inc/admin/class-spacious-admin.php:277
+msgid "Go to Dashboard"
+msgstr "Návrat na nástěnku"
+
+#: inc/admin/class-spacious-admin.php:277
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Návrat na nástěnku &rarr; Domů"
+
+#: inc/admin/class-spacious-admin.php:274
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Návrat na nástěnku &rarr; Aktualizace"
+
+#: inc/admin/class-spacious-admin.php:274
+msgid "Return to Updates"
+msgstr "Zpět na přehled aktualizací"
+
+#: inc/admin/class-spacious-admin.php:258
+msgid "Click below to translate this theme into your own language."
+msgstr "Klikněte níže pro překlad této šablony do vašeho jazyku."
+
+#: inc/admin/class-spacious-admin.php:254
+#: inc/admin/class-spacious-admin.php:262
+msgid "Translate"
+msgstr "Přeložit"
+
+#: inc/admin/class-spacious-admin.php:247
+msgid "Contact Page"
+msgstr "Kontaktní stránka"
+
+#: inc/admin/class-spacious-admin.php:245
+msgid "Please send it via our sales contact page."
+msgstr "Pošlete jej pomocí kontaktního formuláře obchodnímu oddělení."
+
+#: inc/admin/class-spacious-admin.php:244
+msgid "Got sales related question?"
+msgstr "Máte dotaz spojený s obchodem?"
+
+#: inc/admin/class-spacious-admin.php:239
+#: inc/admin/class-spacious-admin.php:549
+msgid "View Pro"
+msgstr "Zobrazit verzi PRO"
+
+#: inc/admin/class-spacious-admin.php:237
+#: inc/admin/class-spacious-admin.php:393
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Přejděte na verzi PRO a získejte více úžasných funkcí."
+
+#: inc/admin/class-spacious-admin.php:236
+msgid "Need more features?"
+msgstr "Potřebujete více funkcí?"
+
+#: inc/admin/class-spacious-admin.php:229
+msgid "Please put it in our dedicated support forum."
+msgstr "Prosím, vložte jej do našeho specializovaného fóra podpory."
+
+#: inc/admin/class-spacious-admin.php:228
+msgid "Got theme support question?"
+msgstr "Máte dotaz ohledně podpory šablony?"
+
+#: inc/admin/class-spacious-admin.php:221
+msgid "Please view our documentation page to setup the theme."
+msgstr "Přečtěte si dokumentaci a zajistěte tak správné nastavení šablony."
+
+#: inc/admin/class-spacious-admin.php:215
+msgid "Customize"
+msgstr "Přizpůsobit"
+
+#: inc/admin/class-spacious-admin.php:213
+msgid "All Theme Options are available via Customize screen."
+msgstr "Veškeré nasatavení šablony je dotupné pomocí stránky Přizpůsobit."
+
+#: inc/admin/class-spacious-admin.php:212
+msgid "Theme Customizer"
+msgstr "Přizpůsobení šablony"
+
+#: inc/admin/class-spacious-admin.php:171
+msgid "Changelog"
+msgstr "Přehled změn"
+
+#: inc/admin/class-spacious-admin.php:163
+msgid "Free Vs Pro"
+msgstr "Zdarma vs. PRO"
+
+#: inc/admin/class-spacious-admin.php:155
+msgid "Supported Plugins"
+msgstr "Podporované pluginy"
+
+#: inc/admin/class-spacious-admin.php:98
+msgid "Get started with Spacious"
+msgstr "Začínáme se Spacious"
+
+#: inc/admin/class-spacious-admin.php:96
+msgid "Welcome! Thank you for choosing Spacious! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Vítejte! Děkujeme, že jste si vybrali Spacious! Pro dosažení maximální možné spokojenosti s touto šablonou, navštivte, prosím naši %suvítací stránku%s."
+
+#: inc/admin/class-spacious-admin.php:95
+msgid "Dismiss"
+msgstr "Skrýt"
+
+#: inc/admin/class-spacious-admin.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Nepodvádíte?"
+
+#: inc/admin/class-spacious-admin.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Akce selhala. Aktualizujte stránk a akci opakujte."
+
+#: inc/admin/class-spacious-admin.php:36 inc/admin/class-spacious-admin.php:119
+msgid "About"
+msgstr "O"
+
+#: functions.php:252
+msgid "Spacious Important Links"
+msgstr "Spacious - důležité odkazy"
+
+#: inc/admin/class-spacious-admin.php:231 functions.php:258
+msgid "Support Forum"
+msgstr "Fórum technické podpory"
+
+#: inc/customizer.php:79 inc/admin/class-spacious-admin.php:138
+msgid "View PRO version"
+msgstr "Zobrazit verzi PRO"
+
+#: inc/admin/class-spacious-admin.php:134 functions.php:177 functions.php:254
+msgid "Theme Info"
+msgstr "Info o šabloně"
+
+#: inc/related-posts.php:64 inc/functions.php:661
+msgid "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the theme
+msgid "Contact Page Template"
+msgstr "Šablona kontaktní stránky"
+
+#. Template Name of the theme
+msgid "Business Template"
+msgstr "Firemní šablona"
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr "Základní informace"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Hledat"
+
+#: inc/admin/class-spacious-admin.php:140
+msgid "Rate this theme"
+msgstr "Ohodnotit šablonu"
+
+#: inc/admin/class-spacious-admin.php:136 functions.php:255
+msgid "View Demo"
+msgstr "Zobrazit demo"
+
+#: inc/admin/class-spacious-admin.php:220
+#: inc/admin/class-spacious-admin.php:223 functions.php:257
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: inc/customizer.php:654
+msgid "Enter link to redirect slider when clicked"
+msgstr "Zadejte odkaz pro přesměrování po kliknutí na slider"
+
+#: inc/customizer.php:640
+msgid "Enter the button text. Default is \"Read more\""
+msgstr "Zadejte text tlačítka. Výchozí je \"Čtěte více\""
+
+#: inc/customizer.php:626
+msgid "Enter your slider description."
+msgstr "Zadejte popis slideru"
+
+#: inc/customizer.php:612 functions.php:309 functions.php:314
+msgid "Enter title for your slider."
+msgstr "Zadejte nadpis vašeho slideru"
+
+#: inc/customizer.php:598
+msgid "Upload slider image."
+msgstr "Nahrát obrázek baneru."
+
+#: inc/customizer.php:585
+msgid "Image Upload #%1$s"
+msgstr "Nahrání obrázku #%1$s"
+
+#: inc/customizer.php:576
+msgid "Check to disable slider in Posts Page"
+msgstr "Zakázat slider na stránce příspěvků"
+
+#: inc/customizer.php:563
+msgid "Disable slider in Posts page"
+msgstr "Zakázat slider na stránce příspěvků"
+
+#: inc/customizer.php:547
+msgid "Check to activate slider."
+msgstr "Aktivovat slider"
+
+#: inc/customizer.php:534
+msgid "Activate slider"
+msgstr "Aktivace slideru"
+
+#: inc/customizer.php:528 inc/admin/class-spacious-admin.php:405
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/customizer.php:419
+msgid "Additional"
+msgstr "Další"
+
+#: inc/customizer.php:408
+msgid "Write your Custom CSS."
+msgstr "Zadejte vlastní css."
+
+#: inc/customizer.php:395
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: inc/customizer.php:382
+msgid "Choose the light or dark skin. This will be reflected in whole site."
+msgstr "Vyberte světlé nebo tmavé schéma. Bude pak aplikováno na celý web."
+
+#: inc/customizer.php:369
+msgid "Color Skin"
+msgstr "Barevné schéma"
+
+#: inc/customizer.php:361
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site."
+msgstr "Toto bude aplikováno na odkazy, tlačítka a mnohé další. Vyberte barvu, kterou si přejete."
+
+#: inc/customizer.php:348
+msgid "Primary color option"
+msgstr "Základní možnosti barev"
+
+#: inc/customizer.php:339
+msgid "Blog Full Content"
+msgstr "Blog - celý obsah"
+
+#: inc/customizer.php:338
+msgid "Blog Image Alternate Medium"
+msgstr "Blog - Alternativní střední obrázek"
+
+#: inc/customizer.php:337
+msgid "Blog Image Medium"
+msgstr "Blog - Střední obrázek"
+
+#: inc/customizer.php:336
+msgid "Blog Image Large"
+msgstr "Blog - Velký obrázek"
+
+#: inc/customizer.php:334
+msgid "Choose the display type for the latests posts view or posts page view (static front page)."
+msgstr "Vyberte si typ zobrazení nejnovějších příspěvků nebo stránky příspěvků (statická úvodní stránka)."
+
+#: inc/customizer.php:321
+msgid "Blog Posts display type"
+msgstr "Typ zobrazování příspěvků blogu"
+
+#: inc/customizer.php:307
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Vyberte výchozí rozložení pro jednotlivé příspěvky. Toto rozložení bude aplikováno na všechny příspěvky, dokud nebude nastaveno rozložení pro konkrétní příspěvek."
+
+#: inc/customizer.php:294
+msgid "Default layout for single posts only"
+msgstr "Výchozí rozvržení pouze pro jednotlivé příspěvky"
+
+#: inc/customizer.php:280
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Vyberte výchozí rozložení pro stránky. Toto rozložení bude aplikováno na všechny stránky, dokud nebude nastaveno rozložení pro konkrétní stránku."
+
+#: inc/customizer.php:267
+msgid "Default layout for pages only"
+msgstr "Výchozí rozvržení pouze pro stránky"
+
+#: inc/customizer.php:253
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options."
+msgstr "Vyberte výchozí rozložení. Toto rozložení bude aplikováno na celý web, archivy, vyhledávání atd. Rozložení pro jednu stránku nemůže být řízeno s následujících voleb."
+
+#: inc/customizer.php:240
+msgid "Default layout"
+msgstr "Výchozí rozvržení"
+
+#: inc/customizer.php:232
+msgid "Wide layout with content width of 978px"
+msgstr "Rozložení na celou šířku s obsahem o šířce 978px"
+
+#: inc/customizer.php:231
+msgid "Wide layout with content width of 1218px"
+msgstr "Rozložení na celou šířku s obsahem o šířce 1218px"
+
+#: inc/customizer.php:230
+msgid "Boxed layout with content width of 978px"
+msgstr "Rozložení v rámečku se šířkou 978px"
+
+#: inc/customizer.php:229
+msgid "Boxed layout with content width of 1218px"
+msgstr "Rozložení v rámečku se šířkou 1218px"
+
+#: inc/customizer.php:227
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Vyberte rozvržení vašeho webu. Změna se projeví na celém webu."
+
+#: inc/customizer.php:214
+msgid "Site Layout"
+msgstr "Rozložení webu"
+
+#: inc/customizer.php:208
+msgid "Design"
+msgstr "Vzhled"
+
+#: inc/customizer.php:178
+msgid "Position Below: Display the Header image just below the site title and main menu part."
+msgstr "Pozice pod: Zobrazí obrázek hlavičky hned pod nadpisem stránky a hlavním menu."
+
+#: inc/customizer.php:177
+msgid "Position Above (Default): Display the Header image just above the site title and main menu part."
+msgstr "Pozice nad (výchozí): Zobrazí obrázek záhlaví hned nad nadpisem stránky a hlavním menu."
+
+#: inc/customizer.php:174
+msgid "Choose top header image display position."
+msgstr "Vyberte pozici zobrazení obrázku v hlavičce."
+
+#: inc/customizer.php:161
+msgid "Header Image Position"
+msgstr "Pozice obrázku v záhlaví"
+
+#: inc/customizer.php:123
+msgid "Choose the option that you want."
+msgstr "Vyberte možnost, kterou chcete."
+
+#: inc/customizer.php:110
+msgid "Show"
+msgstr "Zobrazit"
+
+#: inc/customizer.php:129
+msgid "Disable"
+msgstr "Zakázat"
+
+#: inc/customizer.php:128
+msgid "Show Both"
+msgstr "Zobrazit obojí"
+
+#: inc/customizer.php:127
+msgid "Header Text Only"
+msgstr "Pouze text"
+
+#: inc/customizer.php:126
+msgid "Header Logo Only"
+msgstr "V záhlaví pouze logo "
+
+#: inc/customizer.php:103
+msgid "Header Logo"
+msgstr "Logo v záhlaví"
+
+#: inc/customizer.php:97
+msgid "Header"
+msgstr "Hlavička"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Vypadá to, že nemůžeme najít to, co hledáte. Možná pomůže vyhledávání."
+
+#: no-results.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Omlouváme se, ale hledaný výraz nebyl bohužel nalezen. Zkuste to prosím znovu s nějakými jinými klíčovými slovy."
+
+#: no-results.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Jste připraveni publikovat váš první příspěvek? <a href=\"%1$s\">Začněte zde</a>."
+
+#: navigation.php:32
+msgid "Next &rarr;"
+msgstr "Další &rarr;"
+
+#: navigation.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Předchozí"
+
+#: navigation.php:20
+msgid "Next &raquo;"
+msgstr "Další &raquo;"
+
+#: navigation.php:19
+msgid "&laquo; Previous"
+msgstr "&laquo; Předchozí"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:38
+msgid "Description"
+msgstr "Popis"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:14 functions.php:168
+#: functions.php:230
+msgid "TG: Featured Widget"
+msgstr "TG: Widget doporučení"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:10 functions.php:168
+#: functions.php:230
+msgid "Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr "Ukažte některé své stránky jako poslední práci. Nejlepší pro horní nebo spodní panel Business."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:72
+msgid "Byline:"
+msgstr "Slogan:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:68
+msgid "Name:"
+msgstr "Jméno:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:65
+msgid "Testimonial Description"
+msgstr "Popis reference"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:15
+#: inc/admin/class-spacious-admin.php:531 functions.php:212
+msgid "TG: Testimonial"
+msgstr "TG: Reference"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:11
+msgid "Display Testimonial"
+msgstr "Zobrazit reference"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:39
+msgid "Button Redirect Link:"
+msgstr "Odkaz tlačítka pro přesměrování:"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:35
+msgid "Button Text:"
+msgstr "Text tlačítka:"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:32 functions.php:176
+msgid "Call to Action Additional Text"
+msgstr "Další text výzvy k akci"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:30 functions.php:175
+msgid "Call to Action Main Text"
+msgstr "Hlavní text výzvy k akci"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:14 functions.php:167
+#: functions.php:229
+msgid "TG: Call To Action Widget"
+msgstr "TG: Widget výzvy k akci"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:10 functions.php:167
+#: functions.php:229
+msgid "Use this widget to show the call to action section."
+msgstr "Použijte tento widget pro sekci k vyzvě k akce."
+
+#: inc/widgets/class-spacious-service-widget.php:14 functions.php:166
+#: functions.php:228
+msgid "TG: Services"
+msgstr "TG: Služby"
+
+#: inc/widgets/class-spacious-service-widget.php:10 functions.php:166
+#: functions.php:228
+msgid "Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr "Zobrazí některé stránky jako služby. Nejlepší pro horní nebo spodní obchodní panel."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:45
+#: inc/widgets/class-spacious-featured-single-page-widget.php:52
+msgid "Show Image After Title"
+msgstr "Zobrazit obrázek po nadpisu"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:43
+#: inc/widgets/class-spacious-featured-single-page-widget.php:50
+msgid "Show Image Before Title"
+msgstr "Zobrazit obrázek před nadpisem"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:38
+msgid "Remove Featured image"
+msgstr "Odebrat náhledový obrázek"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:44
+#: inc/widgets/class-spacious-featured-single-page-widget.php:33
+#: inc/widgets/class-spacious-service-widget.php:30
+msgid "Page"
+msgstr "Stránka"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:30
+msgid "Displays the title of the Page if title input is empty."
+msgstr "Pokud je nadpis prázdný, zobrazí se název stránky."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:62
+#: inc/widgets/class-spacious-recent-work-widget.php:35
+#: inc/widgets/class-spacious-featured-single-page-widget.php:27
+msgid "Title:"
+msgstr "Název:"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:24
+msgid "Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr "Vhodné pro horní panel domovské stránky, levý spodní panel úvodní stránky a boční panel."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:11
+msgid "Display Featured Single Page"
+msgstr "Zobrazí doporučenou jednu stránku"
+
+#: inc/widgets/widgets.php:153
+msgid "Shows widgets at footer sidebar four."
+msgstr "Zobrazí widgety ve 4. postranním panelu zápatí."
+
+#: inc/widgets/widgets.php:151
+msgid "Footer Sidebar Four"
+msgstr "4. panel v zápatí"
+
+#: inc/widgets/widgets.php:142
+msgid "Shows widgets at footer sidebar three."
+msgstr "Zobrazí widgety ve 3. postranním panelu zápatí."
+
+#: inc/widgets/widgets.php:140
+msgid "Footer Sidebar Three"
+msgstr "3. panel v zápatí"
+
+#: inc/widgets/widgets.php:131
+msgid "Shows widgets at footer sidebar two."
+msgstr "Zobrazí widgety ve 2.postranním panelu zápatí."
+
+#: inc/widgets/widgets.php:129
+msgid "Footer Sidebar Two"
+msgstr "2. panel v zápatí"
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr "Zobrazí widgety v 1. postranním panelu zápatí."
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr "1. panel v zápatí"
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr "Zobrazí widgety na chybové stránce 404."
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr "Postranní panel chybové stránky 404"
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr "Zobrazí widgety v šabloně kontaktní stránky."
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr "Postranní panel kontaktní stránky"
+
+#: inc/widgets/widgets.php:87 functions.php:226
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr "Zobrazí widgety na firemí šabloně stránky ve spodní sekci."
+
+#: inc/widgets/widgets.php:85 functions.php:225
+msgid "Business Bottom Sidebar"
+msgstr "Spodní firemní panel"
+
+#: inc/widgets/widgets.php:75 functions.php:206
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr "Zobrazí widgety na firemí šabloně stránky v pravé polovině střední sekce."
+
+#: inc/widgets/widgets.php:73 functions.php:205
+msgid "Business Middle Right Sidebar"
+msgstr "Pravý střední firemní panel"
+
+#: inc/widgets/widgets.php:64 inc/widgets/widgets.php:75 functions.php:189
+#: functions.php:206
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr "Vhodná widgeta: TG: Reference, TG: Související jedna stránka"
+
+#: inc/widgets/widgets.php:64 functions.php:189
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr "Zobrazí widgety na firemí šabloně stránky v levé polovině střední sekce."
+
+#: inc/widgets/widgets.php:62 functions.php:188
+msgid "Business Middle Left Sidebar"
+msgstr "Levý střední firemní panel"
+
+#: inc/widgets/widgets.php:53 inc/widgets/widgets.php:87 functions.php:164
+#: functions.php:226
+msgid "Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+msgstr "Vhodná widgeta: TG: Služby, TG: Widget výzvy k akci, TG: Widget doporučení"
+
+#: inc/widgets/widgets.php:53 functions.php:164
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr "Zobrazí widgety na firemí šabloně stránky v horní sekci."
+
+#: inc/widgets/widgets.php:51 functions.php:163
+msgid "Business Top Sidebar"
+msgstr "Horní firemní panel"
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Zobrazí widgety v sekci záhlaví hned nad hlavním menu navigace."
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr "Postranní panel v záhlaví"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Zobrazí widgety vlevo."
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Zobrazí widgety vpravo."
+
+#: inc/header-functions.php:205 inc/header-functions.php:215
+msgid "You are here: "
+msgstr "Jste zde:"
+
+#: inc/header-functions.php:172
+msgid "Search Results"
+msgstr "Výsledky vyhledávání"
+
+#: inc/header-functions.php:169
+msgid "Page NOT Found"
+msgstr "Stránka nebyla nalezena"
+
+#: inc/header-functions.php:164 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr "Archivy"
+
+#: inc/header-functions.php:158
+msgid "Links"
+msgstr "Odkazy"
+
+#: inc/header-functions.php:155
+msgid "Quotes"
+msgstr "Citace"
+
+#: inc/header-functions.php:152
+msgid "Videos"
+msgstr "Videa"
+
+#: inc/header-functions.php:149
+msgid "Images"
+msgstr "Obrázky"
+
+#: inc/header-functions.php:146
+msgid "Asides"
+msgstr "Poznámky"
+
+#: inc/header-functions.php:143
+msgid "Year: %s"
+msgstr "Rok: %s"
+
+#: inc/header-functions.php:140
+msgid "Month: %s"
+msgstr "Měsíc: %s"
+
+#: inc/header-functions.php:137
+msgid "Day: %s"
+msgstr "Den: %s"
+
+#: inc/header-functions.php:129
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#: inc/functions.php:579
+msgid "Theme: %1$s by %2$s."
+msgstr "Šablona: %1$s od %2$s."
+
+#: inc/functions.php:579
+msgid "Powered by %s."
+msgstr "Používáme %s (v češtině)."
+
+#: inc/functions.php:579
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#: inc/functions.php:575
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:552
+msgid "Reply"
+msgstr "Reagovat"
+
+#: inc/functions.php:546
+msgid "Your comment is awaiting moderation."
+msgstr "Komentář čeká na schválení."
+
+#: inc/functions.php:540
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Trvalý odkaz</a>"
+
+#: inc/functions.php:538
+msgid "%1$s at %2$s"
+msgstr "%1$s (%2$s)"
+
+#: inc/functions.php:535
+msgid "Post author"
+msgstr "Autor příspěvku"
+
+#: inc/functions.php:520
+msgid "(Edit)"
+msgstr "(Upravit)"
+
+#: inc/functions.php:520
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/functions.php:494
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novější příspěvky <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:490
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starší příspěvky"
+
+#: inc/functions.php:485 navigation.php:40
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:484 navigation.php:39
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:480
+msgid "Post navigation"
+msgstr "Navigace příspěvku"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Bez bočního panelu, vystředěný obsah"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Bez bočního panelu, plná šířka"
+
+#: inc/widgets/widgets.php:29 inc/admin/meta-boxes.php:38
+msgid "Left Sidebar"
+msgstr "Levý postranní panel"
+
+#: inc/widgets/widgets.php:18 inc/admin/meta-boxes.php:33
+msgid "Right Sidebar"
+msgstr "Pravý postranní panel"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Výchozí rozvržení"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Vyberte rozvržení"
+
+#: inc/header-functions.php:227
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:104 functions.php:336
+msgid "Footer Menu"
+msgstr "Menu v zápatí"
+
+#: functions.php:103 functions.php:324
+msgid "Primary Menu"
+msgstr "Hlavní menu"
+
+#: content-single.php:34
+msgid "Tagged on: "
+msgstr "Štítky:"
+
+#: inc/header-functions.php:65 inc/customizer.php:633
+#: inc/widgets/class-spacious-featured-single-page-widget.php:103
+#: inc/widgets/class-spacious-service-widget.php:96 inc/functions.php:681
+#: functions.php:311 functions.php:316
+msgid "Read more"
+msgstr "Čtěte více"
+
+#: inc/functions.php:675 content-page.php:39
+msgid "Edit"
+msgstr "Upravit"
+
+#: inc/functions.php:672
+msgid "Comments Off"
+msgstr "Komentáře nejsou povoleny"
+
+#: inc/functions.php:672
+msgid "% Comments"
+msgstr "Komentářů: %"
+
+#: inc/functions.php:672
+msgid "1 Comment"
+msgstr "1 komentář"
+
+#: inc/functions.php:672
+msgid "No Comments"
+msgstr "Žádné komentáře"
+
+#: content-single.php:42 content-page.php:30 content-blog-full-content.php:23
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Komentáře nejsou povoleny."
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Navigace v komentářích"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "1 komentář u &bdquo;%2$s&ldquo;"
+msgstr[1] "%1$s komentáře u &bdquo;%2$s&ldquo;"
+msgstr[2] "%1$s komentářů u &bdquo;%2$s&ldquo;"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "V tomto umístění nic není. Zkuste vyhledávání."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Omlouváme se, ale stránka nebyla nalezena."
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/spacious"
+msgstr "https://themegrill.com/themes/spacious"
+
+#. Author of the theme
+#: inc/functions.php:577
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

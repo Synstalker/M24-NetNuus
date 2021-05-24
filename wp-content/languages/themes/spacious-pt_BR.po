@@ -1,0 +1,1460 @@
+# Translation of Themes - Spacious in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Spacious package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-24 14:33:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Spacious\n"
+
+#. Description of the plugin/theme
+msgid "Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 2 page templates, 4 blog display types, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in https://themegrill.com/support-forum/ and check the demo at https://demo.themegrill.com/spacious/."
+msgstr "Spacious é um tema responsivo multiusos incrivelmente espaçoso codificado e projetado com muito cuidado e amor. Você pode usá-lo para sua empresa, portfólio, blogs ou qualquer tipo de site. Possui 4 layouts de páginas, 2 modelos páginas, 4 tipos de exibição de blog, 13 áreas de widgets, 5 widgets personalizados com foco em modelo de negócios, um slider incrível, opção de cores primárias para combinar com seu logo e site, layout fixado ou largura total, paleta de cores claro e escurao, pronto para tradução e muito mais. Você pode obter suporte gratuito em https://themegrill.com/support-forum/ e conferir uma demonstração do tema emhttps://demo.themegrill.com/spacious/."
+
+#. #-#-#-#-#  spacious.pot (Spacious 1.5)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/admin/class-spacious-admin.php:353 inc/demo-config.php:25
+msgid "Spacious"
+msgstr "Spacious"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando o plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas as instalações foram completadas."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado com sucesso."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação começou, Esse processo pode demorar um pouco em alguns servidores, seja paciente."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando e aticando o plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas as instalações e ativações foram concluídas."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Esconder detalhes"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Mostrar detalhes"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado e ativado com sucesso."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "O processo de instalação e ativação está começando. Esse processo pode demorar um pouco em alguns servidores, então seja paciente."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "A instalação de %1$s falhou."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ocorreu um erro ao instalar %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Atualizando o plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "A ativação do plugin falhou."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "No momento, nenhum plugin está disponível para ser ativado."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser ativado. Nenhuma ação tomada."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "No momento, nenhum plugin está disponível para ser atualizado."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "No momento, nenhum plugin está disponível para ser instalado."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser atualizado. Nenhuma ação tomada."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nenhum plugin foi selecionado para ser instalado. Nenhuma ação tomada."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Ativar"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Atualizar"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensagem de atualização do autor do plugin:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Ativar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Atualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versão"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Origem"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Não há plugins para instalar, atualizar ou ativar."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versão disponível:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versão mínima necessária:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versão instalada"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconhecido"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para ativar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para ativar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Atualização disponível <span class=\"count\">(%s)</span>"
+msgstr[1] "Atualizações disponíveis <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Para instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tudo <span class=\"count\">(%s)</span>"
+msgstr[1] "Tudo <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Atualização recomendada"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Requer atualização"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "A atualização necessária não está disponível"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Ativo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado mas não ativado"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Não instalado"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pré-embalado"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Origem externa"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositório do WordPress"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Necessário"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "e"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "O pacote de plugin remoto consiste em mais de um arquivo, mas os arquivos não estão guardados em uma pasta."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Entre em contato com o provedor de plugin e peça a ela para compactar o plugin de acordo com as diretrizes do WordPress."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "O pacote do plugin não contém uma pasta com o slug desejado de modo que renomear não funcionou."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Atualização necessária"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Esse plugin precisa ser atualizado para se tornar compatível com seu tema."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:109
+msgid "Please contact the administrator of this site for help."
+msgstr "Entre em contato com o administrador do site para obter ajuda."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:108
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Existem um ou mais plugin recomendados ou necessários serem instalados, faça a atualização ou ativação."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:107
+msgid "Dismiss this notice"
+msgstr "Descartar essa notificação"
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:106
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos os plugins foram instalados e ativados com sucesso. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:104
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "O plugin não foi ativado. É preciso uma versão mais recente de %s para esse tema. Faça a atualização do plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:102
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Nenhuma ação tomada. O plugin %1$s já estava ativo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:100
+msgid "The following plugin was activated successfully:"
+msgstr "O seguinte plugin foi ativado com sucesso:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:99
+msgid "Plugin activated successfully."
+msgstr "O plugin foi ativado com sucesso."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Voltar para o Painel"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:98
+msgid "Return to Required Plugins Installer"
+msgstr "Voltar para o Instalação de plugins necessários"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:93
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Começar a ativar o plugin"
+msgstr[1] "Começar a ativar os plugins"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:88
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Começar a atualizar plugin"
+msgstr[1] "Começar a atualizar os plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:83
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Começar a instalar o plugin"
+msgstr[1] "Começar a instalar os plugins"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:46
+msgid "Something went wrong with the plugin API."
+msgstr "Aconteceu algo de errado com a API do plugin."
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:45
+msgid "Updating Plugin: %s"
+msgstr "Atualizando o plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:43
+msgid "Installing Plugin: %s"
+msgstr "Instalando o plugin: %s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:41
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:40
+msgid "Install Required Plugins"
+msgstr "Instalar os plugins necessários"
+
+#: inc/admin/class-spacious-admin.php:187
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/admin/class-spacious-admin.php:186
+msgid "Needs ThemeGrill Demo Importer plugin."
+msgstr "Requer o plugin ThemeGrill Demo Importer"
+
+#: functions.php:253 inc/admin/class-spacious-admin.php:185
+msgid "Import Demo"
+msgstr "Importar demo"
+
+#: inc/customizer.php:121
+msgid "%sInfo:%s This option will be removed in upcoming update. Please go to Site Identity section to upload the theme logo."
+msgstr "%sInfo:%s Esta opção será removida na próxima atualização. Acesse a seção Identidade do Site para carregar o logo do tema."
+
+#: inc/admin/class-spacious-admin.php:329
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/admin/class-spacious-admin.php:326
+msgid "Polylang"
+msgstr "Polylang"
+
+#: inc/admin/class-spacious-admin.php:325
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:324
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:323
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-spacious-admin.php:322
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: inc/admin/class-spacious-admin.php:319
+msgid "Easy Social Sharing"
+msgstr "Compartilhamento social fácil"
+
+#: inc/admin/class-spacious-admin.php:494
+msgid "TG: Our Clients"
+msgstr "TG: Nossos clientes"
+
+#: inc/admin/class-spacious-admin.php:489
+msgid "TG: Featured Posts"
+msgstr "TG: Posts destacados"
+
+#: inc/admin/class-spacious-admin.php:479
+msgid "TG: Featured widget (Recent Work/Portfolio)"
+msgstr "TG: Widget destacado (Trabalhos recentes/Portfolio)"
+
+#: inc/admin/class-spacious-admin.php:474
+msgid "TG: Featured Single page widget"
+msgstr "TG: Widget de página destacada"
+
+#: inc/admin/class-spacious-admin.php:469
+msgid "TG: Call to Action widget"
+msgstr "TG: Widget de chamada de ação"
+
+#: inc/admin/class-spacious-admin.php:464
+msgid "TG: Services widget"
+msgstr "TG: Widget de serviços"
+
+#: inc/admin/class-spacious-admin.php:461
+msgid "Forum + Emails/Support Ticket"
+msgstr "Fórum + E-mails/Ticket de Suporte"
+
+#: inc/admin/class-spacious-admin.php:460
+msgid "Forum"
+msgstr "Fórum"
+
+#: inc/admin/class-spacious-admin.php:459
+msgid "Support"
+msgstr "Suporte"
+
+#: inc/admin/class-spacious-admin.php:454
+msgid "Demo Content"
+msgstr "Conteúdo demo"
+
+#: inc/admin/class-spacious-admin.php:451
+msgid "1,2,3,4 Columns"
+msgstr "1,2,3,4 colunas"
+
+#: inc/admin/class-spacious-admin.php:450
+msgid "One Column"
+msgstr "Uma coluna"
+
+#: inc/admin/class-spacious-admin.php:449
+msgid "Footer Widgets Column"
+msgstr "Coluna de widgets do rodapé"
+
+#: inc/admin/class-spacious-admin.php:444
+msgid "Footer Copyright Editor"
+msgstr "Editor dos créditos no rodapé"
+
+#: inc/admin/class-spacious-admin.php:439
+msgid "Author Bio"
+msgstr "Autor Biografia"
+
+#: inc/admin/class-spacious-admin.php:434
+msgid "BreadCrumb Custom Text"
+msgstr "Texto personalizado do BreadCrumb"
+
+#: inc/admin/class-spacious-admin.php:429
+msgid "Breadcrumb NavXT Compatible"
+msgstr "Compatível com Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:424
+msgid "Polylang Compatible"
+msgstr "Compatível com Polylang"
+
+#: inc/admin/class-spacious-admin.php:419
+msgid "WPML Compatible"
+msgstr "Compatível com WPML"
+
+#: inc/admin/class-spacious-admin.php:414
+msgid "Translation Ready"
+msgstr "Pronto para tradução"
+
+#: inc/admin/class-spacious-admin.php:409
+msgid "Woocommerce Page Layouts"
+msgstr "Layouts para Woocommerce"
+
+#: inc/admin/class-spacious-admin.php:404
+msgid "Woocommerce Compatible"
+msgstr "Compatível com Woocommerce"
+
+#: inc/admin/class-spacious-admin.php:399
+msgid "Light & Dark Color skin"
+msgstr "Esquema de cores claras e escuras"
+
+#: inc/admin/class-spacious-admin.php:394
+msgid "Boxed & Wide layout option"
+msgstr "Opção de layout em caixa ou largura total"
+
+#: inc/admin/class-spacious-admin.php:316
+#: inc/admin/class-spacious-admin.php:389
+msgid "Social Icons"
+msgstr "Ícones sociais"
+
+#: inc/admin/class-spacious-admin.php:386
+msgid "Social Icons + Menu + Header text option"
+msgstr "Ícones sociais + menu + opção de texto do cabeçalho"
+
+#: inc/admin/class-spacious-admin.php:384
+msgid "Additional Top Header"
+msgstr "Cabeçalho opcional do topo"
+
+#: inc/admin/class-spacious-admin.php:381
+msgid "Multiple Color Options"
+msgstr "Opções de múltiplas cores"
+
+#: inc/admin/class-spacious-admin.php:380
+msgid "Primary Color Option"
+msgstr "Opção de cor primária"
+
+#: inc/admin/class-spacious-admin.php:379
+msgid "Color Palette"
+msgstr "Paleta de cores"
+
+#: inc/admin/class-spacious-admin.php:374
+msgid "Font Size options"
+msgstr "Opções de tamanho de fonte"
+
+#: inc/admin/class-spacious-admin.php:371
+msgid "600+"
+msgstr "600+"
+
+#: inc/admin/class-spacious-admin.php:369
+msgid "Google Fonts Option"
+msgstr "Opções do Google Fonts"
+
+#: inc/admin/class-spacious-admin.php:366
+msgid "Slides type, duration & delay time"
+msgstr "Tipos de slides, duração e tempo de atraso"
+
+#: inc/admin/class-spacious-admin.php:364
+msgid "Slider Settings"
+msgstr "Configurações do slider"
+
+#: inc/admin/class-spacious-admin.php:361
+msgid "Unlimited Slides"
+msgstr "Slides ilimitados"
+
+#: inc/admin/class-spacious-admin.php:360
+msgid "5"
+msgstr "5"
+
+#: inc/admin/class-spacious-admin.php:354
+msgid "Spacious Pro"
+msgstr "Spacious Pro"
+
+#: inc/admin/class-spacious-admin.php:352
+msgid "Features"
+msgstr "Características"
+
+#: inc/admin/class-spacious-admin.php:327
+#: inc/admin/class-spacious-admin.php:330
+msgid "Fully Compatible in Pro Version"
+msgstr "Totalmente compatível na versão Pro"
+
+#: inc/admin/class-spacious-admin.php:317
+#: inc/admin/class-spacious-admin.php:320
+msgid " by ThemeGrill"
+msgstr "por ThemeGrill"
+
+#: inc/admin/class-spacious-admin.php:314
+msgid "This theme recommends following plugins:"
+msgstr "Este tema recomenda os seguintes plugins:"
+
+#: inc/admin/class-spacious-admin.php:262
+msgid "View changelog below:"
+msgstr "Veja o log de alterações abaixo:"
+
+#: inc/admin/class-spacious-admin.php:245
+msgid "Go to Dashboard"
+msgstr "Ir para o painel"
+
+#: inc/admin/class-spacious-admin.php:245
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ir para Painel &rarr; Início"
+
+#: inc/admin/class-spacious-admin.php:242
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Voltar para Painel &rarr; Atualizações"
+
+#: inc/admin/class-spacious-admin.php:242
+msgid "Return to Updates"
+msgstr "Voltar para atualizações"
+
+#: inc/admin/class-spacious-admin.php:226
+msgid "Click below to translate this theme into your own language."
+msgstr "Clique abaixo para traduzir este tema para seu idioma."
+
+#: inc/admin/class-spacious-admin.php:222
+#: inc/admin/class-spacious-admin.php:230
+msgid "Translate"
+msgstr "Traduzir"
+
+#: inc/admin/class-spacious-admin.php:216
+msgid "Contact Page"
+msgstr "Página de contato"
+
+#: inc/admin/class-spacious-admin.php:215
+msgid "Please send it via our sales contact page."
+msgstr "Envie através da nossa página de contato de vendas."
+
+#: inc/admin/class-spacious-admin.php:214
+msgid "Got sales related question?"
+msgstr "Possui uma dúvida com relação a venda?"
+
+#: inc/admin/class-spacious-admin.php:210
+#: inc/admin/class-spacious-admin.php:502 inc/customizer.php:41
+msgid "View Pro"
+msgstr "Ver Pro"
+
+#: inc/admin/class-spacious-admin.php:209
+#: inc/admin/class-spacious-admin.php:347
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Faça o upgrade para a versão PRO e tenha funcionalidades incríveis."
+
+#: inc/admin/class-spacious-admin.php:208
+msgid "Need more features?"
+msgstr "Precisa de mais funcionalidades?"
+
+#: inc/admin/class-spacious-admin.php:203
+msgid "Please put it in our dedicated support forum."
+msgstr "Escreva em nosso fórum exclusivo de suporte."
+
+#: inc/admin/class-spacious-admin.php:202
+msgid "Got theme support question?"
+msgstr "Possui uma dúvida de suporte?"
+
+#: inc/admin/class-spacious-admin.php:197
+msgid "Please view our documentation page to setup the theme."
+msgstr "Por favor, veja a nossa página de documentação para configurar o tema."
+
+#: inc/admin/class-spacious-admin.php:192
+msgid "Customize"
+msgstr "Personalizar"
+
+#: inc/admin/class-spacious-admin.php:191
+msgid "All Theme Options are available via Customize screen."
+msgstr "Todas as Opções do Tema estão disponíveis via Personalizar"
+
+#: inc/admin/class-spacious-admin.php:190
+msgid "Theme Customizer"
+msgstr "Personalizador de tema"
+
+#: inc/admin/class-spacious-admin.php:151
+msgid "Changelog"
+msgstr "Log de alterações"
+
+#: inc/admin/class-spacious-admin.php:148
+msgid "Free Vs Pro"
+msgstr "Grátis X Pro"
+
+#: inc/admin/class-spacious-admin.php:145
+msgid "Supported Plugins"
+msgstr "Plugins suportados"
+
+#: inc/admin/class-spacious-admin.php:95
+msgid "Get started with Spacious"
+msgstr "Começando com Spacious"
+
+#: inc/admin/class-spacious-admin.php:93
+msgid "Welcome! Thank you for choosing Spacious! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Bem-vind@! Obrigado por escolher Spacious! Para tirar o máximo proveito do que há de melhor que nosso tema tem a oferecer, por favor, não deixe de visitar nossa %swelcome page%s."
+
+#: inc/admin/class-spacious-admin.php:92
+msgid "Dismiss"
+msgstr "Remover"
+
+#: inc/admin/class-spacious-admin.php:78
+msgid "Cheatin&#8217; huh?"
+msgstr "Hack huh?"
+
+#: inc/admin/class-spacious-admin.php:74
+msgid "Action failed. Please refresh the page and retry."
+msgstr "A ação falhou. Por favor, atualize a página e tente novamente."
+
+#: inc/admin/class-spacious-admin.php:36 inc/admin/class-spacious-admin.php:116
+msgid "About"
+msgstr "Sobre"
+
+#: functions.php:249 inc/customizer.php:73
+msgid "Spacious Important Links"
+msgstr "Links importantes Spacious"
+
+#: functions.php:255 inc/admin/class-spacious-admin.php:204
+#: inc/customizer.php:49
+msgid "Support Forum"
+msgstr "Forum de suporte"
+
+#: inc/admin/class-spacious-admin.php:135
+msgid "View PRO version"
+msgstr "Conheça a versão Pro"
+
+#: functions.php:174 functions.php:251 inc/admin/class-spacious-admin.php:131
+#: inc/customizer.php:45
+msgid "Theme Info"
+msgstr "Informações do tema"
+
+#: inc/functions.php:634
+msgid "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the plugin/theme
+msgid "Contact Page Template"
+msgstr "Modelo da página de contato"
+
+#. Template Name of the plugin/theme
+msgid "Business Template"
+msgstr "Modelo Negócios"
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Pesquisar"
+
+#: inc/admin/class-spacious-admin.php:137 inc/customizer.php:61
+msgid "Rate this theme"
+msgstr "Avalie este tema"
+
+#: functions.php:252 inc/admin/class-spacious-admin.php:133
+#: inc/customizer.php:57
+msgid "View Demo"
+msgstr "Ver demonstração"
+
+#: functions.php:254 inc/admin/class-spacious-admin.php:196
+#: inc/admin/class-spacious-admin.php:198 inc/customizer.php:53
+msgid "Documentation"
+msgstr "Documentação"
+
+#: inc/customizer.php:785
+msgid "Enter link to redirect slider when clicked"
+msgstr "Coloque o link para redirecionar quando clicado"
+
+#: inc/customizer.php:771
+msgid "Enter the button text. Default is \"Read more\""
+msgstr "Coloque o texto do botão. O padrão é \"Veja mais\""
+
+#: inc/customizer.php:757
+msgid "Enter your slider description."
+msgstr "Dê uma descrição para o seu slider."
+
+#: functions.php:306 functions.php:311 inc/customizer.php:743
+msgid "Enter title for your slider."
+msgstr "Dê um título para o seu slider."
+
+#: inc/customizer.php:729
+msgid "Upload slider image."
+msgstr "Envie a imagem do slider."
+
+#: inc/customizer.php:716
+msgid "Image Upload #%1$s"
+msgstr "Upload de imagem #%1$s"
+
+#: inc/customizer.php:707
+msgid "Check to disable slider in Posts Page"
+msgstr "Marque para disabilitar o slider na página de posts."
+
+#: inc/customizer.php:694
+msgid "Disable slider in Posts page"
+msgstr "Desabilitar o slider na página de posts."
+
+#: inc/customizer.php:678
+msgid "Check to activate slider."
+msgstr "Marque para ativar o slider."
+
+#: inc/customizer.php:665
+msgid "Activate slider"
+msgstr "Ativar slider"
+
+#: inc/admin/class-spacious-admin.php:359 inc/customizer.php:659
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/customizer.php:590
+msgid "Upload favicon for your site."
+msgstr "Envie o favicon para o seu site"
+
+#: inc/customizer.php:578
+msgid "Upload favicon"
+msgstr "Fazer o Upload do Favicon"
+
+#: inc/customizer.php:570
+msgid "Check to activate favicon. Upload fav icon from below option"
+msgstr "Marque para ativar o favicon. Faça o upload de um favicon abaixo."
+
+#: inc/customizer.php:557
+msgid "Activate favicon"
+msgstr "Ativar favicon"
+
+#: inc/customizer.php:549
+msgid "Additional"
+msgstr "Adicional"
+
+#: inc/customizer.php:538
+msgid "Write your Custom CSS."
+msgstr "Escreva seu próprio css."
+
+#: inc/customizer.php:525
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: inc/customizer.php:496
+msgid "Choose the light or dark skin. This will be reflected in whole site."
+msgstr "Escolha o light ou dark. Isso irá refletir em todo o site."
+
+#: inc/customizer.php:483
+msgid "Color Skin"
+msgstr "Color skin"
+
+#: inc/customizer.php:475
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site."
+msgstr "Isso irá refletir em links, botões e vários outros lugares. Escolha uma cor que combine com seu site."
+
+#: inc/customizer.php:462
+msgid "Primary color option"
+msgstr "Opção primária de cor"
+
+#: inc/customizer.php:453
+msgid "Blog Full Content"
+msgstr "Conteúdo completo do blog"
+
+#: inc/customizer.php:452
+msgid "Blog Image Alternate Medium"
+msgstr "Imagem média alternativa do blog"
+
+#: inc/customizer.php:451
+msgid "Blog Image Medium"
+msgstr "Imagem média do blog"
+
+#: inc/customizer.php:450
+msgid "Blog Image Large"
+msgstr "Imagem grande do blog"
+
+#: inc/customizer.php:448
+msgid "Choose the display type for the latests posts view or posts page view (static front page)."
+msgstr "Escolha o tipo de exibição para os posts mais recentes ou páginas dos posts (home estática)."
+
+#: inc/customizer.php:435
+msgid "Blog Posts display type"
+msgstr "Tipo de exibição para os posts"
+
+#: inc/customizer.php:421
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Escolha o layout padrão para as posts. Esse layout será refletido em todos os posts, a menos que algum layout esteja definido especificamente para um post."
+
+#: inc/customizer.php:408
+msgid "Default layout for single posts only"
+msgstr "Layout padrão para posts simples apenas."
+
+#: inc/customizer.php:394
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Escolha o layout padrão para as páginas. Esse layout será refletido em todas as páginas, a menos que algum layout esteja definido especificamente para uma página."
+
+#: inc/customizer.php:381
+msgid "Default layout for pages only"
+msgstr "Layout padrão para páginas, apenas"
+
+#: inc/customizer.php:367
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options."
+msgstr "Escolha o layout padrão. O layout escolhido será refletido em todo o site, buscas etc. O layout para um post ou página específicos pode ser controlado pelas opções abaixo."
+
+#: inc/customizer.php:354
+msgid "Default layout"
+msgstr "Layout Padrão"
+
+#: inc/customizer.php:280
+msgid "Wide layout with content width of 978px"
+msgstr "Wide layout com largura de conteúdo de 978px"
+
+#: inc/customizer.php:279
+msgid "Wide layout with content width of 1218px"
+msgstr "Wide layout com largura de conteúdo de 1218px"
+
+#: inc/customizer.php:278
+msgid "Boxed layout with content width of 978px"
+msgstr "Boxed layout com largura de conteúdo de 978px"
+
+#: inc/customizer.php:277
+msgid "Boxed layout with content width of 1218px"
+msgstr "Boxed layout com largura de conteúdo de 1218px"
+
+#: inc/customizer.php:275
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Escolha o layout do site. A mudança será refletida em todo site."
+
+#: inc/customizer.php:262
+msgid "Site Layout"
+msgstr "Layout do site"
+
+#: inc/customizer.php:256
+msgid "Design"
+msgstr "Design"
+
+#: inc/customizer.php:173
+msgid "Position Below: Display the Header image just below the site title and main menu part."
+msgstr "Position Below: Mostrar a imagem de cabeçalho bem abaixo do título do site e do menu principal."
+
+#: inc/customizer.php:172
+msgid "Position Above (Default): Display the Header image just above the site title and main menu part."
+msgstr "Position Above (Padrão): Mostrar a imagem de cabeçalho bem acima do título do site e do menu principal."
+
+#: inc/customizer.php:169
+msgid "Choose top header image display position."
+msgstr "Escolha a posição da imagem do cabeçalho"
+
+#: inc/customizer.php:156
+msgid "Header Image Position"
+msgstr "Posição da imagem do cabeçalho"
+
+#: inc/customizer.php:143
+msgid "Choose the option that you want."
+msgstr "Escolha a opção que você quer."
+
+#: inc/customizer.php:130
+msgid "Show"
+msgstr "Mostrar"
+
+#: inc/customizer.php:149
+msgid "Disable"
+msgstr "Desativar"
+
+#: inc/customizer.php:148
+msgid "Show Both"
+msgstr "Mostrar ambos"
+
+#: inc/customizer.php:147
+msgid "Header Text Only"
+msgstr "Apenas o Texto no Cabeçalho"
+
+#: inc/customizer.php:146
+msgid "Header Logo Only"
+msgstr "Apenas a Logo no Cabeçalho"
+
+#: inc/customizer.php:120
+msgid "Upload logo for your header. Recommended image size is 100 X 100 pixels."
+msgstr "Faça o upload do logo pro cabeçalho. Recomendamos tamanho 100x100 pixels."
+
+#: inc/customizer.php:107
+msgid "Header Logo"
+msgstr "Logo do Cabeçalho"
+
+#: inc/customizer.php:101
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Aparentemente não pudemos encontrar o que você está procurando. Talvez uma busca ajude."
+
+#: no-results.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nada foi encontrado com os termos da sua pesquisa. Tente novamente com algumas palavras-chaves diferentes."
+
+#: no-results.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro post? <a href=\"%1$s\">Comece aqui</a>."
+
+#: navigation.php:32
+msgid "Next &rarr;"
+msgstr "Próximo &rarr;"
+
+#: navigation.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: navigation.php:20
+msgid "Next &raquo;"
+msgstr "Próximo &raquo;"
+
+#: navigation.php:19
+msgid "&laquo; Previous"
+msgstr "&laquo; Anterior"
+
+#: inc/widgets/widgets.php:603
+msgid "Description"
+msgstr "Descrição"
+
+#: functions.php:165 functions.php:227 inc/widgets/widgets.php:579
+msgid "TG: Featured Widget"
+msgstr "TG: Featured Widget"
+
+#: functions.php:165 functions.php:227 inc/widgets/widgets.php:575
+msgid "Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr "Mostrar algumas páginas como trabalho recente. Melhor para Business Top ou Bottom sidebar."
+
+#: inc/widgets/widgets.php:558
+msgid "Byline:"
+msgstr "Detalhe:"
+
+#: inc/widgets/widgets.php:554
+msgid "Name:"
+msgstr "Nome:"
+
+#: inc/widgets/widgets.php:551
+msgid "Testimonial Description"
+msgstr "Descrição do testemunho"
+
+#: functions.php:209 inc/admin/class-spacious-admin.php:484
+#: inc/widgets/widgets.php:501
+msgid "TG: Testimonial"
+msgstr "TG: Testimonial"
+
+#: inc/widgets/widgets.php:497
+msgid "Display Testimonial"
+msgstr "Mostrar testemunho"
+
+#: inc/widgets/widgets.php:420
+msgid "Button Redirect Link:"
+msgstr "Link de redirecionamento do botão:"
+
+#: inc/widgets/widgets.php:416
+msgid "Button Text:"
+msgstr "Texto do botão:"
+
+#: functions.php:173 inc/widgets/widgets.php:413
+msgid "Call to Action Additional Text"
+msgstr "Texto adicional do Call to Action"
+
+#: functions.php:172 inc/widgets/widgets.php:411
+msgid "Call to Action Main Text"
+msgstr "Texto principal do Call to action"
+
+#: functions.php:164 functions.php:226 inc/widgets/widgets.php:395
+msgid "TG: Call To Action Widget"
+msgstr "TG: Call To Action Widget"
+
+#: functions.php:164 functions.php:226 inc/widgets/widgets.php:391
+msgid "Use this widget to show the call to action section."
+msgstr "Use esse widget para mostrar a seção de call to action."
+
+#: functions.php:163 functions.php:225 inc/widgets/widgets.php:291
+msgid "TG: Services"
+msgstr "TG: Services"
+
+#: functions.php:163 functions.php:225 inc/widgets/widgets.php:287
+msgid "Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr "Mostrar algumas páginas como serviços. Melhor para Business Top ou Bottom sidebar."
+
+#: inc/widgets/widgets.php:212 inc/widgets/widgets.php:219
+msgid "Show Image After Title"
+msgstr "Mostrar imagem depois do título"
+
+#: inc/widgets/widgets.php:210 inc/widgets/widgets.php:217
+msgid "Show Image Before Title"
+msgstr "Mostrar imagem antes do título"
+
+#: inc/widgets/widgets.php:205
+msgid "Remove Featured image"
+msgstr "Remover imagem destacada"
+
+#: inc/widgets/widgets.php:200 inc/widgets/widgets.php:307
+#: inc/widgets/widgets.php:609
+msgid "Page"
+msgstr "Página"
+
+#: inc/widgets/widgets.php:197
+msgid "Displays the title of the Page if title input is empty."
+msgstr "Mostrar o título da página se o campo de título estiver vazio."
+
+#: inc/widgets/widgets.php:194 inc/widgets/widgets.php:548
+#: inc/widgets/widgets.php:600
+msgid "Title:"
+msgstr "Título"
+
+#: inc/widgets/widgets.php:191
+msgid "Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr "Adequado para Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+
+#: inc/widgets/widgets.php:178
+msgid "Display Featured Single Page"
+msgstr "Mostrar Featured Single Page"
+
+#: inc/widgets/widgets.php:153
+msgid "Shows widgets at footer sidebar four."
+msgstr "Mostrar widgets em footer sidebar four."
+
+#: inc/widgets/widgets.php:151
+msgid "Footer Sidebar Four"
+msgstr "Footer Sidebar Four"
+
+#: inc/widgets/widgets.php:142
+msgid "Shows widgets at footer sidebar three."
+msgstr "Mostrar widgets em footer sidebar three."
+
+#: inc/widgets/widgets.php:140
+msgid "Footer Sidebar Three"
+msgstr "Footer Sidebar Three"
+
+#: inc/widgets/widgets.php:131
+msgid "Shows widgets at footer sidebar two."
+msgstr "Mostrar widgets em footer sidebar two."
+
+#: inc/widgets/widgets.php:129
+msgid "Footer Sidebar Two"
+msgstr "Footer Sidebar Two"
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr "Mostrar widgets em footer sidebar one."
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr "Footer Sidebar One"
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr "Mostrar widgets na página de erro 404."
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr "Erro 404 Page Sidebar"
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr "Mostrar widgets em Contact Page Template."
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr "Contact Page Sidebar"
+
+#: functions.php:223 inc/widgets/widgets.php:87
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr "Mostrar widgets na seção inferior do template da página business."
+
+#: functions.php:222 inc/widgets/widgets.php:85
+msgid "Business Bottom Sidebar"
+msgstr "Business Bottom Sidebar"
+
+#: functions.php:203 inc/widgets/widgets.php:75
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr "Mostrar widgets na seção central direita do template da página business."
+
+#: functions.php:202 inc/widgets/widgets.php:73
+msgid "Business Middle Right Sidebar"
+msgstr "Business Middle Right Sidebar"
+
+#: functions.php:186 functions.php:203 inc/widgets/widgets.php:64
+#: inc/widgets/widgets.php:75
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr "Widget adequado: TG: Testimonial, TG: Featured Single Page"
+
+#: functions.php:186 inc/widgets/widgets.php:64
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr "Mostrar widgets na seção central esquerda do template da página business."
+
+#: functions.php:185 inc/widgets/widgets.php:62
+msgid "Business Middle Left Sidebar"
+msgstr "Business Middle Left Sidebar"
+
+#: functions.php:161 functions.php:223 inc/widgets/widgets.php:53
+#: inc/widgets/widgets.php:87
+msgid "Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+msgstr "Widget adequado: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+
+#: functions.php:161 inc/widgets/widgets.php:53
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr "Mostrar widgets na seção superior do template da página business."
+
+#: functions.php:160 inc/widgets/widgets.php:51
+msgid "Business Top Sidebar"
+msgstr "Business Top Sidebar"
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Mostrar widgets no cabeçalho, logo acima do menu principal."
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr "Barra lateral do cabeçalho"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Exibir os Widgets no lado Esquerdo"
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Exibir os Widgets no lado Direito"
+
+#: inc/header-functions.php:201 inc/header-functions.php:211
+msgid "You are here: "
+msgstr "Você está aqui:"
+
+#: inc/header-functions.php:168
+msgid "Search Results"
+msgstr "Resultados da pesquisa"
+
+#: inc/header-functions.php:165
+msgid "Page NOT Found"
+msgstr "Página não encontrada"
+
+#: inc/header-functions.php:160 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr "Arquivos"
+
+#: inc/header-functions.php:154
+msgid "Links"
+msgstr "Links"
+
+#: inc/header-functions.php:151
+msgid "Quotes"
+msgstr "Citações"
+
+#: inc/header-functions.php:148
+msgid "Videos"
+msgstr "Vídeos"
+
+#: inc/header-functions.php:145
+msgid "Images"
+msgstr "Imagens"
+
+#: inc/header-functions.php:142
+msgid "Asides"
+msgstr "Notas"
+
+#: inc/header-functions.php:139
+msgid "Year: %s"
+msgstr "Ano: %s"
+
+#: inc/header-functions.php:136
+msgid "Month: %s"
+msgstr "Mês: %s"
+
+#: inc/header-functions.php:133
+msgid "Day: %s"
+msgstr "Dia: %s"
+
+#: inc/header-functions.php:125
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: inc/functions.php:553
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s. "
+
+#: inc/functions.php:553
+msgid "Powered by %s."
+msgstr "Powered by %s."
+
+#: inc/functions.php:553
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#. #-#-#-#-#  spacious.pot (Spacious 1.5)  #-#-#-#-#
+#. Author of the plugin/theme
+#: inc/functions.php:551
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#: inc/functions.php:549
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:526
+msgid "Reply"
+msgstr "Resposta"
+
+#: inc/functions.php:520
+msgid "Your comment is awaiting moderation."
+msgstr "O seu comentário aguarda moderação."
+
+#: inc/functions.php:514
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+
+#: inc/functions.php:512
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+#: inc/functions.php:509
+msgid "Post author"
+msgstr "Autor do post"
+
+#: inc/functions.php:494
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: inc/functions.php:494
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/functions.php:468
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Posts mais recentes <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:464
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Posts antigos"
+
+#: inc/functions.php:459 navigation.php:40
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:458 navigation.php:39
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:454
+msgid "Post navigation"
+msgstr "Navegação do post"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Sem barra lateral - conteúdo centralizado"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Sem barra lateral - tela inteira"
+
+#: inc/admin/meta-boxes.php:38 inc/widgets/widgets.php:29
+msgid "Left Sidebar"
+msgstr "Barra lateral esquerda"
+
+#: inc/admin/meta-boxes.php:33 inc/widgets/widgets.php:18
+msgid "Right Sidebar"
+msgstr "Barra lateral direita"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Layout Padrão"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Escolha o layout"
+
+#: header.php:130
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:104 functions.php:333
+msgid "Footer Menu"
+msgstr "Menu do Rodapé"
+
+#: functions.php:103 functions.php:321
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: content-single.php:26
+msgid "Tagged on: "
+msgstr "Classificado como:"
+
+#: functions.php:308 functions.php:313 inc/customizer.php:764
+#: inc/functions.php:654 inc/header-functions.php:65
+#: inc/widgets/widgets.php:267 inc/widgets/widgets.php:369
+msgid "Read more"
+msgstr "Ler mais"
+
+#: content-page.php:31 inc/functions.php:648
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/functions.php:645
+msgid "Comments Off"
+msgstr "Comentários desativados"
+
+#: inc/functions.php:645
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: inc/functions.php:645
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: inc/functions.php:645
+msgid "No Comments"
+msgstr "Nenhum Comentário"
+
+#: content-blog-full-content.php:23 content-page.php:22 content-single.php:34
+msgid "Pages:"
+msgstr "Páginas"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Os comentários estão desativados."
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Comentários mais recentes &rarr;"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários mais antigos"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Navegação dos comentários"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Uma ideia sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s ideias sobre &ldquo;%2$s&rdquo;"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Parece que nada foi encontrado aqui. Tente a busca."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ops! Essa página não pode ser encontrada."
+
+#. Author URI of the plugin/theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the plugin/theme
+msgid "https://themegrill.com/themes/spacious"
+msgstr "https://themegrill.com/themes/spacious"

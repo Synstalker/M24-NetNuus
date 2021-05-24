@@ -1,0 +1,1527 @@
+# Translation of Themes - Spacious in Slovenian
+# This file is distributed under the same license as the Themes - Spacious package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-25 07:00:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sl_SI\n"
+"Project-Id-Version: Themes - Spacious\n"
+
+#. Description of the theme
+msgid "Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 2 page templates, 4 blog display types, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in https://themegrill.com/support-forum/ and check the demo at https://demo.themegrill.com/spacious/."
+msgstr "Spacious je neverjetno prostorna večnamenska odzivna tema, napisana in oblikovana z veliko skrbi in ljubezni. Uporabite jo lahko za vaše podjetje, portfelj, blog ali kakršen koli tip spletne strani. Vsebuje 4 postavitve strani, 2 predlogi strani, 4 tipe prikaza blog strani, 13 področij gradnikov in 5 gradnikov po meri, kateri se fokusirajo na poslovne predloge. Poleg tega ima še neverjetni drsnik, možnost primarne barve za popolno ujemanje z vašim logotipom in izgledom spletne strani, škatlasto in široko postavitev, svetlo in temno barvo izgleda strani, je pripravljena za prevod, itd. Brezplačno podporo dobite na https://themegrill.com/support-forum/, demo pa si lahko ogledate na https://demo.themegrill.com/spacious/."
+
+#. Theme Name of the theme
+#: inc/demo-config.php:30 inc/admin/class-spacious-admin.php:399
+msgid "Spacious"
+msgstr "Spacious"
+
+#: inc/related-posts.php:6
+msgid "You May Also Like"
+msgstr "Morda vam bo všeč tudi"
+
+#: inc/customizer.php:519
+msgid "Check to enable the author bio section just below the post."
+msgstr "Izberite, da omogočite razdelek \"avtorjeva biografija\" pod prispevkom."
+
+#: inc/customizer.php:457
+msgid "Related Posts By Tags"
+msgstr "Sorodne objave po oznakah"
+
+#: inc/customizer.php:456
+msgid "Related Posts By Categories"
+msgstr "Sorodne objave po kategorijah"
+
+#: inc/customizer.php:452
+msgid "Related Posts Must Be Shown As:"
+msgstr "Sorodne objave morajo biti prikazane kot:"
+
+#: inc/customizer.php:438
+msgid "Check to activate the related posts"
+msgstr "Izberite, da aktivirate sorodne objave"
+
+#: inc/customizer.php:425
+msgid "Related Posts"
+msgstr "Sorodne objave"
+
+#: inc/admin/class-spacious-admin.php:360
+msgid " by WPEverest"
+msgstr " od WPEverest"
+
+#: inc/admin/class-spacious-admin.php:359
+msgid "Everest Forms – Easy Contact Form and Form Builder"
+msgstr "Everest Forms – Easy Contact Form and Form Builder"
+
+#. Template Name of the theme
+msgid "Page Builder Template"
+msgstr "Predloga graditelja strani"
+
+#: inc/demo-config.php:34
+msgid "Spacious Blog"
+msgstr "Spacious Blog"
+
+#: inc/customizer.php:498
+msgid "Check to enable the featured image in single page."
+msgstr "Izberite za prikaz prikazne slike na posameznih straneh."
+
+#: inc/customizer.php:485
+msgid "Featured Image In Single Page"
+msgstr "Prikazna slika na posameznih straneh"
+
+#: inc/customizer.php:477
+msgid "Check to enable the featured image in single post page."
+msgstr "Izberite za prikaz prikazne slike na posameznih straneh."
+
+#: inc/customizer.php:464
+msgid "Featured Image In Single Post Page"
+msgstr "Prikazna slika na posameznih prispevkih"
+
+#: inc/customizer.php:198
+msgid "Switch to new responsive menu."
+msgstr "Izberite za preklop v nov odzivni meni."
+
+#: inc/customizer.php:185
+msgid "Responsive Menu Style"
+msgstr "Slog Odzivnega menija"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Nameščanje vtičnika %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Vse namestitve so zaključene."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s je uspešno nameščen."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces namestitve se pričenja. To lahko traja nekaj časa, zato bodite potrpežljivi."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Nameščanje in aktiviranje vtičnika %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Vse namestitve in aktivacije so zaključene."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Skrij podrobnosti"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Prikaži podrobnosti"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s je uspešno nameščen in aktiviran."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Proces namestitve in aktivacije vtičnika se pričenja. To lahko traja nekaj časa, zato bodite potrpežljivi."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Namestitev %1$s ni uspela."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Pri namestitvi %1$s je prišlo do napake: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Posodabljanje vtičnika %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktivacija vtičnika ni uspela."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Trenutno ni na voljo noben vtičnik za aktivacijo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Noben vtičnik ni bil izbran za aktivacijo. Nič se ni zgodilo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Trenutno ni na voljo nobena posodobitev za vtičnike."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Trenutno ni na voljo noben vtičnik za namestitev."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Noben vtičnik ni bil izbran za posodobitev. Nič se ni zgodilo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Noben vtičnik ni bil izbran za namestitev. Nič se ni zgodilo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktiviraj"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Posodobi"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Sporočilo avtorja vtičnika o nadgradnji:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktiviraj %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Posodobi %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Namesti %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Različica"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tip"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Vir"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Vtičnik"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Na voljo ni nobenega vtičnika za namestitev, posodobitev ali aktivacijo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Različica na voljo:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Najmanjša potrebna različica:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Nameščena različica:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "neznana"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Za aktivacijo <span class=\"count\">(%s)</span>"
+msgstr[1] "Za aktivacijo <span class=\"count\">(%s)</span>"
+msgstr[2] "Za aktivacijo <span class=\"count\">(%s)</span>"
+msgstr[3] "Za aktivacijo <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Posodobitev na voljo <span class=\"count\">(%s)</span>"
+msgstr[1] "Posodobitve na voljo <span class=\"count\">(%s)</span>"
+msgstr[2] "Posodobitve na voljo <span class=\"count\">(%s)</span>"
+msgstr[3] "Posodobitve na voljo <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Za namestitev <span class=\"count\">(%s)</span>"
+msgstr[1] "Za namestitev <span class=\"count\">(%s)</span>"
+msgstr[2] "Za namestitev <span class=\"count\">(%s)</span>"
+msgstr[3] "Za namestitev <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Vse <span class=\"count\">(%s)</span>"
+msgstr[1] "Vse <span class=\"count\">(%s)</span>"
+msgstr[2] "Vse <span class=\"count\">(%s)</span>"
+msgstr[3] "Vse <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Priporočena posodobitev"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Zahteva posodobitev"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Zahtevana posodobitev ni na voljo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktiviran"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Nameščen, vendar neaktiven"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Ni nameščen"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Predpakirano"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Zunanji Vir"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress repozitorij"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Priporočeno"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Zahtevano"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "in"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Oddaljeni paket vtičnika je sestavljen iz več datotek, vendar datoteke niso zapakirane v mapo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Obrnite se na ponudnika vtičnika in prosite, da zapakirajo vtičnik v skladu z WordPress smernicami."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Oddaljeni paket vtičnika ne vsebuje mape z željenim ključem in poskus spremembe imena ni deloval."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Potrebna je posodobitev"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Ta vtičnik je potrebno posodobiti, da bo kompatibilen z vašo temo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:124
+msgid "Please contact the administrator of this site for help."
+msgstr "Za pomoč kontaktirajte administratorja strani."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:123
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Na voljo je eden ali več obveznih ali priporočenih vtičnikov za namestitev, posodobitev ali aktivacijo."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:122
+msgid "Dismiss this notice"
+msgstr "Opusti obvestilo"
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:121
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Vsi vtičniki so bili uspešno nameščeni in aktivirani. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:119
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Vtičnik ni aktiviran. Potreba je novejša različica vtičnika %s za uporabo s to temo. Posodobite vtičnik."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:117
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Prišlo ni do nobene spremembe. Vtičnik %1$s je že aktiviran."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:115
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Sledeč vtičnik je bil uspešno aktiviran:"
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:114
+msgid "Plugin activated successfully."
+msgstr "Vtičnik uspešno aktiviran."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Nazaj na Nadzorno Ploščo"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:113
+msgid "Return to Required Plugins Installer"
+msgstr "Nazaj na Čarovnik za nalaganje zahtevanih vtičnikov"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:108
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Prični z aktivacijo vtičnika"
+msgstr[1] "Prični z aktivacijo vtičnikov"
+msgstr[2] "Prični z aktivacijo vtičnikov"
+msgstr[3] "Prični z aktivacijo vtičnikov"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:103
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Prični s posodobitvijo vtičnika"
+msgstr[1] "Prični s posodobitvijo vtičnikov"
+msgstr[2] "Prični s posodobitvijo vtičnikov"
+msgstr[3] "Prični s posodobitvijo vtičnikov"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:98
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Prični z namestitvijo vtičnika"
+msgstr[1] "Prični z namestitvijo vtičnikov"
+msgstr[2] "Prični z namestitvijo vtičnikov"
+msgstr[3] "Prični z namestitvijo vtičnikov"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:61
+msgid "Something went wrong with the plugin API."
+msgstr "Nekaj je narobe z API-jem vtičnika."
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:60
+msgid "Updating Plugin: %s"
+msgstr "Posodabljanje vtičnika: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:58
+msgid "Installing Plugin: %s"
+msgstr "Nameščanje vtičnika: %s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:56
+msgid "Install Plugins"
+msgstr "Namesti vtičnike"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:55
+msgid "Install Required Plugins"
+msgstr "Namesti zahtevane vtičnike"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+#: inc/admin/class-spacious-admin.php:208
+msgid "Install"
+msgstr "Namesti"
+
+#: inc/admin/class-spacious-admin.php:206
+msgid "Needs ThemeGrill Demo Importer plugin."
+msgstr "Potrebuje vtičnik ThemeGrill Demo Importer."
+
+#: inc/admin/class-spacious-admin.php:205 functions.php:256
+msgid "Import Demo"
+msgstr "Uvozi Demo podatke"
+
+#: inc/admin/class-spacious-admin.php:375
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/admin/class-spacious-admin.php:371
+msgid "Polylang"
+msgstr "Polylang"
+
+#: inc/admin/class-spacious-admin.php:368
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:365
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:362
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-spacious-admin.php:355
+msgid "Easy Social Sharing"
+msgstr "Easy Social Sharing"
+
+#: inc/admin/class-spacious-admin.php:541
+msgid "TG: Our Clients"
+msgstr "TG: Naše stranke"
+
+#: inc/admin/class-spacious-admin.php:536
+msgid "TG: Featured Posts"
+msgstr "TG: Izpostavljeni prispevki"
+
+#: inc/admin/class-spacious-admin.php:525
+msgid "TG: Featured widget (Recent Work/Portfolio)"
+msgstr "TG: Predstavljen gradnik (Zadnja dela/Portfelj)"
+
+#: inc/admin/class-spacious-admin.php:520
+msgid "TG: Featured Single page widget"
+msgstr "TG: Gradnik izpostavljena stran"
+
+#: inc/admin/class-spacious-admin.php:515
+msgid "TG: Call to Action widget"
+msgstr "TG: Gradnik Poziv k dejanju"
+
+#: inc/admin/class-spacious-admin.php:510
+msgid "TG: Services widget"
+msgstr "TG: Gradnik storitve"
+
+#: inc/admin/class-spacious-admin.php:507
+msgid "Forum + Emails/Support Ticket"
+msgstr "Forum + E-pošta/Podpora strankam"
+
+#: inc/admin/class-spacious-admin.php:506
+msgid "Forum"
+msgstr "Forum"
+
+#: inc/admin/class-spacious-admin.php:505
+msgid "Support"
+msgstr "Podpora"
+
+#: inc/admin/class-spacious-admin.php:500
+msgid "Demo Content"
+msgstr "Demo vsebina"
+
+#: inc/admin/class-spacious-admin.php:497
+msgid "1,2,3,4 Columns"
+msgstr "1,2,3,4 Stolpci"
+
+#: inc/admin/class-spacious-admin.php:496
+msgid "One Column"
+msgstr "En stolpec"
+
+#: inc/admin/class-spacious-admin.php:495
+msgid "Footer Widgets Column"
+msgstr "Stolpec gradnika noga"
+
+#: inc/admin/class-spacious-admin.php:490
+msgid "Footer Copyright Editor"
+msgstr "Urejevalnik avtorskega besedila v nogi"
+
+#: inc/customizer.php:506 inc/admin/class-spacious-admin.php:485
+msgid "Author Bio"
+msgstr "Avtorjeva biografija"
+
+#: inc/admin/class-spacious-admin.php:480
+msgid "BreadCrumb Custom Text"
+msgstr "Besedilo po meri za drobtine"
+
+#: inc/admin/class-spacious-admin.php:475
+msgid "Breadcrumb NavXT Compatible"
+msgstr "Združljivo z Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:470
+msgid "Polylang Compatible"
+msgstr "Združljivo s Polylang"
+
+#: inc/admin/class-spacious-admin.php:465
+msgid "WPML Compatible"
+msgstr "Združljivo z WPML"
+
+#: inc/admin/class-spacious-admin.php:460
+msgid "Translation Ready"
+msgstr "Pripravljen za prevod"
+
+#: inc/admin/class-spacious-admin.php:455
+msgid "Woocommerce Page Layouts"
+msgstr "Woocommerce postavitve strani"
+
+#: inc/admin/class-spacious-admin.php:450
+msgid "Woocommerce Compatible"
+msgstr "Združljivo z WooCommerce-om"
+
+#: inc/admin/class-spacious-admin.php:445
+msgid "Light & Dark Color skin"
+msgstr "Svetla in temna barva strani"
+
+#: inc/admin/class-spacious-admin.php:440
+msgid "Boxed & Wide layout option"
+msgstr "Škatlasta in Široka postavitev strani"
+
+#: inc/admin/class-spacious-admin.php:351
+#: inc/admin/class-spacious-admin.php:435
+msgid "Social Icons"
+msgstr "Ikone družbenih omrežij"
+
+#: inc/admin/class-spacious-admin.php:432
+msgid "Social Icons + Menu + Header text option"
+msgstr "Ikone družbenih omrežij + Meni + Možnost teksta glave"
+
+#: inc/admin/class-spacious-admin.php:430
+msgid "Additional Top Header"
+msgstr "Dodatne vrhnja glava"
+
+#: inc/admin/class-spacious-admin.php:427
+msgid "Multiple Color Options"
+msgstr "Več barvnih možnosti"
+
+#: inc/admin/class-spacious-admin.php:426
+msgid "Primary Color Option"
+msgstr "Možnost primarne barve"
+
+#: inc/admin/class-spacious-admin.php:425
+msgid "Color Palette"
+msgstr "Barvna paleta"
+
+#: inc/admin/class-spacious-admin.php:420
+msgid "Font Size options"
+msgstr "Možnosti velikosti pisave"
+
+#: inc/admin/class-spacious-admin.php:417
+msgid "600+"
+msgstr "600+"
+
+#: inc/admin/class-spacious-admin.php:415
+msgid "Google Fonts Option"
+msgstr "Možnost Google pisave"
+
+#: inc/admin/class-spacious-admin.php:412
+msgid "Slides type, duration & delay time"
+msgstr "Tip diapozitiva (angl. slide), trajanje in čas zakasnitve"
+
+#: inc/admin/class-spacious-admin.php:410
+msgid "Slider Settings"
+msgstr "Nastavitve drsnika"
+
+#: inc/admin/class-spacious-admin.php:407
+msgid "Unlimited Slides"
+msgstr "Neonejeno število diapozitivov (angl. slides)"
+
+#: inc/admin/class-spacious-admin.php:406
+msgid "5"
+msgstr "5"
+
+#: inc/admin/class-spacious-admin.php:400
+msgid "Spacious Pro"
+msgstr "Spacious Pro"
+
+#: inc/admin/class-spacious-admin.php:398
+msgid "Features"
+msgstr "Značilnosti"
+
+#: inc/admin/class-spacious-admin.php:372
+#: inc/admin/class-spacious-admin.php:376
+msgid "Fully Compatible in Pro Version"
+msgstr "Popolnoma združljiv v Pro različici"
+
+#: inc/admin/class-spacious-admin.php:352
+#: inc/admin/class-spacious-admin.php:356
+msgid " by ThemeGrill"
+msgstr " od ThemeGrill"
+
+#: inc/admin/class-spacious-admin.php:348
+msgid "This theme recommends following plugins:"
+msgstr "Ta tema priporoča naslednje vtičnike:"
+
+#: inc/admin/class-spacious-admin.php:294
+msgid "View changelog below:"
+msgstr "Dnevnik sprememb si oglejte spodaj:"
+
+#: inc/admin/class-spacious-admin.php:277
+msgid "Go to Dashboard"
+msgstr "Pojdi na Nadzorno ploščo"
+
+#: inc/admin/class-spacious-admin.php:277
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Pojdi na Nadzorno ploščo &rarr; Domača stran"
+
+#: inc/admin/class-spacious-admin.php:274
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Nazaj na Nadzorno ploščo &rarr; Posodobitve"
+
+#: inc/admin/class-spacious-admin.php:274
+msgid "Return to Updates"
+msgstr "Nazaj na Posodobitve"
+
+#: inc/admin/class-spacious-admin.php:258
+msgid "Click below to translate this theme into your own language."
+msgstr "Kliknite spodaj, če želite prevesti to temo v svoj jezik."
+
+#: inc/admin/class-spacious-admin.php:254
+#: inc/admin/class-spacious-admin.php:262
+msgid "Translate"
+msgstr "Prevedi"
+
+#: inc/admin/class-spacious-admin.php:247
+msgid "Contact Page"
+msgstr "Kontaktna stran"
+
+#: inc/admin/class-spacious-admin.php:245
+msgid "Please send it via our sales contact page."
+msgstr "Pišite nam preko kontaktne strani."
+
+#: inc/admin/class-spacious-admin.php:244
+msgid "Got sales related question?"
+msgstr "Imate vprašanja, povezana s prodajo?"
+
+#: inc/admin/class-spacious-admin.php:239
+#: inc/admin/class-spacious-admin.php:549
+msgid "View Pro"
+msgstr "Oglej si PRO različico"
+
+#: inc/admin/class-spacious-admin.php:237
+#: inc/admin/class-spacious-admin.php:393
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Nadgradite na PRO različico za več zanimivih možnosti."
+
+#: inc/admin/class-spacious-admin.php:236
+msgid "Need more features?"
+msgstr "Potrebujete več možnosti?"
+
+#: inc/admin/class-spacious-admin.php:229
+msgid "Please put it in our dedicated support forum."
+msgstr "Dodajte na naš namembni forum za podporo uporabnikom."
+
+#: inc/admin/class-spacious-admin.php:228
+msgid "Got theme support question?"
+msgstr "Imate vprašanje glede podpore za temo?"
+
+#: inc/admin/class-spacious-admin.php:221
+msgid "Please view our documentation page to setup the theme."
+msgstr "Za nastavitev teme si oglejte si našo stran z dokumentacijo."
+
+#: inc/admin/class-spacious-admin.php:215
+msgid "Customize"
+msgstr "Prilagodi"
+
+#: inc/admin/class-spacious-admin.php:213
+msgid "All Theme Options are available via Customize screen."
+msgstr "Vse možnosti teme so na voljo v Prilagojevalniku."
+
+#: inc/admin/class-spacious-admin.php:212
+msgid "Theme Customizer"
+msgstr "Prilagojevalnik teme"
+
+#: inc/admin/class-spacious-admin.php:171
+msgid "Changelog"
+msgstr "Dnevnik sprememb"
+
+#: inc/admin/class-spacious-admin.php:163
+msgid "Free Vs Pro"
+msgstr "Zastonj proti PRO"
+
+#: inc/admin/class-spacious-admin.php:155
+msgid "Supported Plugins"
+msgstr "Podprti vtičniki"
+
+#: inc/admin/class-spacious-admin.php:98
+msgid "Get started with Spacious"
+msgstr "Pričnite s Spacious"
+
+#: inc/admin/class-spacious-admin.php:96
+msgid "Welcome! Thank you for choosing Spacious! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Dobrodošli! Hvala za izbiro Spacious temo! Obiščite našo %spredstavitveno stran%s da v celoti izkoristite najboljše kar naša tema ponuja."
+
+#: inc/admin/class-spacious-admin.php:95
+msgid "Dismiss"
+msgstr "Opusti"
+
+#: inc/admin/class-spacious-admin.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Goljufate&#8217;?"
+
+#: inc/admin/class-spacious-admin.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Dejanje je neuspešno. Osvežite stran in poskusite znova."
+
+#: inc/admin/class-spacious-admin.php:36 inc/admin/class-spacious-admin.php:119
+msgid "About"
+msgstr "O nas"
+
+#: functions.php:252
+msgid "Spacious Important Links"
+msgstr "Spacious pomembne povezave"
+
+#: inc/admin/class-spacious-admin.php:231 functions.php:258
+msgid "Support Forum"
+msgstr "Forum za podporo"
+
+#: inc/customizer.php:79 inc/admin/class-spacious-admin.php:138
+msgid "View PRO version"
+msgstr "Oglej si PRO različico"
+
+#: inc/admin/class-spacious-admin.php:134 functions.php:177 functions.php:254
+msgid "Theme Info"
+msgstr "Informacije teme"
+
+#: inc/related-posts.php:64 inc/functions.php:661
+msgid "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the theme
+msgid "Contact Page Template"
+msgstr "Predloga Kontaktne strani"
+
+#. Template Name of the theme
+msgid "Business Template"
+msgstr "Poslovna predloga"
+
+#: sidebar-left.php:36 sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Išči"
+
+#: inc/admin/class-spacious-admin.php:140
+msgid "Rate this theme"
+msgstr "Ocenite temo"
+
+#: inc/admin/class-spacious-admin.php:136 functions.php:255
+msgid "View Demo"
+msgstr "Pokaži Demo"
+
+#: inc/admin/class-spacious-admin.php:220
+#: inc/admin/class-spacious-admin.php:223 functions.php:257
+msgid "Documentation"
+msgstr "Dokumentacija"
+
+#: inc/customizer.php:654
+msgid "Enter link to redirect slider when clicked"
+msgstr "Vnesite povezavo za preusmeritev ob kliku na drsnik"
+
+#: inc/customizer.php:640
+msgid "Enter the button text. Default is \"Read more\""
+msgstr "Vnesite tekst gumba. Privzeto je \"Preberi več\""
+
+#: inc/customizer.php:626
+msgid "Enter your slider description."
+msgstr "Vnesite opis drsnika."
+
+#: inc/customizer.php:612 functions.php:309 functions.php:314
+msgid "Enter title for your slider."
+msgstr "Vnesite naslov drsnika."
+
+#: inc/customizer.php:598
+msgid "Upload slider image."
+msgstr "Naložite sliko drsnika."
+
+#: inc/customizer.php:585
+msgid "Image Upload #%1$s"
+msgstr "Nalaganje slik #%1$s"
+
+#: inc/customizer.php:576
+msgid "Check to disable slider in Posts Page"
+msgstr "Izberite, da onemogočite drsnik na straneh s prispevki"
+
+#: inc/customizer.php:563
+msgid "Disable slider in Posts page"
+msgstr "Onemogoči drsnik na straneh s prispevki"
+
+#: inc/customizer.php:547
+msgid "Check to activate slider."
+msgstr "Izberite, da onomočite drsnik."
+
+#: inc/customizer.php:534
+msgid "Activate slider"
+msgstr "Aktiviraj drsnik"
+
+#: inc/customizer.php:528 inc/admin/class-spacious-admin.php:405
+msgid "Slider"
+msgstr "Drsnik"
+
+#: inc/customizer.php:419
+msgid "Additional"
+msgstr "Dodatno"
+
+#: inc/customizer.php:408
+msgid "Write your Custom CSS."
+msgstr "Napišite CSS po meri."
+
+#: inc/customizer.php:395
+msgid "Custom CSS"
+msgstr "CSS po meri"
+
+#: inc/customizer.php:382
+msgid "Choose the light or dark skin. This will be reflected in whole site."
+msgstr "Izberite svetel ali temen izgled strani. To se bo odražalo na celotnem spletišču."
+
+#: inc/customizer.php:369
+msgid "Color Skin"
+msgstr "Barva spletišča"
+
+#: inc/customizer.php:361
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site."
+msgstr "To se bo odražalo v povezavah, gumbih in drugje. Izberite barvo, ki bo ustrezala vašemu spletišču."
+
+#: inc/customizer.php:348
+msgid "Primary color option"
+msgstr "Možnosti Primarne barve"
+
+#: inc/customizer.php:339
+msgid "Blog Full Content"
+msgstr "Blog z vso vsebino"
+
+#: inc/customizer.php:338
+msgid "Blog Image Alternate Medium"
+msgstr "Blog s srednje veliko sliko (izmenjajočo)"
+
+#: inc/customizer.php:337
+msgid "Blog Image Medium"
+msgstr "Blog s srednje veliko sliko"
+
+#: inc/customizer.php:336
+msgid "Blog Image Large"
+msgstr "Blog z veliko sliko"
+
+#: inc/customizer.php:334
+msgid "Choose the display type for the latests posts view or posts page view (static front page)."
+msgstr "Izberite tip prikaza za prikaz zadnjih prispevkov ali prikaz strani prispevkov (statična domača stran)."
+
+#: inc/customizer.php:321
+msgid "Blog Posts display type"
+msgstr "Tip prikkaza Blog prispevkov"
+
+#: inc/customizer.php:307
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Izberite privzeto postavitev za posamezne objave. Ta postavitev se bo odražala v vseh posameznih objavah, razen če je edinstvena postavitev nastavljen za določeno objavo."
+
+#: inc/customizer.php:294
+msgid "Default layout for single posts only"
+msgstr "Privzeta postavitev samo za posamezne objave"
+
+#: inc/customizer.php:280
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Izberite privzeto postavitev za strani. Ta postavitev se bo odražala na vseh straneh, razen, če je edinstvena postavitev nastavljena za določeno stran."
+
+#: inc/customizer.php:267
+msgid "Default layout for pages only"
+msgstr "Privzeta postavitev samo za strani"
+
+#: inc/customizer.php:253
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options."
+msgstr "Izberite privzeto postavitev. Ta postavitev se bo odražala v vseh arhivih, kategorijah, iskalnih straneh, itd. Postavitev za posamično objavo in stran je mogoče upravljati s spodnjimi možnosti."
+
+#: inc/customizer.php:240
+msgid "Default layout"
+msgstr "Privzeta postavitev"
+
+#: inc/customizer.php:232
+msgid "Wide layout with content width of 978px"
+msgstr "Široka postavitev z vsebino širine 978px"
+
+#: inc/customizer.php:231
+msgid "Wide layout with content width of 1218px"
+msgstr "Široka postavitev z vsebino širine 1218px"
+
+#: inc/customizer.php:230
+msgid "Boxed layout with content width of 978px"
+msgstr "Škatlasta postavitev z vsebino širine 978px"
+
+#: inc/customizer.php:229
+msgid "Boxed layout with content width of 1218px"
+msgstr "Škatlasta postavitev z vsebino širina 1218px"
+
+#: inc/customizer.php:227
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Izberite postavitev strani. Sprememba se odraža na celotnem spletišču."
+
+#: inc/customizer.php:214
+msgid "Site Layout"
+msgstr "Postavitev Spletišča"
+
+#: inc/customizer.php:208
+msgid "Design"
+msgstr "Izgled"
+
+#: inc/customizer.php:178
+msgid "Position Below: Display the Header image just below the site title and main menu part."
+msgstr "Položaj spodaj: Prikaz slike glave tik pod naslovom spletišča in dela z glavnim menijem."
+
+#: inc/customizer.php:177
+msgid "Position Above (Default): Display the Header image just above the site title and main menu part."
+msgstr "Položaj zgoraj (Privzeto): Prikaz slike glave tik nad naslovom spletišča in dela z glavnim menijem."
+
+#: inc/customizer.php:174
+msgid "Choose top header image display position."
+msgstr "Izberite položaj slike glave."
+
+#: inc/customizer.php:161
+msgid "Header Image Position"
+msgstr "Položaj slike glave"
+
+#: inc/customizer.php:123
+msgid "Choose the option that you want."
+msgstr "Izberite željeno možnost."
+
+#: inc/customizer.php:110
+msgid "Show"
+msgstr "Prikaži"
+
+#: inc/customizer.php:129
+msgid "Disable"
+msgstr "Onemogoči"
+
+#: inc/customizer.php:128
+msgid "Show Both"
+msgstr "Prikaži oboje"
+
+#: inc/customizer.php:127
+msgid "Header Text Only"
+msgstr "Samo text glave"
+
+#: inc/customizer.php:126
+msgid "Header Logo Only"
+msgstr "Samo logotip glave"
+
+#: inc/customizer.php:103
+msgid "Header Logo"
+msgstr "Logotip glave"
+
+#: inc/customizer.php:97
+msgid "Header"
+msgstr "Glava"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Vsebine ni mogoče najti. Poskusite z iskanjem."
+
+#: no-results.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Vaša iskalna poizvedba nima zadetkov. Poskusite z drugimi ključnimi besedami."
+
+#: no-results.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ste pripravljeni na objavo vašega prvega prispevka? <a href=\"%1$s\">Pričnite tukaj</a>."
+
+#: navigation.php:32
+msgid "Next &rarr;"
+msgstr "Naslednji &rarr;"
+
+#: navigation.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Prejšnji"
+
+#: navigation.php:20
+msgid "Next &raquo;"
+msgstr "Naprej &raquo;"
+
+#: navigation.php:19
+msgid "&laquo; Previous"
+msgstr "&laquo; Nazaj"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:38
+msgid "Description"
+msgstr "Opis"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:14 functions.php:168
+#: functions.php:230
+msgid "TG: Featured Widget"
+msgstr "TG: Predstavljen Gradilnik"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:10 functions.php:168
+#: functions.php:230
+msgid "Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr "Prikažite najnovejše strani, kot vaše nedavna dela. Idealno za vrhnjo ali spodnjo poslovno stransko vrstico."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:72
+msgid "Byline:"
+msgstr "Dodatek:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:68
+msgid "Name:"
+msgstr "Ime:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:65
+msgid "Testimonial Description"
+msgstr "Opis Reference"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:15
+#: inc/admin/class-spacious-admin.php:531 functions.php:212
+msgid "TG: Testimonial"
+msgstr "TG: Referenca"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:11
+msgid "Display Testimonial"
+msgstr "Prikaži Referenco"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:39
+msgid "Button Redirect Link:"
+msgstr "Povezava preusmeritve gumba:"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:35
+msgid "Button Text:"
+msgstr "Tekst gumba:"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:32 functions.php:176
+msgid "Call to Action Additional Text"
+msgstr "Dodaten tekst Poziva k akciji"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:30 functions.php:175
+msgid "Call to Action Main Text"
+msgstr "Glavni tekst Poziva k akciji"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:14 functions.php:167
+#: functions.php:229
+msgid "TG: Call To Action Widget"
+msgstr "TG: Gradnik Poziv k akciji"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:10 functions.php:167
+#: functions.php:229
+msgid "Use this widget to show the call to action section."
+msgstr "Uporabite ta gradnik za prikaz razdelka Poziv k akciji."
+
+#: inc/widgets/class-spacious-service-widget.php:14 functions.php:166
+#: functions.php:228
+msgid "TG: Services"
+msgstr "TG: Storitve"
+
+#: inc/widgets/class-spacious-service-widget.php:10 functions.php:166
+#: functions.php:228
+msgid "Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr "Prikaz nekaterih strani kot storiteve. Idealno za vrhnjo ali spodnjo poslovno stransko vrstico."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:45
+#: inc/widgets/class-spacious-featured-single-page-widget.php:52
+msgid "Show Image After Title"
+msgstr "Prikaži sliko za naslovom"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:43
+#: inc/widgets/class-spacious-featured-single-page-widget.php:50
+msgid "Show Image Before Title"
+msgstr "Prikaži sliko pred naslovom"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:38
+msgid "Remove Featured image"
+msgstr "Odstrani prikazno sliko"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:44
+#: inc/widgets/class-spacious-featured-single-page-widget.php:33
+#: inc/widgets/class-spacious-service-widget.php:30
+msgid "Page"
+msgstr "Stran"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:30
+msgid "Displays the title of the Page if title input is empty."
+msgstr "Prikazuje naslov strani, če je polje za naslov prazno."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:62
+#: inc/widgets/class-spacious-recent-work-widget.php:35
+#: inc/widgets/class-spacious-featured-single-page-widget.php:27
+msgid "Title:"
+msgstr "Naslov:"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:24
+msgid "Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr "Primerno za Domov-Zgoraj stransko vrstico, Domow-Spodaj stransko vrstico ali stransko stransko vrstico."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:11
+msgid "Display Featured Single Page"
+msgstr "Prikaz Predstavljena Posamezna Stran"
+
+#: inc/widgets/widgets.php:153
+msgid "Shows widgets at footer sidebar four."
+msgstr "Prikazuje gradilnike na stranski vrstici noge štiri."
+
+#: inc/widgets/widgets.php:151
+msgid "Footer Sidebar Four"
+msgstr "Stranska vrstica noge Štiri"
+
+#: inc/widgets/widgets.php:142
+msgid "Shows widgets at footer sidebar three."
+msgstr "Prikazuje gradilnike na stranski vrstici noge tri."
+
+#: inc/widgets/widgets.php:140
+msgid "Footer Sidebar Three"
+msgstr "Stranska vrstica noge tri"
+
+#: inc/widgets/widgets.php:131
+msgid "Shows widgets at footer sidebar two."
+msgstr "Prikazuje gradilnike na stranski vrstici noge dve."
+
+#: inc/widgets/widgets.php:129
+msgid "Footer Sidebar Two"
+msgstr "Stranska vrstica noge Dve"
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr "Prikazuje gradilnike na stranski vrstici noge ena."
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr "Stranska vrstica noge Ena"
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr "Prikaže gradnike na strani 404."
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr "Stranska vrstica strani 404"
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr "Prikazuje gradnike na Predlogi Kontaktne strani."
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr "Stranska vrstica Kontaktne strani"
+
+#: inc/widgets/widgets.php:87 functions.php:226
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr "Prikazuje gradilnike na spodnjem razdelku predloge poslovne strani."
+
+#: inc/widgets/widgets.php:85 functions.php:225
+msgid "Business Bottom Sidebar"
+msgstr "Poslovna stranska vrstica - spodaj"
+
+#: inc/widgets/widgets.php:75 functions.php:206
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr "Prikazuje gradilnike na sredinskem razdelku desne polovice predloge poslovne strani."
+
+#: inc/widgets/widgets.php:73 functions.php:205
+msgid "Business Middle Right Sidebar"
+msgstr "Poslovna stranska vrstica - sredina desno"
+
+#: inc/widgets/widgets.php:64 inc/widgets/widgets.php:75 functions.php:189
+#: functions.php:206
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr "Primerni gradnik: TG: Refrenca, TG: Izpostavljena posamezna stran"
+
+#: inc/widgets/widgets.php:64 functions.php:189
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr "Prikazuje gradilnike na sredinskem razdelku leve polovice predloge poslovne strani."
+
+#: inc/widgets/widgets.php:62 functions.php:188
+msgid "Business Middle Left Sidebar"
+msgstr "Poslovna stranska vrstica - sredina levo"
+
+#: inc/widgets/widgets.php:53 inc/widgets/widgets.php:87 functions.php:164
+#: functions.php:226
+msgid "Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+msgstr "Primerni gradnik: TG: Storitve, TG: Gradnik Poziv k dejanju, TG: Predstavljen gradnik"
+
+#: inc/widgets/widgets.php:53 functions.php:164
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr "Prikazuje gradilnike na zgornjem razdelku predloge poslovne strani."
+
+#: inc/widgets/widgets.php:51 functions.php:163
+msgid "Business Top Sidebar"
+msgstr "Poslovna stranska vrstica - vrh"
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Prikazuje gradilnike iz razdelka glave tik nad glavnim navigacijskim menijem."
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr "Stranska vrstica Glave"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Prikaže gradilnike na Levi strani."
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Prikaže gradilnike na Desni strani."
+
+#: inc/header-functions.php:205 inc/header-functions.php:215
+msgid "You are here: "
+msgstr "Vi ste tukaj: "
+
+#: inc/header-functions.php:172
+msgid "Search Results"
+msgstr "Rezultati iskanja"
+
+#: inc/header-functions.php:169
+msgid "Page NOT Found"
+msgstr "Strani ni mogoče najti"
+
+#: inc/header-functions.php:164 sidebar-left.php:29 sidebar.php:29
+msgid "Archives"
+msgstr "Arhivi"
+
+#: inc/header-functions.php:158
+msgid "Links"
+msgstr "Povezave"
+
+#: inc/header-functions.php:155
+msgid "Quotes"
+msgstr "Citati"
+
+#: inc/header-functions.php:152
+msgid "Videos"
+msgstr "Videi"
+
+#: inc/header-functions.php:149
+msgid "Images"
+msgstr "Slike"
+
+#: inc/header-functions.php:146
+msgid "Asides"
+msgstr "Odloži na stran"
+
+#: inc/header-functions.php:143
+msgid "Year: %s"
+msgstr "Leto: %s"
+
+#: inc/header-functions.php:140
+msgid "Month: %s"
+msgstr "Mesec: %s"
+
+#: inc/header-functions.php:137
+msgid "Day: %s"
+msgstr "Dan: %s"
+
+#: inc/header-functions.php:129
+msgid "Author: %s"
+msgstr "Avtor: %s"
+
+#: inc/functions.php:579
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s od %2$s."
+
+#: inc/functions.php:579
+msgid "Powered by %s."
+msgstr "Poganja %s."
+
+#: inc/functions.php:579
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#: inc/functions.php:575
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:552
+msgid "Reply"
+msgstr "Odgovori"
+
+#: inc/functions.php:546
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čaka na odobritev."
+
+#: inc/functions.php:540
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Povezava</a>"
+
+#: inc/functions.php:538
+msgid "%1$s at %2$s"
+msgstr "%1$s ob %2$s"
+
+#: inc/functions.php:535
+msgid "Post author"
+msgstr "Avtor prispevka"
+
+#: inc/functions.php:520
+msgid "(Edit)"
+msgstr "(Uredi)"
+
+#: inc/functions.php:520
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/functions.php:494
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novejši prispevki <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:490
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starejši prispevki"
+
+#: inc/functions.php:485 navigation.php:40
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/functions.php:484 navigation.php:39
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:480
+msgid "Post navigation"
+msgstr "Krmarjenje po prispevkih"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Brez stranske vrstice Centrirana vsebina"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Brez stranske vrtice Polna širina"
+
+#: inc/widgets/widgets.php:29 inc/admin/meta-boxes.php:38
+msgid "Left Sidebar"
+msgstr "Leva stranska vrstica"
+
+#: inc/widgets/widgets.php:18 inc/admin/meta-boxes.php:33
+msgid "Right Sidebar"
+msgstr "Desna stranska vrstica"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Privzeta postavitev"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Izberi postavitev"
+
+#: inc/header-functions.php:227
+msgid "Menu"
+msgstr "Meni"
+
+#: functions.php:104 functions.php:336
+msgid "Footer Menu"
+msgstr "Päta Menu"
+
+#: functions.php:103 functions.php:324
+msgid "Primary Menu"
+msgstr "Glavni meni"
+
+#: content-single.php:34
+msgid "Tagged on: "
+msgstr "Označena na: "
+
+#: inc/header-functions.php:65 inc/customizer.php:633
+#: inc/widgets/class-spacious-featured-single-page-widget.php:103
+#: inc/widgets/class-spacious-service-widget.php:96 inc/functions.php:681
+#: functions.php:311 functions.php:316
+msgid "Read more"
+msgstr "Preberi več"
+
+#: inc/functions.php:675 content-page.php:39
+msgid "Edit"
+msgstr "Uredi"
+
+#: inc/functions.php:672
+msgid "Comments Off"
+msgstr "Komentiranje je onemogočeno"
+
+#: inc/functions.php:672
+msgid "% Comments"
+msgstr "% komentarjev"
+
+#: inc/functions.php:672
+msgid "1 Comment"
+msgstr "1 komentar"
+
+#: inc/functions.php:672
+msgid "No Comments"
+msgstr "Ni komentarjev"
+
+#: content-single.php:42 content-page.php:30 content-blog-full-content.php:23
+msgid "Pages:"
+msgstr "Strani:"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Komentiranje je onemogočeno."
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Novejši komentarji &rarr;"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Starejši komentarji"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Krmarjenje po komentarjih"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ena misel o &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s misli o &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s misli o &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s misli o &ldquo;%2$s&rdquo;"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Vsebine ni mogoče najti. Poskusite z iskanjem."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Strani ni bilo mogoče najti."
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/spacious"
+msgstr "https://themegrill.com/themes/spacious"
+
+#. Author of the theme
+#: inc/functions.php:577
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

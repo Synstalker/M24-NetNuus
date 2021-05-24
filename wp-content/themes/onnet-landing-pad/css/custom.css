@@ -1,0 +1,124 @@
+/* Custom styles that should be merged with frontend.css later on. */
+
+/* Clarins Gravity Form Styling - START */
+/* Used on: http://fairlady.com.onnet.it/clarins-most-dynamic-woman-2015-form */
+
+.nominee-information-section,
+.nominator-information-heading {
+    display: block !important;
+    width: 100% !important;
+    border-bottom: 1px solid #CCC;
+}
+
+.nominator-information-heading {
+    margin: 35px 0 !important;
+}
+
+.nominee-information-section h2,
+.nominator-information-heading h2 {
+    font-weight: bold;
+    color: #D52F39;
+}
+
+.clarins-entry-form .gform_body {
+    margin: 0 0 20px 0;
+}
+
+.clarins-entry-form .ginput_container {
+    margin-right: 35px;
+}
+
+.clarins-entry-form .ginput_container textarea {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.clarins-entry-form .charleft {
+    display: none;
+}
+
+.clarins-entry-form .ginput_container select {
+    background-image: url(../img/png/select-down-arrow.png) !important;
+}
+
+.clarins-entry-form .gfield_date_dropdown_day,
+.clarins-entry-form .gfield_date_dropdown_month,
+.clarins-entry-form .gfield_date_dropdown_year
+{
+    display: inline-block;
+}
+
+.clarins-entry-form .gfield_date_dropdown_day select,
+.clarins-entry-form .gfield_date_dropdown_month select,
+.clarins-entry-form .gfield_date_dropdown_year select
+{
+    border: 1px solid rgb(169, 169, 169);
+}
+
+.clarins-entry-form .nominator-accept {
+    width: 100% !important;
+}
+
+.clarins-entry-form .gfield_checkbox {
+    padding: 0;
+}
+
+.clarins-entry-form .gfield_checkbox input[type="checkbox"] {
+    display: inline !important;
+    width: initial !important;
+}
+
+/* This button is embedded in http://fairlady.com.onnet.it/clarins-fairlady-most-dynamisante-woman */
+/* Related to the gravity form styling above, but not directly. */
+#nominate_btn {
+    outline: none;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #A5252A;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    max-width: 175px;
+    transition: all 0.2s linear 0s;
+}
+
+#nominate_btn:hover, #nominate_btn:focus, #nominate_btn:active {
+    background-color: #D52F39;
+}
+
+/* Clarins Gravity Form Styling - END */
+
+.subscribeToNewsletter__form{
+    width:50%;
+    margin:0 auto;
+}
+
+/* Everlytic Widget - START */
+.subscribeToNewsletter__form input {
+    text-align: center;
+    margin: 0 auto 30px auto ;
+}
+/* Everlytic Widget - END */
+
+/* jared.rethman@24.com - start */
+.subscribeToNewsletter__form label.checkbox_label {
+    margin:0;
+    float: left;
+    font-size: 0.9em;
+}
+.subscribeToNewsletter__form input[type=checkbox] {
+    width:auto;
+    float: left;
+    margin:4px 15px 0 0;
+}
+.subscribeToNewsletter__form .newsletter_checkbox_list{
+    width:100%;
+    margin: 0 auto 30px auto;
+    display: block;
+}
+/* jared.rethman@24.com - end */

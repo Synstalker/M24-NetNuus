@@ -1,0 +1,329 @@
+# Translation of Themes - Twenty Sixteen in Georgian
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-30 06:24:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ka_GE\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Sixteen"
+msgstr "Twenty Sixteen"
+
+#. Description of the plugin/theme
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "Twenty Sixteen — თანამედროვე თემააWordPress-ისათვის. ჰორიზონტალური სათაური მარჯვენა გვერდითი ზოლით, იდეალურია ბლოგებისა და საიტებისათვის. მას აქვს ფერიების მორგების პარამეტრები, ლამაზი ძირითადად ფერების სქემებით, ჰარმონიული მოქნილი ბადე მობილურ მოწყობილობებში გამოსაყენებლად. Twenty Sixteen თქვენს WordPress-საიტს დაეხმარება გამოიყურებოდეს ლამაზად."
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:194 template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "დაწვრილებით<span class=“screen-reader-text”> „%s“</span>"
+
+#. translators: %s: Name of current post
+#: image.php:88 template-parts/content-page.php:39
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:47 template-parts/content.php:53
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text”>„%s“</span>-ის ჩასწორება"
+
+#: inc/customizer.php:324
+msgid "Red"
+msgstr "წითელი"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "%s: 1 კომენტარი"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "ძიება"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "ძებნა &hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "ძებნა:"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "სარდაფის სოციალური ბმულების მენიუ"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr "სარდაფის ძირითადი მენიუ"
+
+#: functions.php:167
+msgid "Add widgets here to appear in your sidebar."
+msgstr "დაამატეთ ვიჯეტები აქ, რათა ისინი გამოჩნდეს გვერდითა ზოლში."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "რჩეული"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "როგორც ჩანს, ჩვენ არ შეგვიძლია ვიპოვნოთ ის, რასაც თქვენ ეძებთ."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "უკაცრავად, მაგრამ არცერთი ჩანაწერი არ ემთხვევა თქვენს საძიებო სიტყვებს. გთხოვთ, სცადოთ ახლიდან განსხვავებული სიტყვებით."
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "მზად ხართ გამოაქვეყნოთ ახალი სტატია? <a href=\"%1$s\">დაიწყეთ აქედან.</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "ვერაფერი ვერ მოიძებნა"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "ავტორის %s ყველა სტატიის ნახვა"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "ავტორი:"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "წინა პოსტი"
+
+#: single.php:41
+msgid "Previous"
+msgstr "წინა"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "შემდეგი პოსტი"
+
+#: single.php:38
+msgid "Next"
+msgstr "შემდეგი"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "ძებნის შედეგები: %s"
+
+#: inc/template-tags.php:112
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "ტეგები"
+
+#: inc/template-tags.php:103
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "კატეგორიები"
+
+#: inc/template-tags.php:99 inc/template-tags.php:108
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:83
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "გამოქვეყნებულია:"
+
+#: inc/template-tags.php:40
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "ფორმატი"
+
+#: inc/template-tags.php:52
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "დატოვეთ<span class=“screen-reader-text”> კომენტარი%s</span>"
+
+#: inc/template-tags.php:26
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "ავტორი"
+
+#: inc/customizer.php:334
+msgid "Yellow"
+msgstr "ყვითელი"
+
+#: inc/customizer.php:314
+msgid "Gray"
+msgstr "ნაცრისფერი"
+
+#: inc/customizer.php:304
+msgid "Dark"
+msgstr "მუქი"
+
+#: inc/customizer.php:204
+msgid "Main Text Color"
+msgstr "ძირითადი ტექსტის ფერი"
+
+#: inc/customizer.php:294
+msgid "Default"
+msgstr "ნაგულისხმევი"
+
+#: inc/customizer.php:222
+msgid "Secondary Text Color"
+msgstr "მეორე ხარისხოვანი ტექსტის ფერი"
+
+#: inc/customizer.php:186
+msgid "Link Color"
+msgstr "ბმულის ფერი"
+
+#: inc/customizer.php:165
+msgid "Page Background Color"
+msgstr "გვერდის ფონის ფერი"
+
+#: image.php:107 single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">გამოქვეყნებულია:</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:54 inc/back-compat.php:70
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "თემა Twenty Sixteen მოითხოვს მინიმუმ WordPress 4.4-ს. თქვენი ვერსია არის: %s. გთხოვთ განაახლოთ და ხელახლა სცადოთ."
+
+#: inc/customizer.php:145
+msgid "Base Color Scheme"
+msgstr "ფერთა საბაზისო სქემა"
+
+#: image.php:77
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "სრული ზომა"
+
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content-single.php:26 template-parts/content.php:36
+msgid "Pages:"
+msgstr "გვერდები:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "შემდეგი ნახატი"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "წინა ნახატი"
+
+#: header.php:49
+msgid "Menu"
+msgstr "მენიუ"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "შიგთავსზე გადასვლა"
+
+#: functions.php:301
+msgid "expand child menu"
+msgstr "შვილობილი მენიუს გაშლა"
+
+#: functions.php:302
+msgid "collapse child menu"
+msgstr "შეკუმშული შვილობილი მენიუ"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:227
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:177
+msgid "Content Bottom 1"
+msgstr "შიგთავსის ქვეშ 1"
+
+#: functions.php:179 functions.php:191
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "გამოჩნდება გვერდებზე და ჩანაწერებში ქემოდან."
+
+#: functions.php:189
+msgid "Content Bottom 2"
+msgstr "შიგთავსის ქვეშ 2"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:217
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:165
+msgid "Sidebar"
+msgstr "გვერდითი პანელი"
+
+#: functions.php:92 header.php:66
+msgid "Social Links Menu"
+msgstr "სოციალური ბმულების მენიუ"
+
+#: functions.php:91 header.php:53
+msgid "Primary Menu"
+msgstr "ძირითადი მენიუ"
+
+#: footer.php:61
+msgid "Proudly powered by %s"
+msgstr "გამოყენებული ძრავი: %s"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "კომენტარების დატოვება გამორთულია."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: %1$s კომენტარი"
+
+#: archive.php:53 image.php:62 index.php:50 search.php:41
+#: template-parts/content-page.php:28 template-parts/content-single.php:30
+#: template-parts/content.php:40
+msgid "Page"
+msgstr "გვერდი"
+
+#: archive.php:52 index.php:49 search.php:40
+msgid "Next page"
+msgstr "შემდეგი გვერდი"
+
+#: archive.php:51 index.php:48 search.php:39
+msgid "Previous page"
+msgstr "წინა გვერდი"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "ამ მისამართზე არაფერი არ მოიძებნა. სცადეთ გამოიყენოთ ძებნა."
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ვაჰ! ის გვერდი ვერ მოიძებნა."
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://wordpress.org/themes/twentysixteen/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "the WordPress team"
+
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

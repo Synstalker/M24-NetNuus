@@ -1,0 +1,277 @@
+# Translation of Plugins - Open Graph Metabox - Development (trunk) in English (Canada)
+# This file is distributed under the same license as the Plugins - Open Graph Metabox - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-23 23:47:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_CA\n"
+"Project-Id-Version: Plugins - Open Graph Metabox - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://nielsvr.nl"
+msgstr "https://nielsvr.nl"
+
+#. Author of the plugin/theme
+msgid "Niels van Renselaar"
+msgstr "Niels van Renselaar"
+
+#: open-graph-metabox.php:142
+msgid "Settings"
+msgstr "Settings"
+
+#: open-graph-metabox.php:175 open-graph-metabox.php:176
+msgid "Open Graph settings"
+msgstr "Open Graph settings"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/open-graph-metabox/"
+msgstr "https://en-ca.wordpress.org/plugins/open-graph-metabox/"
+
+#. Description of the plugin/theme
+msgid "This plugin lets you set the Open Graph meta tags per post, page or custom post type."
+msgstr "This plugin lets you set the Open Graph meta tags per post, page or custom post type."
+
+#. Plugin Name of the plugin/theme
+msgid "Open Graph Metabox"
+msgstr "Open Graph Metabox"
+
+#: open-graph-metabox.php:504
+msgid "These settings are applied to the frontpage of the website."
+msgstr "These settings are applied to the frontpage of the website."
+
+#: open-graph-metabox.php:503
+msgid "Front-page defaults"
+msgstr "Front-page defaults"
+
+#: open-graph-metabox.php:500 open-graph-metabox.php:553
+msgid "Save settings"
+msgstr "Save settings"
+
+#: open-graph-metabox.php:494
+msgid "Let's Facebook associate admins for the website (fb:admins), multiple ID's seperated by , (comma)"
+msgstr "Let's Facebook associate admins for the website (fb:admins), multiple ID's separated by , (comma)"
+
+#: open-graph-metabox.php:493
+msgid "Facebook Admins"
+msgstr "Facebook Admins"
+
+#: open-graph-metabox.php:489
+msgid "Let's the Facebook scraper associate the meta data with your app (fb:app_id)"
+msgstr "Let's the Facebook scraper associate the meta data with your app (fb:app_id)"
+
+#: open-graph-metabox.php:488
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: open-graph-metabox.php:452 open-graph-metabox.php:515
+msgid "When empty the default excerpt will be used."
+msgstr "When empty the default excerpt will be used."
+
+#: open-graph-metabox.php:447 open-graph-metabox.php:510
+msgid "When empty the default title will be used."
+msgstr "When empty the default title will be used."
+
+#: open-graph-metabox.php:441
+msgid "Complete this form with the Open Graph defaults you wish to set automatically when posting or editing a post."
+msgstr "Complete this form with the Open Graph defaults you wish to set automatically when posting or editing a post."
+
+#: open-graph-metabox.php:440
+msgid "Post and page defaults"
+msgstr "Post and page defaults"
+
+#: open-graph-metabox.php:437
+msgid "Set Open Graph defaults"
+msgstr "Set Open Graph defaults"
+
+#: open-graph-metabox.php:431
+msgid "Settings updated successfully."
+msgstr "Settings updated successfully."
+
+#: open-graph-metabox.php:251 open-graph-metabox.php:464
+#: open-graph-metabox.php:527
+msgid "Type"
+msgstr "Type"
+
+#: open-graph-metabox.php:245 open-graph-metabox.php:459
+#: open-graph-metabox.php:522
+msgid "Select image"
+msgstr "Select Image"
+
+#: open-graph-metabox.php:242 open-graph-metabox.php:456
+#: open-graph-metabox.php:519
+msgid "Image"
+msgstr "Image"
+
+#: open-graph-metabox.php:237 open-graph-metabox.php:451
+#: open-graph-metabox.php:514
+msgid "Description"
+msgstr "Description"
+
+#: open-graph-metabox.php:232 open-graph-metabox.php:446
+#: open-graph-metabox.php:509
+msgid "Title"
+msgstr "Title"
+
+#: open-graph-metabox.php:223
+msgid "Please provide optional Open Graph meta values to override the <a href=\"options-general.php?page=open-graph-metabox\">defaults</a>."
+msgstr "Please provide optional Open Graph meta values to override the <a href=\"options-general.php?page=open-graph-metabox\">defaults</a>."
+
+#: open-graph-metabox.php:191
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: open-graph-metabox.php:99
+msgid "TV Show"
+msgstr "TV Show"
+
+#: open-graph-metabox.php:98
+msgid "Movie"
+msgstr "Movie"
+
+#: open-graph-metabox.php:97
+msgid "Song"
+msgstr "Song"
+
+#: open-graph-metabox.php:96
+msgid "Product"
+msgstr "Product"
+
+#: open-graph-metabox.php:95
+msgid "Game"
+msgstr "Game"
+
+#: open-graph-metabox.php:94
+msgid "Food"
+msgstr "Food"
+
+#: open-graph-metabox.php:93
+msgid "Drink"
+msgstr "Drink"
+
+#: open-graph-metabox.php:92
+msgid "Book"
+msgstr "Book"
+
+#: open-graph-metabox.php:91
+msgid "Album"
+msgstr "Album"
+
+#: open-graph-metabox.php:87
+msgid "State province"
+msgstr "State province"
+
+#: open-graph-metabox.php:86
+msgid "Landmark"
+msgstr "Landmark"
+
+#: open-graph-metabox.php:85
+msgid "Country"
+msgstr "Country"
+
+#: open-graph-metabox.php:84
+msgid "City"
+msgstr "City"
+
+#: open-graph-metabox.php:80
+msgid "Public figure"
+msgstr "Public figure"
+
+#: open-graph-metabox.php:79
+msgid "Politician"
+msgstr "Politician"
+
+#: open-graph-metabox.php:78
+msgid "Musician"
+msgstr "Musician"
+
+#: open-graph-metabox.php:77
+msgid "Director"
+msgstr "Director"
+
+#: open-graph-metabox.php:76
+msgid "Author"
+msgstr "Author"
+
+#: open-graph-metabox.php:75
+msgid "Athlete"
+msgstr "Athlete"
+
+#: open-graph-metabox.php:74
+msgid "Actor"
+msgstr "Actor"
+
+#: open-graph-metabox.php:70
+msgid "University"
+msgstr "University"
+
+#: open-graph-metabox.php:69
+msgid "School"
+msgstr "School"
+
+#: open-graph-metabox.php:68
+msgid "Non_profit"
+msgstr "Non_profit"
+
+#: open-graph-metabox.php:67
+msgid "Government"
+msgstr "Government"
+
+#: open-graph-metabox.php:66
+msgid "Band"
+msgstr "Band"
+
+#: open-graph-metabox.php:62
+msgid "Sports team"
+msgstr "Sports team"
+
+#: open-graph-metabox.php:61
+msgid "Sports league"
+msgstr "Sports league"
+
+#: open-graph-metabox.php:60
+msgid "Cause"
+msgstr "Cause"
+
+#: open-graph-metabox.php:56
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: open-graph-metabox.php:55
+msgid "Hotel"
+msgstr "Hotel"
+
+#: open-graph-metabox.php:54
+msgid "Cafe"
+msgstr "Cafe"
+
+#: open-graph-metabox.php:53
+msgid "Company"
+msgstr "Company"
+
+#: open-graph-metabox.php:52
+msgid "Bar"
+msgstr "Bar"
+
+#: open-graph-metabox.php:48
+msgid "Sport"
+msgstr "Sport"
+
+#: open-graph-metabox.php:47
+msgid "Activity"
+msgstr "Activity"
+
+#: open-graph-metabox.php:43
+msgid "Article"
+msgstr "Article"
+
+#: open-graph-metabox.php:42
+msgid "Website"
+msgstr "Website"
+
+#: open-graph-metabox.php:41
+msgid "Blog"
+msgstr "Blog"

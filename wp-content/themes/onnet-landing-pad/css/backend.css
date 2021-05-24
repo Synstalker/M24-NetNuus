@@ -1,0 +1,43 @@
+.widget-inside {
+  overflow: hidden;
+}
+
+.widget-control-actions {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.upload_image_button {
+  width: 48%;
+  margin-top: 15px;
+  border: 0;
+  background: rgba(46, 162, 204, 1);
+  border-color: #0074a2;
+  color: #fff;
+  line-height: 30px;
+  float: left;
+  font-size: 12px;
+}
+
+.image-upload-clear {
+  width: 50%;
+  margin-top: 15px; 
+  border: 0;
+  background: rgba(194, 30, 30, 1);
+  border-color: #0074a2;
+  color: #fff;
+  line-height: 31px;
+  float: right;
+  font-size: 12px;
+}
+
+.upload_image_button:hover,
+.image-upload-clear:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.gform_select{
+  width: 100%;
+}

@@ -1,0 +1,330 @@
+# Translation of Themes - Twenty Sixteen in Uighur
+# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-12 17:52:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ug_CN\n"
+"Project-Id-Version: Themes - Twenty Sixteen\n"
+
+#. Theme Name of the plugin/theme
+msgid "Twenty Sixteen"
+msgstr "ئىككى مىڭ ئون ئالتە"
+
+#. Description of the plugin/theme
+msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
+msgstr "ئىككى مىڭ ئون ئالتە(Twenty Sixteen) WordPress تېمىلىرىنىڭ زامانىۋى ھالىدۇر- توغرىسىغا سوزۇلغان بەت قېشى ۋە ئېھتىياجىڭىزغا ئاساسەن تاللىنىدىغان ئوڭ يان بالداقلىرى بىلەن بلوگ ۋە بېكەتلەرگە بەكمۇ ماس كېلىدۇ. ئۆزگىچە گۈزەل رەڭ تاختىلىرى ۋە ئاجايىپ كەتەكچە تورسىمان لايھەلەر بىلەن ھەركەتچان ئۈسكىنىلەرگە ئەۋزەللىك بېغىشلايدۇ. ھەر بىر تەپسىلاتتىن مۇكەممەللىك بالقىپ تۇرىدۇ. ئىككى مىڭ ئون ئالتەWordPress ڭىزنى ھەر تەرەپتىن نۇر چاقناتقۇسى.   "
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:194 template-parts/content.php:29
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "داۋامىنى ئوقۇڭ<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: %s: Name of current post
+#: image.php:88 template-parts/content-page.php:39
+#: template-parts/content-search.php:28 template-parts/content-search.php:43
+#: template-parts/content-single.php:47 template-parts/content.php:53
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: inc/customizer.php:324
+msgid "Red"
+msgstr "قىزىل"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "توغرۇلۇق بىر پىكىر &ldquo;%s&rdquo؛"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "ئىزدەش"
+
+#: searchform.php:14
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "ئىزدەش&hellip;"
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr "ئىزدەيدىغانلار:"
+
+#: footer.php:30
+msgid "Footer Social Links Menu"
+msgstr "ئىجتىمائىي ئۇلانمىلار ئاياق تىزىملىكى"
+
+#: footer.php:17
+msgid "Footer Primary Menu"
+msgstr ".ئاساسىي ئاياق تىزىملىگى"
+
+#: functions.php:167
+msgid "Add widgets here to appear in your sidebar."
+msgstr "كىچىك قورالنى بۇ يەرگە قوشۇپ، يانبالدىقىڭىزدا كۆرسىتىڭ."
+
+#: template-parts/content.php:14
+msgid "Featured"
+msgstr "تەۋسىيە"
+
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "بەلكىم سىز ئېھتىياجلىق نەرسىلەرنى تاپالماسلىقىمىز مۇمكىن. بەلكىم ئىزدەش سىزگە ياردەم بېرىشى مۇمكىن."
+
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "كەچۈرۈڭ، ئىزدەش شەرتىڭىزگە ماس كېلىدىغان مەزمۇن يوق. ئوخشىمايدىغان ھالقىلىق سۆز بىلەن قايتا ئىزدەپ بېقىڭ."
+
+#: template-parts/content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "تۇنجى يازمىڭىزنى ئېلان قىلىشقا تەييارلاندىڭىزمۇ؟ <a href=\"%1$s\">ئەمىسە بۇ يەردىن باشلاڭ</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "ھېچنەرسە تېپىلمىدى"
+
+#: template-parts/biography.php:33
+msgid "View all posts by %s"
+msgstr "%s نىڭ بارلىق يازمىلىرى كۆرۈش"
+
+#: template-parts/biography.php:28
+msgid "Author:"
+msgstr "ئاپتور:"
+
+#: single.php:42
+msgid "Previous post:"
+msgstr "ئالدىنقى يازما:"
+
+#: single.php:41
+msgid "Previous"
+msgstr "ئالدىنقى"
+
+#: single.php:39
+msgid "Next post:"
+msgstr "كېيىنكى يازما:"
+
+#: single.php:38
+msgid "Next"
+msgstr "كېيىنكى"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "ئىزدەش نەتىجىسى:  %s"
+
+#: inc/template-tags.php:112
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "خەتكۈچلەر"
+
+#: inc/template-tags.php:103
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "سەھىپىلەر"
+
+#: inc/template-tags.php:99 inc/template-tags.php:108
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "،"
+
+#: inc/template-tags.php:83
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "يوللانغان ۋاقتى"
+
+#: inc/template-tags.php:40
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "فورمات"
+
+#: inc/template-tags.php:52
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "باھا قالدۇرۇش<span class=\"screen-reader-text\"> ۋاقتى %s</span>"
+
+#: inc/template-tags.php:26
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "ئاپتور"
+
+#: inc/customizer.php:334
+msgid "Yellow"
+msgstr "سېرىق"
+
+#: inc/customizer.php:314
+msgid "Gray"
+msgstr "كۈلرەڭ"
+
+#: inc/customizer.php:304
+msgid "Dark"
+msgstr "قېنىق"
+
+#: inc/customizer.php:204
+msgid "Main Text Color"
+msgstr "ئاساسىي تېكىست رەڭگى"
+
+#: inc/customizer.php:294
+msgid "Default"
+msgstr "سۈكۈت"
+
+#: inc/customizer.php:222
+msgid "Secondary Text Color"
+msgstr "قوشۇمچە تېكىست رەڭگى"
+
+#: inc/customizer.php:186
+msgid "Link Color"
+msgstr "ئۇلانما رەڭگى"
+
+#: inc/customizer.php:165
+msgid "Page Background Color"
+msgstr "بەت تەگلىك رەڭگى"
+
+#: image.php:107 single.php:31
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">ئېلان قىلىنغان ئورنى</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:41 inc/back-compat.php:54 inc/back-compat.php:70
+msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "ئىككى مىڭ ئون ئالتە ئۈچۈن WordPress نىڭ نەشرى 4.4 تۆۋەن بولماسلىقى كېرەك. سىزنىڭ نەشرىڭىز %s ئىكەن. نەشرىنى يېڭىلىغاندىن كېيىن قايتا سىناپ بېقىڭ. "
+
+#: inc/customizer.php:145
+msgid "Base Color Scheme"
+msgstr "ئاساسىي رەڭ لايىھىسى"
+
+#: image.php:77
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "تولۇق چوڭلۇقى"
+
+#: image.php:58 template-parts/content-page.php:24
+#: template-parts/content-single.php:26 template-parts/content.php:36
+msgid "Pages:"
+msgstr "بەتلەر:"
+
+#: image.php:26
+msgid "Next Image"
+msgstr "كېيىنكى رەسىم"
+
+#: image.php:25
+msgid "Previous Image"
+msgstr "ئالدىنقى رەسىم"
+
+#: header.php:49
+msgid "Menu"
+msgstr "تىزىملىك"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "مەزمۇنىدىن ئاتلاپ ئۆتۈش"
+
+#: functions.php:301
+msgid "expand child menu"
+msgstr "بالا تىزىملىكنى يېيىش"
+
+#: functions.php:302
+msgid "collapse child menu"
+msgstr "بالا تىزىملىكنى يىغىش"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:227
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "ئوچۇق"
+
+#: functions.php:177
+msgid "Content Bottom 1"
+msgstr "ئاستىنقى مەزمۇن 1"
+
+#: functions.php:179 functions.php:191
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr "يازما ۋە بەتلەرنىڭ ئاستىدا كۆرۈنىدۇ."
+
+#: functions.php:189
+msgid "Content Bottom 2"
+msgstr "ئاستىنقى مەزمۇن 2"
+
+#. translators: If there are characters in your language that are not supported
+#. by Merriweather, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:217
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "ئوچۇق"
+
+#. translators: If there are characters in your language that are not supported
+#. by Montserrat, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:222
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "ئوچۇق"
+
+#: functions.php:165
+msgid "Sidebar"
+msgstr "يانبالداق"
+
+#: functions.php:92 header.php:66
+msgid "Social Links Menu"
+msgstr "ئىجتىمائىي ئۇلانمىلار تىزىملىكى"
+
+#: functions.php:91 header.php:53
+msgid "Primary Menu"
+msgstr "ئاساسىي تىزىملىك"
+
+#: footer.php:61
+msgid "Proudly powered by %s"
+msgstr "پەخىرىلىك %s ئىشلىتىلدى"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "باھالار تاقالدى."
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "«%2$s» ئۈچۈن «%1$s» پىكىر بار"
+msgstr[1] "«%2$s» ئۈچۈن «%1$s» پىكىر بار"
+
+#: archive.php:53 image.php:62 index.php:50 search.php:41
+#: template-parts/content-page.php:28 template-parts/content-single.php:30
+#: template-parts/content.php:40
+msgid "Page"
+msgstr "بەت"
+
+#: archive.php:52 index.php:49 search.php:40
+msgid "Next page"
+msgstr "كېيىنكى بەت"
+
+#: archive.php:51 index.php:48 search.php:39
+msgid "Previous page"
+msgstr "ئالدىنقى بەت"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "قارىغاندا بۇ ئورۇندىن ھېچنەرسە تېپىلماپتۇ. ئىزدەپ سىناپ باقامسىز يا؟"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ئاپلا! ئۇ بەت تېپىلمىدى"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://wordpress.org/themes/twentysixteen/"
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "WordPress گۇرۇپپىسى"
+
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:60
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

@@ -1,0 +1,54 @@
+# Translation of Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-05-23 05:25:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Set up sharing tools from AddThis right in WordPress. With AddThis you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share your content in their social networks. Follow tools, recommended content, conversion tools and social analytics available to registered accounts at addthis.com."
+msgstr "WordPress 上で AddThis から共有ツールを設定しましょう。AddThis を使えば、ユーザーのコンテンツとの関わり方を確認したり、各ユーザーにパーソナライズされたエクスペリエンスを提供したり、ソーシャルネットワークでコンテンツを共有するように促したりできます。 addthis.com の登録アカウントがあれば、フォローツール、推奨コンテンツ、変換ツール、ソーシャル分析が利用可能になります。"
+
+#. Author URI of the plugin
+msgid "http://www.addthis.com"
+msgstr "http://www.addthis.com"
+
+#. Author of the plugin
+msgid "The AddThis Team"
+msgstr "The AddThis Team"
+
+#: backend/AddThisWidgetByDomClass.php:242
+msgid "Tool: "
+msgstr "ツール: "
+
+#: backend/AddThisWidgetByDomClass.php:200
+#: backend/AddThisWidgetByDomClass.php:498
+msgid "Title: "
+msgstr "タイトル: "
+
+#: backend/AddThisGlobalOptionsFeature.php:976
+msgid "Terms of Service"
+msgstr "利用規約"
+
+#: backend/AddThisGlobalOptionsFeature.php:971
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: backend/AddThisWidgetByDomClass.php:491
+#: backend/AddThisGlobalOptionsFeature.php:931
+msgid "the plugin's settings"
+msgstr "プラグイン設定"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/addthis/"
+msgstr "https://wordpress.org/plugins/addthis/"
+
+#. Plugin Name of the plugin
+msgid "Share Buttons by AddThis"
+msgstr "Share Buttons by AddThis"

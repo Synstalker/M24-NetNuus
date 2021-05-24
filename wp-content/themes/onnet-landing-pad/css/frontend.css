@@ -1,0 +1,3780 @@
+@charset "UTF-8";
+/***************************
+	Breakpoints
+****************************/
+/***************************
+	Color Palettes
+****************************/
+/***************************
+	Typography
+****************************/
+/***************************
+	OnPlate Core
+****************************/
+/* line 78, ../config/_styles.scss */
+[class^="sprite"] {
+  display: block;
+}
+
+/* line 1, ../config/sprites/_styles.scss */
+.sprite-arrow_left_carousel, .sprite-arrow_right_carousel, .sprite-exit_cross_black, .sprite-exit_cross_grey, .sprite-exit_cross_white, .sprite-logo_onnet, .sprite-menu_trigger, .sprite-next_left_arrow_double_active, .sprite-next_left_arrow_double_inactive, .sprite-next_left_arrow_single_active, .sprite-next_left_arrow_single_inactive, .sprite-next_right_arrow_double_active, .sprite-next_right_arrow_double_inactive, .sprite-next_right_arrow_single_active, .sprite-next_right_arrow_single_inactive, .sprite-search_trigger, .sprite-search_trigger-hover, .sprite-social_facebook, .sprite-social_googleplus, .sprite-social_instagram, .sprite-social_pinterest, .sprite-social_twitter, .sprite-social_youtube, .sprite-tick {
+  background: url(../img/svg/sprite.svg) no-repeat;
+}
+
+/* line 5, ../config/sprites/_styles.scss */
+.sprite-arrow_left_carousel {
+  background-position: 39.66942148760331% 0;
+  width: 48px;
+  height: 109px;
+}
+
+/* line 12, ../config/sprites/_styles.scss */
+.sprite-arrow_right_carousel {
+  background-position: 0 0;
+  width: 48px;
+  height: 109px;
+}
+
+/* line 19, ../config/sprites/_styles.scss */
+.sprite-exit_cross_black {
+  background-position: 8.333333333333334% 91.59663865546219%;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 26, ../config/sprites/_styles.scss */
+.sprite-exit_cross_grey {
+  background-position: 94.23076923076923% 76.47058823529412%;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 33, ../config/sprites/_styles.scss */
+.sprite-exit_cross_white {
+  background-position: 85.8974358974359% 76.47058823529412%;
+  width: 13px;
+  height: 13px;
+}
+
+/* line 40, ../config/sprites/_styles.scss */
+.sprite-logo_onnet {
+  background-position: 100% 0;
+  width: 73px;
+  height: 23px;
+}
+
+/* line 47, ../config/sprites/_styles.scss */
+.sprite-menu_trigger {
+  background-position: 65.75342465753425% 63.06306306306306%;
+  width: 23px;
+  height: 21px;
+}
+
+/* line 54, ../config/sprites/_styles.scss */
+.sprite-next_left_arrow_double_active {
+  background-position: 98.73417721518987% 59.32203389830509%;
+  width: 11px;
+  height: 14px;
+}
+
+/* line 61, ../config/sprites/_styles.scss */
+.sprite-next_left_arrow_double_inactive {
+  background-position: 60.75949367088607% 77.11864406779661%;
+  width: 11px;
+  height: 14px;
+}
+
+/* line 68, ../config/sprites/_styles.scss */
+.sprite-next_left_arrow_single_active {
+  background-position: 66.45962732919254% 77.11864406779661%;
+  width: 8px;
+  height: 14px;
+}
+
+/* line 75, ../config/sprites/_styles.scss */
+.sprite-next_left_arrow_single_inactive {
+  background-position: 71.42857142857143% 77.11864406779661%;
+  width: 8px;
+  height: 14px;
+}
+
+/* line 82, ../config/sprites/_styles.scss */
+.sprite-next_right_arrow_double_active {
+  background-position: 77.84810126582279% 77.11864406779661%;
+  width: 11px;
+  height: 14px;
+}
+
+/* line 89, ../config/sprites/_styles.scss */
+.sprite-next_right_arrow_double_inactive {
+  background-position: 99.79113924050634% 38.13559322033898%;
+  width: 11px;
+  height: 14px;
+}
+
+/* line 96, ../config/sprites/_styles.scss */
+.sprite-next_right_arrow_single_active {
+  background-position: 86.95652173913044% 59.32203389830509%;
+  width: 8px;
+  height: 14px;
+}
+
+/* line 103, ../config/sprites/_styles.scss */
+.sprite-next_right_arrow_single_inactive {
+  background-position: 91.92546583850931% 59.32203389830509%;
+  width: 8px;
+  height: 14px;
+}
+
+/* line 110, ../config/sprites/_styles.scss */
+.sprite-search_trigger {
+  background-position: 100% 20.72072072072072%;
+  width: 21px;
+  height: 21px;
+}
+
+/* line 117, ../config/sprites/_styles.scss */
+.sprite-search_trigger-hover {
+  background-position: 80.4054054054054% 63.06306306306306%;
+  width: 21px;
+  height: 21px;
+}
+
+/* line 124, ../config/sprites/_styles.scss */
+.sprite-social_facebook {
+  background-position: 0 100%;
+  width: 13px;
+  height: 23px;
+}
+
+/* line 131, ../config/sprites/_styles.scss */
+.sprite-social_googleplus {
+  background-position: 67.6056338028169% 20.90909090909091%;
+  width: 27px;
+  height: 22px;
+}
+
+/* line 138, ../config/sprites/_styles.scss */
+.sprite-social_instagram {
+  background-position: 92.2039496318723% 41.53973968429798%;
+  width: 23.67px;
+  height: 23.67px;
+}
+
+/* line 145, ../config/sprites/_styles.scss */
+.sprite-social_pinterest {
+  background-position: 63.57615894039735% 42.05607476635514%;
+  width: 18px;
+  height: 25px;
+}
+
+/* line 152, ../config/sprites/_styles.scss */
+.sprite-social_twitter {
+  background-position: 85.41666666666667% 20.72072072072072%;
+  width: 25px;
+  height: 21px;
+}
+
+/* line 159, ../config/sprites/_styles.scss */
+.sprite-social_youtube {
+  background-position: 76.51006711409396% 41.666666666666664%;
+  width: 20px;
+  height: 24px;
+}
+
+/* line 166, ../config/sprites/_styles.scss */
+.sprite-tick {
+  background-position: 97.93167701863355% 47.58064516129032%;
+  width: 8px;
+  height: 8px;
+}
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 7, ../config/core/resets/normalize/base/_html.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 11, ../config/core/resets/normalize/base/_html.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 5, ../config/core/resets/normalize/base/_body.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 8, ../config/core/resets/normalize/html5/_blocks.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 6, ../config/core/resets/normalize/html5/_inline-blocks.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/*
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 6, ../config/core/resets/normalize/html5/_audio.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `content` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 6, ../config/core/resets/normalize/html5/_hidden.scss */
+[hidden],
+content {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 5, ../config/core/resets/normalize/links/_fix-background.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 5, ../config/core/resets/normalize/links/_fix-outline.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_abbr.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_fix-bolder.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_dfn.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 6, ../config/core/resets/normalize/text-level/_headings.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_mark.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_small.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 5, ../config/core/resets/normalize/text-level/_sub-and-sup.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 13, ../config/core/resets/normalize/text-level/_sub-and-sup.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 17, ../config/core/resets/normalize/text-level/_sub-and-sup.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 5, ../config/core/resets/normalize/embed/_img.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 8/9/10/11.
+ */
+/* line 5, ../config/core/resets/normalize/embed/_svg.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 9, ../config/core/resets/normalize/grouping/_figure.scss */
+figure {
+  margin: 0;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 5, ../config/core/resets/normalize/grouping/_hr.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 5, ../config/core/resets/normalize/grouping/_pre.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 5, ../config/core/resets/normalize/grouping/_fix-monospace.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 8, ../config/core/resets/normalize/forms/_fix-font.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 5, ../config/core/resets/normalize/forms/_fix-overflow.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 8, ../config/core/resets/normalize/forms/_fix-text-transform.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 9, ../config/core/resets/normalize/forms/_buttons.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.button, .button--active, .button--inverted, .button--inactive {
+  display: block;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.button--active {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  text-align: center;
+  border-radius: 0;
+  padding: 12px;
+  padding: 0.75rem;
+  color: #fff;
+  background: #c30b00;
+  border: 2px solid #c30b00;
+}
+@media screen and (min-width: 1000px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .button--active {
+    padding: 0.5rem;
+  }
+}
+/* line 30, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--active:hover {
+  cursor: not-allowed;
+  text-decoration: none;
+}
+/* line 40, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--active:hover {
+  cursor: pointer;
+  color: #fff;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.button--inverted {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  text-align: center;
+  border-radius: 0;
+  padding: 12px;
+  padding: 0.75rem;
+  color: #fff;
+  background: #c30b00;
+  border: 2px solid #c30b00;
+  color: #c30b00;
+  background: #fff;
+  border: 2px solid #fff;
+}
+@media screen and (min-width: 1000px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .button--inverted {
+    padding: 0.5rem;
+  }
+}
+/* line 30, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--inverted:hover {
+  cursor: not-allowed;
+  text-decoration: none;
+}
+/* line 40, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--inverted:hover {
+  cursor: pointer;
+  color: #fff;
+}
+/* line 51, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--inverted:hover {
+  cursor: pointer;
+  color: #fff;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.button--inactive {
+  display: inline-block;
+  text-transform: uppercase;
+  border: 2px solid #ccc;
+  text-align: center;
+  border-radius: 0;
+  padding: 12px;
+  padding: 0.75rem;
+}
+@media screen and (min-width: 1000px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .button--inactive {
+    padding: 0.5rem;
+  }
+}
+/* line 30, ../config/core/resets/normalize/forms/_buttons.scss */
+.button--inactive:hover {
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 5, ../config/core/resets/normalize/forms/_disabled.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 5, ../config/core/resets/normalize/forms/_fix-focus-inner.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 6, ../config/core/resets/normalize/forms/_fix-line-height.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 9, ../config/core/resets/normalize/forms/_checkbox-and-radio.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 7, ../config/core/resets/normalize/forms/_number.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 7, ../config/core/resets/normalize/forms/_search.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 20, ../config/core/resets/normalize/forms/_search.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 5, ../config/core/resets/normalize/forms/_fieldset.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 6, ../config/core/resets/normalize/forms/_legend.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 5, ../config/core/resets/normalize/forms/_textarea.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 6, ../config/core/resets/normalize/forms/_optgroup.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 5, ../config/core/resets/normalize/tables/_fix-cell-spacing.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 10, ../config/core/resets/normalize/tables/_fix-cell-spacing.scss */
+th,
+td {
+  padding: 0;
+}
+
+/* line 11, ../config/core/resets/forms/_styles.scss */
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+/* line 15, ../config/core/resets/forms/_styles.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0;
+}
+
+/* line 63, ../config/core/resets/forms/_styles.scss */
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  line-height: 1 !important;
+}
+
+/* line 78, ../config/core/resets/forms/_styles.scss */
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  background: none;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  vertical-align: top;
+  font-size: 13px;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+  -webkit-appearance: none;
+  background-clip: padding-box;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+/* line 125, ../config/core/resets/forms/_styles.scss */
+textarea::-webkit-outer-spin-button, textarea::-webkit-inner-spin-button,
+select::-webkit-outer-spin-button,
+select::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="datetime"]::-webkit-outer-spin-button,
+input[type="datetime"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-outer-spin-button,
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="email"]::-webkit-outer-spin-button,
+input[type="email"]::-webkit-inner-spin-button,
+input[type="month"]::-webkit-outer-spin-button,
+input[type="month"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-outer-spin-button,
+input[type="password"]::-webkit-inner-spin-button,
+input[type="search"]::-webkit-outer-spin-button,
+input[type="search"]::-webkit-inner-spin-button,
+input[type="tel"]::-webkit-outer-spin-button,
+input[type="tel"]::-webkit-inner-spin-button,
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-outer-spin-button,
+input[type="time"]::-webkit-inner-spin-button,
+input[type="url"]::-webkit-outer-spin-button,
+input[type="url"]::-webkit-inner-spin-button,
+input[type="week"]::-webkit-outer-spin-button,
+input[type="week"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* line 131, ../config/core/resets/forms/_styles.scss */
+button[disabled],
+input[disabled],
+select[disabled],
+select[disabled] option,
+select[disabled] optgroup,
+textarea[disabled] {
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  cursor: default;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1);
+  opacity: 1;
+}
+
+/* line 148, ../config/core/resets/forms/_styles.scss */
+textarea {
+  min-height: 50px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+}
+
+/* line 155, ../config/core/resets/forms/_styles.scss */
+optgroup {
+  font-style: normal;
+  font-weight: normal;
+  font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+/* line 164, ../config/core/resets/forms/_styles.scss */
+select::-ms-expand {
+  display: none;
+}
+
+@-moz-document url-prefix() {
+  /* line 178, ../config/core/resets/forms/_styles.scss */
+  input:invalid,
+  button:invalid,
+  select:invalid,
+  textarea:invalid {
+    box-shadow: none;
+  }
+  /* line 186, ../config/core/resets/forms/_styles.scss */
+  input::-moz-focus-inner,
+  button::-moz-focus-inner,
+  select::-moz-focus-inner,
+  textarea::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+  /* line 193, ../config/core/resets/forms/_styles.scss */
+  select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: "";
+  }
+}
+/* line 4, ../config/core/resets/forms/select/_styles.scss */
+select,
+select[size="0"],
+select[size="1"] {
+  background-image: image-url("select-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+@media (-webkit-min-device-pixel-ratio: 0) {
+  /* line 4, ../config/core/resets/forms/select/_styles.scss */
+  select,
+  select[size="0"],
+  select[size="1"] {
+    padding-right: 30px;
+  }
+}
+
+/* line 18, ../config/core/resets/forms/select/_styles.scss */
+select[size],
+select[multiple] {
+  background-image: none;
+}
+
+/* line 8, ../config/core/resets/_styles.scss */
+html, body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+@media screen and (min-width: 1000px) {
+  /* line 8, ../config/core/resets/_styles.scss */
+  html, body {
+    overflow-x: visible;
+    height: 100%;
+    background: #eeeeee;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* line 24, ../config/core/resets/_styles.scss */
+a {
+  text-decoration: none;
+  color: #222;
+}
+/* line 28, ../config/core/resets/_styles.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 32, ../config/core/resets/_styles.scss */
+a:visited {
+  text-decoration: none;
+}
+/* line 36, ../config/core/resets/_styles.scss */
+article a {
+  text-decoration: underline;
+}
+
+/* line 41, ../config/core/resets/_styles.scss */
+input {
+  border-radius: 0;
+}
+
+/* line 45, ../config/core/resets/_styles.scss */
+iframe {
+  border: 0;
+}
+
+/* line 50, ../config/core/resets/_styles.scss */
+.preload * {
+  -webkit-transition: none !important;
+          transition: none !important;
+}
+
+/* line 2, ../config/core/placeholders/_styles.scss */
+.header:after, .notification:after, .siteContainer [role="main"]:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 18, ../config/core/placeholders/_styles.scss */
+.footer, .siteContainer__content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* line 26, ../config/core/placeholders/_styles.scss */
+.breadcrumbs ul, .search ul, .socialLinks__body ul, .navigation ul, .navigation--primary ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 31, ../config/core/placeholders/_styles.scss */
+.breadcrumbs li, .search li, .socialLinks__body li, .navigation li, .navigation--primary li {
+  list-style-type: none;
+}
+/* line 35, ../config/core/placeholders/_styles.scss */
+.breadcrumbs a, .search a, .socialLinks__body a, .navigation a, .navigation--primary a {
+  text-decoration: none;
+}
+
+/* line 2, ../config/core/typography/_styles.scss */
+body {
+  color: #222;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* line 10, ../config/core/typography/_styles.scss */
+p {
+  line-height: 1;
+  margin: auto;
+  letter-spacing: 0px;
+  letter-spacing: 0.015rem;
+  line-height: 1.6;
+}
+/* line 16, ../config/core/typography/_styles.scss */
+article p {
+  line-height: 1.5;
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+/* line 20, ../config/core/typography/_styles.scss */
+article p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 26, ../config/core/typography/_styles.scss */
+.modal__title {
+  line-height: 1;
+  font-size: 17px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h1, .h1 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 31px;
+  font-size: 1.95313rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h1, article .h1 {
+  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h2, .h2 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 25px;
+  font-size: 1.5625rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h2, article .h2 {
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h3, .h3 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h3, article .h3 {
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h4, .modal__title h1, .h4 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h4, article .modal__title h1, .modal__title article h1, article .h4 {
+  margin-bottom: 12px;
+  margin-bottom: 0.8rem;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h5, .h5 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 12px;
+  font-size: 0.8rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h5, article .h5 {
+  margin-bottom: 10px;
+  margin-bottom: 0.64rem;
+}
+
+/* line 39, ../config/core/typography/_styles.scss */
+h6, .h6 {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+     -moz-font-feature-settings: "kern";
+          font-feature-settings: "kern";
+  margin: 0;
+  display: block;
+  line-height: 1.1;
+  letter-spacing: 0px;
+  letter-spacing: 0.025rem;
+  font-weight: 300;
+  color: #222;
+  font-size: 10px;
+  font-size: 0.64rem;
+}
+/* line 51, ../config/core/typography/_styles.scss */
+article h6, article .h6 {
+  margin-bottom: 8px;
+  margin-bottom: 0.512rem;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.enterCompetition {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #CCC;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.enterCompetition__head {
+  text-align: left;
+  margin-bottom: 40px;
+  padding: 0px 20px;
+}
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__head h2 {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.enterCompetition__form, .enterCompetition__form--bottom, .enterCompetition__form--left, .enterCompetition__form--right {
+  display: block;
+  max-width: 100%;
+  text-align: left;
+}
+/* line 21, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form div, .enterCompetition__form--bottom div, .enterCompetition__form--left div, .enterCompetition__form--right div {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: left;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 620px) {
+  /* line 21, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+  .enterCompetition__form div, .enterCompetition__form--bottom div, .enterCompetition__form--left div, .enterCompetition__form--right div {
+    width: 49%;
+  }
+}
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form p, .enterCompetition__form--bottom p, .enterCompetition__form--left p, .enterCompetition__form--right p {
+  margin-bottom: 14px;
+}
+/* line 40, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form input, .enterCompetition__form--bottom input, .enterCompetition__form--left input, .enterCompetition__form--right input, .enterCompetition__form textarea, .enterCompetition__form--bottom textarea, .enterCompetition__form--left textarea, .enterCompetition__form--right textarea {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #f4f4f4;
+  border: none;
+}
+/* line 48, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form input, .enterCompetition__form--bottom input, .enterCompetition__form--left input, .enterCompetition__form--right input {
+  margin-bottom: 30px;
+}
+/* line 50, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form input[type=submit], .enterCompetition__form--bottom input[type=submit], .enterCompetition__form--left input[type=submit], .enterCompetition__form--right input[type=submit] {
+  border: 1px solid #000;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 55, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form input[type=submit]:hover, .enterCompetition__form--bottom input[type=submit]:hover, .enterCompetition__form--left input[type=submit]:hover, .enterCompetition__form--right input[type=submit]:hover {
+  background: #c30b00;
+  color: #FFF;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.enterCompetition__form--bottom {
+  display: block;
+  width: 100% !important;
+  text-align: center;
+}
+@media screen and (min-width: 620px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .enterCompetition__form--bottom {
+    width: 100% !important;
+  }
+}
+/* line 71, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/EnterCompetition/scss/_style.scss */
+.enterCompetition__form textarea, .enterCompetition__form--bottom textarea, .enterCompetition__form--left textarea, .enterCompetition__form--right textarea {
+  height: 100px;
+}
+
+/* line 1, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article {
+  padding: 20px;
+  overflow: hidden;
+}
+/* line 5, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article img {
+  float: left;
+  margin: 0px 20px 20px 0px;
+  max-width: 100%;
+}
+/* line 11, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article h1 {
+  font-weight: 600;
+}
+/* line 15, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article .aligncenter {
+  float: none;
+}
+/* line 19, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article .alignright {
+  float: right;
+}
+/* line 23, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article .alignleft {
+  float: left;
+}
+/* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article table th {
+  background: #CCC;
+}
+/* line 31, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article table tr:nth-child(2n) {
+  background: #EEE;
+}
+/* line 35, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article table th, article table td {
+  border: 1px solid #BBB;
+  padding: 5px;
+}
+/* line 41, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/article/scss/_style.scss */
+article blockquote {
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.breadcrumbs {
+  border: 1px solid #f60e00;
+  line-height: 1;
+  padding: 16px;
+  padding: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 620px) {
+  /* line 3, ../config/core/mixins/_styles.scss */
+  .breadcrumbs {
+    padding: 1rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 3, ../config/core/mixins/_styles.scss */
+  .breadcrumbs {
+    padding: 0.5rem;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.breadcrumbs__wrapper {
+  padding: 0 16px;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .breadcrumbs__wrapper {
+    padding: 0;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.breadcrumbs__item {
+  display: none;
+}
+/* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+.breadcrumbs__item:after {
+  content: '/';
+  padding: 0 0.25em 0 0.5em;
+  color: #999;
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .breadcrumbs__item {
+    display: inline-block;
+  }
+}
+/* line 39, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+.breadcrumbs__item:nth-last-of-type(2) {
+  display: inline-block;
+}
+@media screen and (min-width: 620px) {
+  /* line 39, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+  .breadcrumbs__item:nth-last-of-type(2) {
+    font-weight: 300;
+  }
+}
+/* line 46, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+.breadcrumbs__item:nth-last-of-type(2):after {
+  content: '';
+  display: inline-block;
+}
+@media screen and (min-width: 620px) {
+  /* line 46, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+  .breadcrumbs__item:nth-last-of-type(2):after {
+    content: '/';
+  }
+}
+/* line 55, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+.breadcrumbs__item:nth-last-of-type(2):before {
+  content: '←';
+  color: #999;
+}
+@media screen and (min-width: 620px) {
+  /* line 55, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+  .breadcrumbs__item:nth-last-of-type(2):before {
+    content: ' ';
+  }
+}
+/* line 66, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+.breadcrumbs__item:nth-last-of-type(1) {
+  font-weight: 700;
+}
+@media screen and (min-width: 620px) {
+  /* line 69, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/breadcrumbs/scss/_styles.scss */
+  .breadcrumbs__item:nth-last-of-type(1):after {
+    content: '';
+    display: inline-block;
+  }
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.carousel {
+  clear: both;
+  margin-top: 10px;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.carousel__slide {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (min-width: 450px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .carousel__slide {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .carousel__slide {
+    width: 25%;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.carousel__slide__body {
+  border: 1px solid #CCC;
+  min-height: 300px;
+}
+/* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.carousel__slide__body a {
+  display: block;
+}
+/* line 30, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.carousel__slide__body a:hover {
+  text-decoration: none;
+  background: rgba(242, 242, 242, 0.1);
+}
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.carousel__slide__body img {
+  width: 100%;
+  height: auto;
+}
+/* line 40, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.carousel__slide__body h3 {
+  padding: 20px 10px 10px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  font-size: 1rem;
+}
+/* line 46, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.carousel__slide__body p {
+  line-height: 1.4;
+  padding: 10px 10px 20px 10px;
+  font-size: 12px;
+  font-size: 0.8rem;
+}
+
+/* line 61, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.bx-controls .bx-controls-direction a {
+  display: inline-block;
+  position: absolute;
+  margin-top: -200px;
+  height: 112px;
+  width: 50px;
+}
+/* line 69, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.bx-controls .bx-controls-direction .bx-prev {
+  left: 0px;
+}
+/* line 73, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/carousel/scss/_style.scss */
+.bx-controls .bx-controls-direction .bx-next {
+  right: 0px;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.closeDownMessage {
+  padding: 40px;
+  background: #ccc;
+  background-image: url(../img/jpg/blurry_bg.jpg);
+  background-size: cover;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.closeDownMessage__body {
+  background: rgba(255, 255, 255, 0.9);
+}
+/* line 8, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/closeDownMessage/scss/_style.scss */
+.closeDownMessage__body p {
+  padding: 40px 40px 40px 40px;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.contactUs {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #CCC;
+  text-align: center;
+  padding-bottom: 20px;
+}
+/* line 12, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/contactUs/scss/_style.scss */
+.contactUs__head h2 {
+  display: inline-block;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+/* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/contactUs/scss/_style.scss */
+.contactUs__body div {
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+}
+/* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/contactUs/scss/_style.scss */
+.contactUs__body h3 {
+  margin: 10px 20px 10px 20px;
+  font-weight: 600;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.continueDiscussion {
+  background: #f4f4f4;
+  padding: 40px;
+  clear: both;
+  margin-bottom: 3px;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.continueDiscussion__img {
+  display: inline-block;
+  max-width: 300px;
+}
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/continueDiscussion/scss/_style.scss */
+.continueDiscussion__img img {
+  width: 100%;
+  height: auto;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.continueDiscussion__body {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .continueDiscussion__body {
+    max-width: calc(100% - 345px);
+    margin-left: 40px;
+  }
+}
+/* line 24, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/continueDiscussion/scss/_style.scss */
+.continueDiscussion__body h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+/* line 29, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/continueDiscussion/scss/_style.scss */
+.continueDiscussion__body p {
+  line-height: 1.6;
+}
+/* line 33, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/continueDiscussion/scss/_style.scss */
+.continueDiscussion__body a {
+  text-decoration: none;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.footer {
+  position: relative;
+  z-index: 2;
+  color: #1abddc;
+  background: #FFF;
+  text-align: center;
+  min-height: 32px;
+  min-height: 2rem;
+  line-height: 32px;
+  line-height: 2rem;
+  margin-top: 0px;
+  padding-bottom: 15px;
+}
+/* line 15, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/footer/scss/_styles.scss */
+.footer a {
+  display: inline-block;
+  width: 80px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.getInTouch {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #CCC;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.getInTouch__head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__head h2 {
+  display: inline-block;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.getInTouch__form, .getInTouch__form--left, .getInTouch__form--right {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+/* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form div, .getInTouch__form--left div, .getInTouch__form--right div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 620px) {
+  /* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+  .getInTouch__form div, .getInTouch__form--left div, .getInTouch__form--right div {
+    padding: 0px 40px;
+  }
+}
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form p, .getInTouch__form--left p, .getInTouch__form--right p {
+  margin-bottom: 25px;
+}
+/* line 40, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form input, .getInTouch__form--left input, .getInTouch__form--right input, .getInTouch__form textarea, .getInTouch__form--left textarea, .getInTouch__form--right textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #f4f4f4;
+  border: none;
+}
+/* line 48, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form input, .getInTouch__form--left input, .getInTouch__form--right input {
+  margin-bottom: 30px;
+}
+/* line 50, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form input[type=submit], .getInTouch__form--left input[type=submit], .getInTouch__form--right input[type=submit] {
+  border: 1px solid #000;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 55, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form input[type=submit]:hover, .getInTouch__form--left input[type=submit]:hover, .getInTouch__form--right input[type=submit]:hover {
+  background: #c30b00;
+  color: #FFF;
+}
+/* line 62, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form textarea, .getInTouch__form--left textarea, .getInTouch__form--right textarea {
+  height: 100px;
+}
+@media screen and (min-width: 620px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .getInTouch__form--left {
+    width: 49%;
+  }
+}
+@media screen and (min-width: 620px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .getInTouch__form--right {
+    width: 49%;
+  }
+}
+/* line 78, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .gform_wrapper, .getInTouch__form--left .gform_wrapper, .getInTouch__form--right .gform_wrapper {
+  padding: 0px;
+}
+/* line 82, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .gform_wrapper .gform_body, .getInTouch__form--left .gform_wrapper .gform_body, .getInTouch__form--right .gform_wrapper .gform_body {
+  padding: 0px;
+  width: 100%;
+}
+/* line 87, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form ul.gform_fields, .getInTouch__form--left ul.gform_fields, .getInTouch__form--right ul.gform_fields {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+/* line 93, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form ul.gform_fields .ginput_container, .getInTouch__form--left ul.gform_fields .ginput_container, .getInTouch__form--right ul.gform_fields .ginput_container {
+  width: auto;
+  padding: 0px;
+  width: 100%;
+  margin: 0px;
+}
+/* line 100, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .gform_footer, .getInTouch__form--left .gform_footer, .getInTouch__form--right .gform_footer {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+/* line 106, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .validation_message, .getInTouch__form--left .validation_message, .getInTouch__form--right .validation_message {
+  padding: 0px;
+  color: #CB0303;
+}
+/* line 111, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .validation_error, .getInTouch__form--left .validation_error, .getInTouch__form--right .validation_error {
+  padding: 0px;
+  color: #CB0303;
+}
+/* line 116, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .gform_confirmation_wrapper, .getInTouch__form--left .gform_confirmation_wrapper, .getInTouch__form--right .gform_confirmation_wrapper {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 121, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getInTouch/scss/_style.scss */
+.getInTouch__form .gform_confirmation_message, .getInTouch__form--left .gform_confirmation_message, .getInTouch__form--right .gform_confirmation_message {
+  padding: 10px;
+  margin: 0px;
+  color: #fff;
+  background: #62A939;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.getLatestMag, .getLatestMag--greytint {
+  min-height: 280px;
+  background-color: #e9dfdc;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#e9dfdc));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #FFF, #e9dfdc);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  /* FF3.6 */
+  /* IE10 */
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #FFF, #e9dfdc);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFF', EndColorStr='#e9dfdc');
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.getLatestMag--greytint {
+  background-color: #f4f4f4;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#f4f4f4));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #FFF, #f4f4f4);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  /* FF3.6 */
+  /* IE10 */
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #FFF, #f4f4f4);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#FFF', EndColorStr='#f4f4f4');
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.getLatestMag__magimg {
+  display: inline-block;
+  max-width: 100%;
+  margin-left: 40px;
+  overflow: hidden;
+  position: static;
+  bottom: 0px;
+  vertical-align: bottom;
+  margin-top: calc(280px - 230px);
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .getLatestMag__magimg {
+    max-width: 100%;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.getLatestMag__body {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  margin-top: calc(280px - 230px);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .getLatestMag__body {
+    -webkit-transition: all 2s;
+            transition: all 2s;
+    max-width: calc(100% - 340px);
+    margin-top: calc(280px - 230px);
+    margin-right: 0px;
+  }
+}
+/* line 47, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getLatestMag/scss/_style.scss */
+.getLatestMag__body h2 {
+  font-weight: 600;
+}
+/* line 50, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getLatestMag/scss/_style.scss */
+.getLatestMag__body p {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #CCC;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+/* line 58, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getLatestMag/scss/_style.scss */
+.getLatestMag__body a {
+  display: block;
+  border: 1px solid #000;
+  padding: 5px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 65, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/getLatestMag/scss/_style.scss */
+.getLatestMag__body a:hover {
+  text-decoration: none;
+  background: #c30b00;
+  color: #FFF;
+}
+
+/* line 1, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+.header__menuTrigger, .header__searchTrigger {
+  display: table-cell;
+  vertical-align: middle;
+  width: 48px;
+  width: 3rem;
+}
+/* line 6, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+.header__menuTrigger span, .header__searchTrigger span {
+  margin: 0 auto;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.header {
+  background: #fff;
+  line-height: 1;
+}
+/* line 16, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+.header a {
+  display: inline-block;
+  line-height: 0;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.header__topbar {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.header__logo {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px;
+  padding: 0.5rem;
+}
+/* line 34, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+.header__logo img {
+  width: 112px;
+}
+@media screen and (min-width: 1000px) {
+  /* line 34, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+  .header__logo img {
+    width: 170px;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.header__menuTrigger {
+  border-right: 1px solid #f60e00;
+}
+@media screen and (min-width: 1000px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .header__menuTrigger {
+    display: none;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.header__searchTrigger {
+  border-left: 1px solid #f60e00;
+}
+/* line 56, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/header/scss/_styles.scss */
+.header__searchTrigger:hover {
+  background: #f60e00;
+  cursor: pointer;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.magazineLogo, .magazineLogo--black {
+  background: #FFF;
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+}
+/* line 5, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogo/scss/_style.scss */
+.magazineLogo img, .magazineLogo--black img {
+  display: block;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid #c30b00;
+  padding: 0px 0px 10px 0px;
+}
+/* line 12, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogo/scss/_style.scss */
+.magazineLogo span, .magazineLogo--black span {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.magazineLogo--black {
+  background: #000;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.magazineLogoFooter, .magazineLogoFooter--black {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 15px 5px 15px 5px;
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.magazineLogoFooter--black {
+  background: #000;
+}
+/* line 12, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogoFooter/scss/_style.scss */
+.magazineLogoFooter__menu ul {
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px 0px 5px 0;
+}
+/* line 19, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogoFooter/scss/_style.scss */
+.magazineLogoFooter__menu ul li {
+  float: left;
+  margin-right: 10px;
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+/* line 26, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogoFooter/scss/_style.scss */
+.magazineLogoFooter__menu ul li:first-child {
+  border-left: 0;
+}
+/* line 30, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/magazineLogoFooter/scss/_style.scss */
+.magazineLogoFooter__menu ul li:last-child {
+  margin-right: 0px;
+}
+
+/* Magnific Popup CSS */
+/* line 2, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 14, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 24, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 42, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-align-top .mfp-container:before {
+  display: none;
+}
+
+/* line 45, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+/* line 53, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 57, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ajax-cur {
+  cursor: progress;
+}
+
+/* line 60, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+/* line 65, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+/* line 71, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-auto-cursor .mfp-content {
+  cursor: auto;
+}
+
+/* line 74, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+/* line 79, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-loading.mfp-figure {
+  display: none;
+}
+
+/* line 82, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-hide {
+  display: none !important;
+}
+
+/* line 85, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044;
+}
+
+/* line 95, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader a {
+  color: #CCC;
+}
+
+/* line 97, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader a:hover {
+  color: #FFF;
+}
+
+/* line 100, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-s-ready .mfp-preloader {
+  display: none;
+}
+
+/* line 103, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-s-error .mfp-content {
+  display: none;
+}
+
+/* line 106, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+button.mfp-close, button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+}
+
+/* line 118, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 122, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace;
+}
+
+/* line 138, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close:hover, .mfp-close:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 141, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close:active {
+  top: 1px;
+}
+
+/* line 144, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close-btn-in .mfp-close {
+  color: #333;
+}
+
+/* line 147, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%;
+}
+
+/* line 154, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+/* line 163, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 174, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:active {
+  margin-top: -54px;
+}
+
+/* line 176, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:hover, .mfp-arrow:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 179, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: medium inset transparent;
+}
+
+/* line 190, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:after, .mfp-arrow .mfp-a {
+  border-top-width: 13px;
+  border-bottom-width: 13px;
+  top: 8px;
+}
+
+/* line 194, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:before, .mfp-arrow .mfp-b {
+  border-top-width: 21px;
+  border-bottom-width: 21px;
+  opacity: 0.7;
+}
+
+/* line 199, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left {
+  left: 0;
+}
+
+/* line 201, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
+  border-right: 17px solid #FFF;
+  margin-left: 31px;
+}
+
+/* line 204, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+  margin-left: 25px;
+  border-right: 27px solid #3F3F3F;
+}
+
+/* line 208, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right {
+  right: 0;
+}
+
+/* line 210, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
+  border-left: 17px solid #FFF;
+  margin-left: 39px;
+}
+
+/* line 213, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+  border-left: 27px solid #3F3F3F;
+}
+
+/* line 216, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 219, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* line 223, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder .mfp-close {
+  top: -40px;
+}
+
+/* line 226, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 231, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #000;
+}
+
+/* Main image in popup */
+/* line 242, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
+
+/* The shadow behind the image */
+/* line 255, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure {
+  line-height: 0;
+}
+
+/* line 257, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #444;
+}
+
+/* line 270, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure small {
+  color: #BDBDBD;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 275, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure figure {
+  margin: 0;
+}
+
+/* line 278, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 286, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px;
+}
+
+/* line 293, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-image-holder .mfp-content {
+  max-width: 100%;
+}
+
+/* line 296, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  /* line 303, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 306, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+
+  /* line 308, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+
+  /* line 311, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  /* line 314, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box;
+  }
+
+  /* line 324, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+
+  /* line 326, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+
+  /* line 329, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+}
+@media all and (max-width: 900px) {
+  /* line 342, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+        transform: scale(0.75);
+  }
+
+  /* line 346, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+        transform-origin: 0;
+  }
+
+  /* line 350, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    -ms-transform-origin: 100%;
+        transform-origin: 100%;
+  }
+
+  /* line 354, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+/* line 359, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-img {
+  padding: 0;
+}
+
+/* line 361, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-bottom-bar {
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 367, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-container {
+  padding: 0;
+}
+
+/* line 369, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-content {
+  padding-top: 44px;
+}
+
+/* line 371, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-close {
+  top: 0;
+  right: 0;
+  padding-top: 0;
+}
+
+ /**
+* Fade-zoom animation for first dialog
+*/
+/* start state */
+/* line 381, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in .modal {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+/* animate in */
+/* line 399, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-ready .modal {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* animate out */
+/* line 410, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-removing .modal {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+/* line 421, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+/* animate in */
+/* line 429, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+/* animate out */
+/* line 433, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.modal {
+  display: block;
+  background: #fff;
+  padding: 0 16px;
+  padding: 0 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 620px) {
+  /* line 3, ../config/core/mixins/_styles.scss */
+  .modal {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 3, ../config/core/mixins/_styles.scss */
+  .modal {
+    width: 45%;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.modal__header {
+  display: table;
+  width: 100%;
+  border-bottom: 2px solid #f60e00;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.modal__title {
+  text-align: left;
+  width: 100%;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.modal__body {
+  padding: 8px 0;
+  padding: 0.5rem 0;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.modal__close {
+  padding: 16px 0 16px 16px;
+  padding: 1rem 0 1rem 1rem;
+}
+/* line 43, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/_styles.scss */
+.modal__close:hover {
+  cursor: pointer;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.modal__footer {
+  text-align: center;
+  border-top: 2px solid #f60e00;
+  padding: 16px 0;
+  padding: 1rem 0;
+}
+/* line 53, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/_styles.scss */
+.modal__footer button {
+  display: inline-block;
+}
+
+/* Magnific Popup CSS */
+/* line 2, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+/* line 14, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 24, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 42, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-align-top .mfp-container:before {
+  display: none;
+}
+
+/* line 45, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+/* line 53, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 57, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ajax-cur {
+  cursor: progress;
+}
+
+/* line 60, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+/* line 65, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+/* line 71, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-auto-cursor .mfp-content {
+  cursor: auto;
+}
+
+/* line 74, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+/* line 79, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-loading.mfp-figure {
+  display: none;
+}
+
+/* line 82, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-hide {
+  display: none !important;
+}
+
+/* line 85, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044;
+}
+
+/* line 95, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader a {
+  color: #CCC;
+}
+
+/* line 97, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-preloader a:hover {
+  color: #FFF;
+}
+
+/* line 100, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-s-ready .mfp-preloader {
+  display: none;
+}
+
+/* line 103, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-s-error .mfp-content {
+  display: none;
+}
+
+/* line 106, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+button.mfp-close, button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+}
+
+/* line 118, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 122, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace;
+}
+
+/* line 138, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close:hover, .mfp-close:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 141, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close:active {
+  top: 1px;
+}
+
+/* line 144, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-close-btn-in .mfp-close {
+  color: #333;
+}
+
+/* line 147, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%;
+}
+
+/* line 154, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+/* line 163, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 174, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:active {
+  margin-top: -54px;
+}
+
+/* line 176, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:hover, .mfp-arrow:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 179, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: medium inset transparent;
+}
+
+/* line 190, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:after, .mfp-arrow .mfp-a {
+  border-top-width: 13px;
+  border-bottom-width: 13px;
+  top: 8px;
+}
+
+/* line 194, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow:before, .mfp-arrow .mfp-b {
+  border-top-width: 21px;
+  border-bottom-width: 21px;
+  opacity: 0.7;
+}
+
+/* line 199, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left {
+  left: 0;
+}
+
+/* line 201, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
+  border-right: 17px solid #FFF;
+  margin-left: 31px;
+}
+
+/* line 204, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+  margin-left: 25px;
+  border-right: 27px solid #3F3F3F;
+}
+
+/* line 208, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right {
+  right: 0;
+}
+
+/* line 210, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
+  border-left: 17px solid #FFF;
+  margin-left: 39px;
+}
+
+/* line 213, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+  border-left: 27px solid #3F3F3F;
+}
+
+/* line 216, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 219, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* line 223, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-holder .mfp-close {
+  top: -40px;
+}
+
+/* line 226, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 231, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #000;
+}
+
+/* Main image in popup */
+/* line 242, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
+
+/* The shadow behind the image */
+/* line 255, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure {
+  line-height: 0;
+}
+
+/* line 257, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #444;
+}
+
+/* line 270, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure small {
+  color: #BDBDBD;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 275, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-figure figure {
+  margin: 0;
+}
+
+/* line 278, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 286, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px;
+}
+
+/* line 293, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-image-holder .mfp-content {
+  max-width: 100%;
+}
+
+/* line 296, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  /* line 303, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 306, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+
+  /* line 308, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+
+  /* line 311, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  /* line 314, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box;
+  }
+
+  /* line 324, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+
+  /* line 326, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+
+  /* line 329, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+}
+@media all and (max-width: 900px) {
+  /* line 342, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+        transform: scale(0.75);
+  }
+
+  /* line 346, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+        transform-origin: 0;
+  }
+
+  /* line 350, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    -ms-transform-origin: 100%;
+        transform-origin: 100%;
+  }
+
+  /* line 354, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+/* line 359, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-img {
+  padding: 0;
+}
+
+/* line 361, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-bottom-bar {
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 367, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-container {
+  padding: 0;
+}
+
+/* line 369, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-content {
+  padding-top: 44px;
+}
+
+/* line 371, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.mfp-ie7 .mfp-close {
+  top: 0;
+  right: 0;
+  padding-top: 0;
+}
+
+ /**
+* Fade-zoom animation for first dialog
+*/
+/* start state */
+/* line 381, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in .modal {
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+/* animate in */
+/* line 399, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-ready .modal {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* animate out */
+/* line 410, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-removing .modal {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+/* Dark overlay, start state */
+/* line 421, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-bg {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+
+/* animate in */
+/* line 429, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+  opacity: 0.8;
+}
+
+/* animate out */
+/* line 433, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/modal/scss/vendor/_styles.scss */
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+  opacity: 0;
+}
+
+/* line 1, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/notification/scss/_styles.scss */
+.modal__title, .modal__close, .notification__msg, .notification__close {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.notification {
+  position: fixed;
+  width: 100%;
+  color: #fff;
+  background: #c30b00;
+  line-height: 1;
+  z-index: 2;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
+}
+/* line 20, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/notification/scss/_styles.scss */
+.notification.active {
+  overflow: visible;
+  max-height: 160px;
+  max-height: 10rem;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.notification__msg {
+  color: #fff;
+  width: 100%;
+  font-size: 14px;
+  font-size: .9rem;
+  padding-left: 46px;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.notification__close {
+  padding: 17px;
+  padding: 1.1rem;
+  border-left: 1px solid #900800;
+}
+/* line 38, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/notification/scss/_styles.scss */
+.notification__close:hover {
+  cursor: pointer;
+  background: #f60e00;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.search {
+  max-height: 0;
+  overflow: hidden;
+  background: #eeeeee;
+  -webkit-transition: 0.4s ease;
+          transition: 0.4s ease;
+}
+/* line 8, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/search/global/scss/_styles.scss */
+.search.active {
+  max-height: 64px;
+  max-height: 4rem;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.search__wrapper {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  padding: 8px;
+  padding: 0.5rem;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.search__input {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 23, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/search/global/scss/_styles.scss */
+.search__input input[type="search"] {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 8px;
+  padding: 0 0.5rem;
+  font-size: 17px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.search__submit {
+  display: table-cell;
+  vertical-align: middle;
+  width: 84px;
+  text-align: center;
+}
+@media screen and (min-width: 1000px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .search__submit {
+    width: 76px;
+  }
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.siteContainer {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  min-height: 100%;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  background: #eeeeee;
+}
+/* line 10, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer.active {
+  -webkit-transform: translate(12rem, 0);
+      -ms-transform: translate(12rem, 0);
+          transform: translate(12rem, 0);
+  -webkit-backface-visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+@media screen and (min-width: 1000px) {
+  /* line 10, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+  .siteContainer.active {
+    -webkit-transform: translate(0, 0, 0);
+        -ms-transform: translate(0, 0, 0);
+            transform: translate(0, 0, 0);
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.siteContainer__content {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+@media screen and (min-width: 1000px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .siteContainer__content {
+    min-height: 100%;
+    margin-bottom: -24px;
+  }
+  /* line 35, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+  .siteContainer__content:after {
+    content: "";
+    display: block;
+    height: 24px;
+  }
+}
+/* line 48, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .gform_wrapper {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #CCC;
+}
+/* line 54, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .gform_description {
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  font-feature-settings: "kern";
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: 0;
+  letter-spacing: 0px;
+  letter-spacing: .025rem;
+  color: #222;
+  font-size: 25px;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  display: inline-block;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+/* line 71, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article ul.gform_fields {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 77, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article ul.gform_fields li {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 83, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article ul.gform_fields li .ginput_container input {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  background: #f4f4f4;
+  border: none;
+}
+/* line 91, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article ul.gform_fields li:nth-child(odd) {
+  margin: 0 2% 2% 0;
+}
+/* line 95, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .gform_button {
+  border: 1px solid #000;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  padding: 20px 0;
+}
+/* line 104, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .gform_button:hover {
+  background: #c30b00;
+  color: #FFF;
+}
+/* line 109, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .validation_message {
+  padding: 0px;
+  color: #CB0303;
+  margin: 5px 0 5px 0;
+}
+/* line 115, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .validation_error {
+  padding: 0px;
+  color: #CB0303;
+  margin-bottom: 20px;
+}
+/* line 121, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer__content article .gform_confirmation_message {
+  padding: 10px;
+  margin: 0px;
+  color: #fff;
+  background: #62A939;
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 132, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+.siteContainer [role="main"] {
+  background: #fff;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 620px) {
+  /* line 132, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/site-container/styles/_styles.scss */
+  .siteContainer [role="main"] {
+    padding: 0 1rem 1rem 1rem;
+  }
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.socialLinks {
+  padding: 0px;
+  background: #f2f2f2;
+  margin: 0px;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.socialLinks__body {
+  padding: 15px 15px 10px 15px;
+}
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/socialLinks/scss/_style.scss */
+.socialLinks__body ul {
+  display: block;
+  text-align: center;
+}
+/* line 13, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/socialLinks/scss/_style.scss */
+.socialLinks__body li {
+  display: inline-block;
+  margin: 0 1.5%;
+  padding: 0 1.5%;
+}
+/* line 18, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/socialLinks/scss/_style.scss */
+.socialLinks__body a {
+  padding: 5%;
+  display: inline-block;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.subscribeToNewsletter {
+  margin-top: 20px;
+  padding-top: 40px;
+  border-top: 1px solid #CCC;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.subscribeToNewsletter__head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__head h2 {
+  display: inline-block;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #CCC;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.subscribeToNewsletter__form, .subscribeToNewsletter__form--left, .subscribeToNewsletter__form--right {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+}
+/* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form div, .subscribeToNewsletter__form--left div, .subscribeToNewsletter__form--right div {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: left;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 620px) {
+  /* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+  .subscribeToNewsletter__form div, .subscribeToNewsletter__form--left div, .subscribeToNewsletter__form--right div {
+    width: 49%;
+  }
+}
+/* line 37, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form p, .subscribeToNewsletter__form--left p, .subscribeToNewsletter__form--right p {
+  margin-bottom: 14px;
+}
+/* line 41, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form input, .subscribeToNewsletter__form--left input, .subscribeToNewsletter__form--right input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #f4f4f4;
+  border: none;
+}
+/* line 49, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form input, .subscribeToNewsletter__form--left input, .subscribeToNewsletter__form--right input {
+  margin-bottom: 30px;
+  border: 1px solid #f4f4f4;
+}
+/* line 52, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form input[type=submit], .subscribeToNewsletter__form--left input[type=submit], .subscribeToNewsletter__form--right input[type=submit] {
+  border: 1px solid #000;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 57, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/subscribeToNewsletter/scss/_style.scss */
+.subscribeToNewsletter__form input[type=submit]:hover, .subscribeToNewsletter__form--left input[type=submit]:hover, .subscribeToNewsletter__form--right input[type=submit]:hover {
+  background: #c30b00;
+  color: #FFF;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.test {
+  margin: 20px 0px;
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.test__header {
+  background: #444;
+  color: #FFF;
+  padding: 10px 15px;
+  -webkit-transition: all 3s;
+          transition: all 3s;
+}
+@media screen and (min-width: 620px) {
+  /* line 14, ../config/core/mixins/_styles.scss */
+  .test__header {
+    background: red;
+    -webkit-transition: all 3s;
+            transition: all 3s;
+    padding: 100px 15px;
+    font-size: 2rem;
+  }
+}
+/* line 14, ../config/core/mixins/_styles.scss */
+.test__footer {
+  background: red;
+  padding: 10px;
+}
+
+/* line 3, ../config/core/mixins/_styles.scss */
+.navigation, .navigation--primary {
+  /***************************
+  	.navigation--primary
+  ****************************/
+}
+/* line 25, ../config/core/mixins/_styles.scss */
+.navigation--primary {
+  position: absolute;
+  height: 100%;
+  background: #c30b00;
+  width: 192px;
+  width: 12rem;
+  left: -192px;
+  left: -12rem;
+}
+/* line 14, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary.active {
+  top: 0;
+  left: 0;
+  z-index: 0;
+  height: 100%;
+  overflow-y: scroll;
+  /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+/* line 24, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary > ul {
+  text-transform: uppercase;
+  line-height: 1;
+}
+/* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary > ul ul {
+  position: relative;
+  z-index: 3;
+  background: rgba(34, 34, 34, 0.9);
+  max-height: 0;
+  overflow-y: hidden;
+  -webkit-transition: all 0.25s ease-in-out;
+          transition: all 0.25s ease-in-out;
+}
+/* line 36, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary > ul ul.active {
+  padding: 8px 0;
+  padding: 0.5rem 0;
+  max-height: 640px;
+  max-height: 40rem;
+}
+@media screen and (min-width: 1000px) {
+  /* line 28, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .navigation--primary > ul ul {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    min-width: 10rem;
+  }
+}
+/* line 50, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary li {
+  position: relative;
+  display: inline-block;
+  margin-left: -4px;
+  width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  /* line 50, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .navigation--primary li {
+    width: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 61, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .navigation--primary li:hover > ul {
+    padding: 0.5rem 0;
+    max-height: 40rem;
+  }
+}
+/* line 69, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary li li {
+  margin: 0;
+  width: 100%;
+}
+/* line 75, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary a {
+  color: #fff;
+  display: inline-block;
+  padding: 16px 24px;
+  padding: 1rem 1.5rem;
+  letter-spacing: 0px;
+  letter-spacing: 0.04rem;
+}
+/* line 81, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.navigation--primary a + ul a {
+  -webkit-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
+  font-size: 14px;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 1000px) {
+  /* line 81, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .navigation--primary a + ul a {
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    box-shadow: inset 0 -2px 0 0 rgba(255, 255, 255, 0);
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 90, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .navigation--primary a + ul a:hover {
+    box-shadow: inset 0 -2px 0 0 #fff;
+    font-weight: 700;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 25, ../config/core/mixins/_styles.scss */
+  .navigation--primary {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* line 111, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.current-menu-item {
+  font-weight: 700;
+}
+/* line 114, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+.current-menu-item a {
+  box-shadow: inset 0 -2px 0 0 #fff;
+}
+@media screen and (min-width: 1000px) {
+  /* line 114, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/navigations/primary/scss/_styles.scss */
+  .current-menu-item a {
+    box-shadow: none;
+  }
+}
+
+/* ==========================================================================
+   WORDPRESS DEFAULT STYLES
+   ========================================================================== */
+/* line 5, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption {
+  border: 1px solid #cccccc;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 5px 0 10px 5px;
+  margin-bottom: 10px;
+  max-width: 96%;
+}
+
+/* line 6, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption.alignleft {
+  margin: 0 10px 10px 0;
+}
+
+/* line 7, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption.alignright {
+  margin: 0 0 10px 10px;
+}
+
+/* line 8, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption img {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  max-width: 98.5%;
+}
+
+/* line 9, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption p.wp-caption-text {
+  font-size: 12px;
+  line-height: 17px;
+  padding: 0 4px 5px;
+  margin: 0;
+}
+
+/* line 10, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 11, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+
+/* line 13, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 14, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 15, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 16, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 17, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 19, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 20, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 21, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 22, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 24, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left;
+}
+
+/* line 25, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right;
+}
+
+/* line 40, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.next-prev-post-nav {
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+/* line 41, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.next-prev-post-nav li {
+  float: left;
+  width: 50%;
+}
+
+/* line 42, ../../../../../../../Users/Marktnorman/Documents/vagrant/www/closing-fairlady/wp-content/themes/frontend.closingdown/src/components/wordpress/reset/scss/_styles.scss */
+.next-prev-post-nav li:last-child {
+  text-align: right;
+}
+
+/* WP3.4 Required */

@@ -1,0 +1,107 @@
+/* Koos Bar Styles */
+
+ul.kb-sort-list{
+    width: 100%;
+    position: relative;
+}
+
+ul.kb-sort-list li{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #fafafa;
+    border:1px solid #e5e5e5;
+}
+ul.kb-sort-list li input{
+    position: absolute;
+    right: 0;
+    left: 30px;
+    height: 30px;
+    top: 0;
+    margin: 0;
+    width: -moz-calc(100% - 60px);
+    width: -webkit-calc(100% - 60px);
+    width: -o-calc(100% - 60px);
+    width: calc(100% - 60px);
+}
+ul.kb-sort-list li input.kb-field-url{
+    top: 30px;
+}
+span.kb-sort-handle,
+span.kb-remove-item {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+}
+span.kb-sort-handle {
+    cursor: move;
+    left: 0;
+}
+span.kb-remove-item {
+    cursor: pointer;
+    right: 0;
+}
+
+.kb-no-sort span.kb-remove-item,
+.kb-no-sort span.kb-sort-handle{
+    cursor: not-allowed;
+}
+
+.kb-field {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.kb-notifier{
+    position: absolute;
+    bottom: -25px;
+    font-size: 10px;
+    line-height: 15px;
+    background-color: #a0a5aa;
+    padding: 5px 10px;
+    color: #fff;
+    right: 30px;
+    left: 30px;
+    display: none;
+    z-index:20;
+}
+.kb-add-item{
+    cursor: pointer;
+}
+.kb-clearfix{
+    clear: both;
+}
+/* WP < 3.8 */
+span.wp-pre-mp6 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.4;
+}
+span.wp-pre-mp6:hover {
+    opacity: 0.7;
+}
+.kb-no-sort span.wp-pre-mp6:hover {
+    opacity: 0.4;
+}
+span.wp-pre-mp6.kb-move {
+    background-image: url(../imgs/kb-mover.png);
+}
+
+span.wp-pre-mp6.kb-remove {
+    background-image: url(../imgs/kb-remove.png);
+}
+
+/* WP > 3.8 */
+span.dashicons.kb-sort-handle {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+span.dashicons.kb-remove-item {
+    font-size: 30px;
+    line-height: 30px;
+}

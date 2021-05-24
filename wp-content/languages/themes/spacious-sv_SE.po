@@ -1,0 +1,1725 @@
+# Translation of Themes - Spacious in Swedish
+# This file is distributed under the same license as the Themes - Spacious package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-06 14:13:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Spacious\n"
+
+#. Description of the theme
+msgid "Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 2 page templates, 4 blog display types, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in https://themegrill.com/support-forum/ and check the demo at https://demo.themegrill.com/spacious/."
+msgstr "Spacious är ett mycket rymligt, universellt, responsivt tema kodat och designat med mycket möda och kärlek. Kan användas för företag, portfolios, bloggar eller andra typer av webbplatser. Det har 4 sidlayouter, 2 sidmallar, 4 visningsalternativ för bloggar, 13 widgetfält, 5 anpassade widgets med fokus på företagsmallen, grym slider, alternativ för primär färg för att matcha din logotyp och webbplats, inramad och bred layout, ljust och mörkt färgtema, redo för översättningar och mycket mer. Du kan få gratis support på https://themegrill.com/support-forum/ och kolla in temats demo på https://demo.themegrill.com/spacious/."
+
+#. Theme Name of the theme
+#: inc/admin/class-spacious-admin.php:200
+#: inc/admin/class-spacious-admin.php:546 inc/demo-config.php:30
+msgid "Spacious"
+msgstr "Spacious"
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: inc/customizer.php:1050
+msgid "This layout will be reflected in woocommerce Product page."
+msgstr "Denna layout kommer att återspeglas i wooCommerce produktsida."
+
+#: inc/customizer.php:1037
+msgid "Product Page Layout"
+msgstr "Layout för produktsida"
+
+#: inc/customizer.php:1023
+msgid "This layout will be reflected in woocommerce archive page only."
+msgstr "Denna layout kommer endast att återspeglas i woocommerce arkivsida."
+
+#: inc/customizer.php:1010
+msgid "Archive Page Layout"
+msgstr "Layout för arkivsida"
+
+#: inc/customizer.php:953
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/customizer.php:299
+msgid "Display menu in one line"
+msgstr "Visa meny i en rad"
+
+#: inc/customizer.php:286
+msgid "Menu Display"
+msgstr "Menyvisning"
+
+#: inc/customizer.php:263
+msgid "Button Link"
+msgstr "Knapplänk"
+
+#: inc/customizer.php:249
+msgid "Button Text"
+msgstr "Knapptext"
+
+#: inc/customizer/class-spacious-typography-control.php:40
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/customizer/class-spacious-typography-control.php:27
+msgid "Standard Fonts"
+msgstr "Standardtypsnitt"
+
+#: inc/admin/class-spacious-theme-review-notice.php:101
+msgid "I already did"
+msgstr "Jag har redan gjort det"
+
+#: inc/admin/class-spacious-theme-review-notice.php:96
+msgid "Maybe later"
+msgstr "Kanske senare"
+
+#: inc/admin/class-spacious-theme-review-notice.php:91
+msgid "Sure"
+msgstr "Absolut!"
+
+#: inc/admin/meta-boxes.php:53
+msgid "No Sidebar Content Stretched"
+msgstr "Ingen sidopanel innehåll sträckt"
+
+#: inc/widgets/widgets.php:174
+msgid "Widget area for WooCommerce Pages."
+msgstr "Widget-område för WooCommerce-sidor."
+
+#: inc/widgets/widgets.php:172
+msgid "Shop Sidebar"
+msgstr "Sidopanel för butik"
+
+#: inc/customizer.php:942
+msgid "Four Column"
+msgstr "Fyra kolumner"
+
+#: inc/customizer.php:941
+msgid "Three Column"
+msgstr "Tre kolumner"
+
+#: inc/customizer.php:940
+msgid "Two Column"
+msgstr "Två kolumner"
+
+#: inc/customizer.php:278 inc/customizer.php:444
+msgid "Check to show in new tab"
+msgstr "Kryssa i för att visa i ny flik"
+
+#: inc/customizer.php:429
+msgid "Add link for %1$s"
+msgstr "Lägg till länk för %1$s"
+
+#: inc/customizer.php:408
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/customizer.php:407
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer.php:406
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer.php:405
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer.php:377
+msgid "Activate social links area"
+msgstr "Aktivera området för sociala länkar"
+
+#: inc/customizer.php:371
+msgid "Social Links"
+msgstr "Sociala länkar"
+
+#: inc/customizer.php:339
+msgid "Show search icon in header."
+msgstr "Visa sökikon i sidhuvud."
+
+#: inc/customizer.php:327
+msgid "Search icon"
+msgstr "Sökikon"
+
+#: inc/customizer.php:172
+msgid "You can add phone numbers, other contact info here as you like. This box also accepts shortcodes."
+msgstr "Du kan lägga till telefonnummer och annan kontaktinformation här som du vill. Denna ruta accepterar också kortkoder."
+
+#: inc/customizer.php:159
+msgid "Header Info Text"
+msgstr "Informationstext i sidhuvud"
+
+#: inc/admin/class-spacious-site-library.php:124
+msgid "Buy Now"
+msgstr "Köp nu"
+
+#: inc/admin/class-spacious-site-library.php:118
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: inc/admin/class-spacious-site-library.php:94
+msgid "Pro"
+msgstr "Pro"
+
+#: inc/admin/class-spacious-site-library.php:77
+msgid "Themes list"
+msgstr "Temalista"
+
+#: inc/admin/class-spacious-admin.php:355
+#: inc/admin/class-spacious-site-library.php:113
+msgid "Import"
+msgstr "Importera"
+
+#: inc/admin/class-spacious-admin.php:264
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#: inc/admin/class-spacious-admin.php:256
+msgid "Site Library"
+msgstr "Webbplatsbibliotek"
+
+#: inc/admin/class-spacious-admin.php:48
+msgid "Processing..."
+msgstr "Bearbetar…"
+
+#: inc/admin/class-spacious-admin.php:42
+msgid "Activating "
+msgstr "Aktiverar"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:92
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Följande rekommenderade tillägg är för närvarande inaktivt: %1$s."
+msgstr[1] "Följande rekommenderade tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:86
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Följande obligatoriskt tillägg är för närvarande inaktiv: %1$s."
+msgstr[1] "Följande obligatoriska tillägg är för närvarande inaktiva: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:80
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Det finns en uppdatering tillgänglig för: %1$s."
+msgstr[1] "Det finns uppdateringar tillgängliga för följande tillägg: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:74
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Följande tillägg måste uppdateras till sin senaste version för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+msgstr[1] "Följande tillägg måste uppdateras till sina senaste versioner för att säkerställa maximal kompatibilitet med detta tema: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:68
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Detta tema rekommenderar följande tillägg: %1$s."
+msgstr[1] "Detta tema rekommenderar följande tillägg: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:62
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Detta tema kräver följande tillägg: %1$s."
+msgstr[1] "Detta tema kräver följande tillägg: %1$s."
+
+#: inc/related-posts.php:6
+msgid "You May Also Like"
+msgstr "Du kanske också gillar"
+
+#: inc/customizer.php:709
+msgid "Related Posts By Tags"
+msgstr "Relaterade inlägg efter etiketter"
+
+#: inc/customizer.php:708
+msgid "Related Posts By Categories"
+msgstr "Relaterade inlägg efter kategorier"
+
+#: inc/customizer.php:704
+msgid "Related Posts Must Be Shown As:"
+msgstr "Relaterade inlägg måste visas som:"
+
+#: inc/customizer.php:690
+msgid "Check to activate the related posts"
+msgstr "Kryssa i för att aktivera relaterade inlägg"
+
+#: inc/customizer.php:677
+msgid "Related Posts"
+msgstr "Relaterade inlägg"
+
+#: inc/admin/class-spacious-admin.php:507
+msgid " by WPEverest"
+msgstr "av WPEverest"
+
+#: inc/admin/class-spacious-admin.php:506
+msgid "Everest Forms – Easy Contact Form and Form Builder"
+msgstr "Everest Forms – Enkelt kontaktformulär och formulärbyggare"
+
+#: inc/demo-config.php:34
+msgid "Spacious Blog"
+msgstr "Spacious blogg"
+
+#: inc/customizer.php:750
+msgid "Check to enable the featured image in single page."
+msgstr "Kryssa i för att aktivera den utvalda bilden på en enda sida."
+
+#: inc/customizer.php:737
+msgid "Featured Image In Single Page"
+msgstr "Utvald bild på en enskild sida"
+
+#: inc/customizer.php:729
+msgid "Check to enable the featured image in single post page."
+msgstr "Kryssa i för att aktivera den utvalda bilden på en enskild inläggssida."
+
+#: inc/customizer.php:716
+msgid "Featured Image In Single Post Page"
+msgstr "Utvald bild på en enskild inläggssida"
+
+#: inc/customizer.php:918
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/customizer.php:320
+msgid "Switch to new responsive menu."
+msgstr "Växla till den nya responsiva menyn."
+
+#: inc/customizer.php:307
+msgid "Responsive Menu Style"
+msgstr "Stil för responsiv meny"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installera tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Alla installationer har slutförts."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s installerades utan problem."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installationsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installerar och aktiverar tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Alla installationer och aktiveringar har slutförts."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Dölj detaljer"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Visa detaljer"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installerades och aktiverades utan problem."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Installations- och aktiveringsprocessen startar. Denna process kan ta en stund på vissa webbhotell, så ha tålamod."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Installationen av %1$s misslyckades."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ett fel uppstod vid installation av %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Uppdaterar tillägg %1$s (%2$d/%3$d)"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Aktivering av tillägg misslyckades."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Inga tillägg är tillgängliga för att aktiveras just nu."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Inga tillägg valdes för aktivering. Inga åtgärder vidtogs."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Inga tillägg är tillgängliga för att uppdateras just nu."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Inga tillägg är tillgängliga för att installeras just nu."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Inga tillägg valdes för uppdatering. Inga åtgärder vidtogs."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Inga tillägg valdes för installation. Inga åtgärder vidtogs."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Aktivera"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Uppdatera"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Uppgraderingsmeddelande från tilläggets författare:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Aktivera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Uppdatera %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Installera %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Typ"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Källa"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Tillägg"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Inga tillägg att installera, uppdatera eller aktivera."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Tillgänglig version:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minsta version som krävs:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Installerad version:"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "okänd"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Att aktivera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att aktivera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Uppdatering tillgänglig <span class=\"count\">(%s)</span>"
+msgstr[1] "Uppdateringar tillgängliga <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Att installera <span class=\"count\">(%s)</span>"
+msgstr[1] "Att installera <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alla <span class=\"count\">(%s)</span>"
+msgstr[1] "Alla <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Uppdatering rekommenderad"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Kräver uppdatering"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Obligatorisk uppdatering inte tillgänglig"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installerat men inte aktiverat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Inte installerat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Förpaketerat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Extern källa"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress filförvar"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Rekommenderat"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Obligatoriskt"
+
+#. translators: %s: version number
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "och"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Fjärrtilläggets paket består av fler än en fil, men filerna är inte paketerade i en mapp."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Vänligen kontakta tilläggets skapare och be dem att paketera sitt tillägg i enlighet med WordPress riktlinjer."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Paketet med fjärrtillägget innehåller inte en mapp med önskat innehåll och att döpa om fungerade inte."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Uppdatering krävs"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Detta tillägg måste uppdateras för att vara kompatibelt med ditt tema."
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:124
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Kontakta administratören för denna webbplats för hjälp."
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:123
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Det finns ett eller flera obligatoriska  eller rekommenderade tillägg att installera, uppdatera eller aktivera."
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:122
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Avfärda denna notis"
+
+#. translators: 1: dashboard link.
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:121
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alla tillägg installerades och aktiverades utan problem. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:119
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Tillägg inte aktiverat. En högre version av %s behövs för detta tema. Uppdatera tillägget."
+
+#. translators: 1: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:117
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ingen åtgärd vidtagen. Tillägget %1$s var redan aktiverat."
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:115
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Följande tillägg aktiverades utan problem:"
+msgstr[1] "Följande tillägg aktiverades utan problem:"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:114
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Tillägget aktiverat utan problem."
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Tillbaka till adminpanelen"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:113
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Tillbaka till installeraren för obligatoriska tillägg"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:108
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Börja aktivera tillägg"
+msgstr[1] "Börja aktivera tillägg"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:103
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Påbörja uppdatering av tillägg"
+msgstr[1] "Påbörja uppdatering av tillägg"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:98
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Börja installera tillägg"
+msgstr[1] "Börja installera tillägg"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:61
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Något gick fel med tilläggets API."
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:60
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Uppdaterar tillägg: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:58
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installerar tillägg: %s"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:56
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Installera tillägg"
+
+#: inc/tgm-plugin-activation/tgmpa-spacious.php:55
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Installera obligatoriska tillägg"
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installera"
+
+#: inc/admin/class-spacious-admin.php:352
+msgid "Needs ThemeGrill Demo Importer plugin."
+msgstr "Kräver tillägget ThemeGrill Demo Importer."
+
+#: functions.php:258 inc/admin/class-spacious-admin.php:351
+msgid "Import Demo"
+msgstr "Importera exempeldata"
+
+#: inc/admin/class-spacious-admin.php:522
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/admin/class-spacious-admin.php:518
+msgid "Polylang"
+msgstr "Polylang"
+
+#: inc/admin/class-spacious-admin.php:515 inc/customizer.php:1003
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:512
+msgid "Breadcrumb NavXT"
+msgstr "Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:509
+msgid "WP-PageNavi"
+msgstr "WP-PageNavi"
+
+#: inc/admin/class-spacious-admin.php:502
+msgid "Easy Social Sharing"
+msgstr "Easy Social Sharing"
+
+#: inc/admin/class-spacious-admin.php:688
+msgid "TG: Our Clients"
+msgstr "TG: Våra klienter"
+
+#: inc/admin/class-spacious-admin.php:683
+msgid "TG: Featured Posts"
+msgstr "TG: Utvalda inlägg"
+
+#: inc/admin/class-spacious-admin.php:672
+msgid "TG: Featured widget (Recent Work/Portfolio)"
+msgstr "TG: Widget för utvalt innehåll (senaste jobb/portfolio)"
+
+#: inc/admin/class-spacious-admin.php:667
+msgid "TG: Featured Single page widget"
+msgstr "TG: Utvald enskild sida"
+
+#: inc/admin/class-spacious-admin.php:662
+msgid "TG: Call to Action widget"
+msgstr "TG: Åtgärdswidget"
+
+#: inc/admin/class-spacious-admin.php:657
+msgid "TG: Services widget"
+msgstr "TG: Widget för tjänster"
+
+#: inc/admin/class-spacious-admin.php:654
+msgid "Forum + Emails/Support Ticket"
+msgstr "Forum + E-post/Supportsystem"
+
+#: inc/admin/class-spacious-admin.php:653
+msgid "Forum"
+msgstr "Forum"
+
+#: inc/admin/class-spacious-admin.php:652
+msgid "Support"
+msgstr "Support"
+
+#: inc/admin/class-spacious-admin.php:647
+msgid "Demo Content"
+msgstr "Exempeldata"
+
+#: inc/admin/class-spacious-admin.php:644
+msgid "1,2,3,4 Columns"
+msgstr "1,2,3,4 kolumner"
+
+#: inc/admin/class-spacious-admin.php:643 inc/customizer.php:939
+msgid "One Column"
+msgstr "En kolumn"
+
+#: inc/admin/class-spacious-admin.php:642 inc/customizer.php:924
+msgid "Footer Widgets Column"
+msgstr "Kolumner för widgets i sidfot"
+
+#: inc/admin/class-spacious-admin.php:637
+msgid "Footer Copyright Editor"
+msgstr "Redigerare för copyright i sidfot"
+
+#: inc/admin/class-spacious-admin.php:632 inc/customizer.php:758
+msgid "Author Bio"
+msgstr "Författarbiografi"
+
+#: inc/admin/class-spacious-admin.php:627
+msgid "BreadCrumb Custom Text"
+msgstr "Anpassad text för synlig sökväg"
+
+#: inc/admin/class-spacious-admin.php:622
+msgid "Breadcrumb NavXT Compatible"
+msgstr "Kompatibelt med Breadcrumb NavXT"
+
+#: inc/admin/class-spacious-admin.php:617
+msgid "Polylang Compatible"
+msgstr "Kompatibelt med Polylang"
+
+#: inc/admin/class-spacious-admin.php:612
+msgid "WPML Compatible"
+msgstr "Kompatibelt med WPML"
+
+#: inc/admin/class-spacious-admin.php:607
+msgid "Translation Ready"
+msgstr "Stöd för språkfiler"
+
+#: inc/admin/class-spacious-admin.php:602
+msgid "Woocommerce Page Layouts"
+msgstr "Sidlayouter för WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:597
+msgid "Woocommerce Compatible"
+msgstr "Kompatibelt med WooCommerce"
+
+#: inc/admin/class-spacious-admin.php:592
+msgid "Light & Dark Color skin"
+msgstr "Ljust & mörkt färgtema"
+
+#: inc/admin/class-spacious-admin.php:587
+msgid "Boxed & Wide layout option"
+msgstr "Layoutalternativ, inramad & bred"
+
+#: inc/admin/class-spacious-admin.php:498
+#: inc/admin/class-spacious-admin.php:582
+msgid "Social Icons"
+msgstr "Sociala ikoner"
+
+#: inc/admin/class-spacious-admin.php:579
+msgid "Social Icons + Menu + Header text option"
+msgstr "Sociala ikoner + Meny + Alternativ för text i sidhuvud"
+
+#: inc/admin/class-spacious-admin.php:577
+msgid "Additional Top Header"
+msgstr "Extra övre sidhuvud"
+
+#: inc/admin/class-spacious-admin.php:574
+msgid "Multiple Color Options"
+msgstr "Fler färgval"
+
+#: inc/admin/class-spacious-admin.php:573
+msgid "Primary Color Option"
+msgstr "Alternativ för primär färg"
+
+#: inc/admin/class-spacious-admin.php:572
+msgid "Color Palette"
+msgstr "Färgpalett"
+
+#: inc/admin/class-spacious-admin.php:567
+msgid "Font Size options"
+msgstr "Alternativ för teckensnittstorlek"
+
+#: inc/admin/class-spacious-admin.php:564
+msgid "600+"
+msgstr "600+"
+
+#: inc/admin/class-spacious-admin.php:562
+msgid "Google Fonts Option"
+msgstr "Alternativ för Google Fonts"
+
+#: inc/admin/class-spacious-admin.php:559
+msgid "Slides type, duration & delay time"
+msgstr "Slidertyp, varaktighet och fördröjningstid"
+
+#: inc/admin/class-spacious-admin.php:557
+msgid "Slider Settings"
+msgstr "Inställning för bildspel"
+
+#: inc/admin/class-spacious-admin.php:554
+msgid "Unlimited Slides"
+msgstr "Obegränsat antal slides"
+
+#: inc/admin/class-spacious-admin.php:553
+msgid "5"
+msgstr "5"
+
+#: inc/admin/class-spacious-admin.php:547
+msgid "Spacious Pro"
+msgstr "Spacious Pro"
+
+#: inc/admin/class-spacious-admin.php:545
+msgid "Features"
+msgstr "Funktioner"
+
+#: inc/admin/class-spacious-admin.php:519
+#: inc/admin/class-spacious-admin.php:523
+msgid "Fully Compatible in Pro Version"
+msgstr "Fullt kompatibel i Pro-versionen"
+
+#: inc/admin/class-spacious-admin.php:499
+#: inc/admin/class-spacious-admin.php:503
+msgid " by ThemeGrill"
+msgstr " av ThemeGrill"
+
+#: inc/admin/class-spacious-admin.php:495
+msgid "This theme recommends following plugins:"
+msgstr "Detta tema rekommenderar följande tillägg:"
+
+#: inc/admin/class-spacious-admin.php:441
+msgid "View changelog below:"
+msgstr "Se ändringslogg nedan:"
+
+#: inc/admin/class-spacious-admin.php:424
+msgid "Go to Dashboard"
+msgstr "Gå till adminpanelen"
+
+#: inc/admin/class-spacious-admin.php:424
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Gå till adminpanel &rarr; hem"
+
+#: inc/admin/class-spacious-admin.php:421
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Tillbaka till adminpanel &rarr; uppdateringar"
+
+#: inc/admin/class-spacious-admin.php:421
+msgid "Return to Updates"
+msgstr "Tillbaka till uppdateringar"
+
+#: inc/admin/class-spacious-admin.php:405
+msgid "Click below to translate this theme into your own language."
+msgstr "Klicka nedan för att översätta detta tema till ditt eget språk."
+
+#: inc/admin/class-spacious-admin.php:401
+#: inc/admin/class-spacious-admin.php:409
+msgid "Translate"
+msgstr "Översätt"
+
+#: inc/admin/class-spacious-admin.php:394
+msgid "Contact Page"
+msgstr "Kontaktsida"
+
+#: inc/admin/class-spacious-admin.php:392
+msgid "Please send it via our sales contact page."
+msgstr "Vänligen skicka den via vår kontaktsida för försäljningsfrågor."
+
+#: inc/admin/class-spacious-admin.php:391
+msgid "Got sales related question?"
+msgstr "Har du en försäljningsrelaterad fråga?"
+
+#: inc/admin/class-spacious-admin.php:386
+#: inc/admin/class-spacious-admin.php:696
+msgid "View Pro"
+msgstr "Visa PRO-version"
+
+#: inc/admin/class-spacious-admin.php:384
+#: inc/admin/class-spacious-admin.php:540
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Uppgradera till PRO-versionen för fler spännande funktioner."
+
+#: inc/admin/class-spacious-admin.php:383
+msgid "Need more features?"
+msgstr "Behöver du fler funktioner?"
+
+#: inc/admin/class-spacious-admin.php:376
+msgid "Please put it in our dedicated support forum."
+msgstr "Ställ den i vårat dedikerade supportforum."
+
+#: inc/admin/class-spacious-admin.php:375
+#: inc/admin/class-spacious-theme-review-notice.php:106
+msgid "Got theme support question?"
+msgstr "Har du en supportfråga för temat?"
+
+#: inc/admin/class-spacious-admin.php:368
+msgid "Please view our documentation page to setup the theme."
+msgstr "Vänligen se vår dokumentation för hjälp med att ställa in temat."
+
+#: inc/admin/class-spacious-admin.php:362
+msgid "Customize"
+msgstr "Anpassa"
+
+#: inc/admin/class-spacious-admin.php:360
+msgid "All Theme Options are available via Customize screen."
+msgstr "Alla temainställningar finns tillgängliga i anpassaren."
+
+#: inc/admin/class-spacious-admin.php:359
+msgid "Theme Customizer"
+msgstr "Temaanpassare"
+
+#: inc/admin/class-spacious-admin.php:288
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: inc/admin/class-spacious-admin.php:280
+msgid "Free Vs Pro"
+msgstr "Gratis Vs Pro"
+
+#: inc/admin/class-spacious-admin.php:272
+msgid "Supported Plugins"
+msgstr "Tillägg som stöds"
+
+#: inc/admin/class-spacious-admin.php:210
+#: inc/admin/class-spacious-site-library.php:113
+msgid "Get started with Spacious"
+msgstr "Kom igång med Spacious"
+
+#: inc/admin/class-spacious-admin.php:204
+msgid "Welcome! Thank you for choosing Spacious! To fully take advantage of the best our theme can offer please make sure you visit our %swelcome page%s."
+msgstr "Välkommen! Tack för att du väljer Spacious! För att få ut allt av vad detta tema kan erbjuda, missa inte att besöka vår %svälkomstsida%s."
+
+#: inc/admin/class-spacious-admin.php:195
+msgid "Dismiss"
+msgstr "Avfärda"
+
+#: inc/admin/class-spacious-admin.php:173
+msgid "Cheatin&#8217; huh?"
+msgstr "Fuskar du, va?"
+
+#: inc/admin/class-spacious-admin.php:169
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Åtgärd misslyckades. Uppdatera sidan och försök igen."
+
+#: inc/admin/class-spacious-admin.php:132
+#: inc/admin/class-spacious-admin.php:229
+msgid "About"
+msgstr "Om"
+
+#: functions.php:254
+msgid "Spacious Important Links"
+msgstr "Viktiga länkar för Spacious"
+
+#: functions.php:260 inc/admin/class-spacious-admin.php:378
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: inc/admin/class-spacious-admin.php:247 inc/customizer.php:81
+msgid "View PRO version"
+msgstr "Visa PRO-version"
+
+#: functions.php:179 functions.php:256 inc/admin/class-spacious-admin.php:243
+msgid "Theme Info"
+msgstr "Temainfo"
+
+#: inc/functions.php:764 inc/related-posts.php:64
+msgid "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+msgstr "<span class=\"date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">%3$s</a></span>"
+
+#. Template Name of the theme
+msgid "Contact Page Template"
+msgstr "Mall för kontaktsida"
+
+#. Template Name of the theme
+msgid "Business Template"
+msgstr "Företagsmall"
+
+#: sidebar.php:39 sidebar-left.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: searchform.php:12
+msgid "Search"
+msgstr "Sök"
+
+#: inc/admin/class-spacious-admin.php:249
+msgid "Rate this theme"
+msgstr "Betygsätt detta tema"
+
+#: functions.php:257 inc/admin/class-spacious-admin.php:245
+msgid "View Demo"
+msgstr "Visa demo"
+
+#: functions.php:259 inc/admin/class-spacious-admin.php:367
+#: inc/admin/class-spacious-admin.php:370
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/customizer.php:906
+msgid "Enter link to redirect slider when clicked"
+msgstr "Ange länk för klick i slider"
+
+#: inc/customizer.php:892
+msgid "Enter the button text. Default is \"Read more\""
+msgstr "Ange knapptexten. Standard är ”Läs mer”"
+
+#: inc/customizer.php:878
+msgid "Enter your slider description."
+msgstr "Ange beskrivning för ditt bildspel."
+
+#: functions.php:311 functions.php:316 inc/customizer.php:864
+msgid "Enter title for your slider."
+msgstr "Ange rubrik för ditt bildspel."
+
+#: inc/customizer.php:850
+msgid "Upload slider image."
+msgstr "Ladda upp sliderbild."
+
+#: inc/customizer.php:837
+msgid "Image Upload #%1$s"
+msgstr "Bilduppladdning #%1$s"
+
+#: inc/customizer.php:828
+msgid "Check to disable slider in Posts Page"
+msgstr "Markera för att inaktivera slider i inläggsarkiv"
+
+#: inc/customizer.php:815
+msgid "Disable slider in Posts page"
+msgstr "Inaktivera slider i inläggsarkiv"
+
+#: inc/customizer.php:799
+msgid "Check to activate slider."
+msgstr "Kryssa i för att aktivera bildspel."
+
+#: inc/customizer.php:786
+msgid "Activate slider"
+msgstr "Aktivera bildspel"
+
+#: inc/admin/class-spacious-admin.php:552 inc/customizer.php:780
+msgid "Slider"
+msgstr "Bildspel"
+
+#: inc/customizer.php:671 inc/customizer.php:1064
+msgid "Additional"
+msgstr "Ytterligare"
+
+#: inc/customizer.php:660
+msgid "Write your Custom CSS."
+msgstr "Skriv din anpassade CSS."
+
+#: inc/customizer.php:647
+msgid "Custom CSS"
+msgstr "Anpassad CSS"
+
+#: inc/customizer.php:634
+msgid "Choose the light or dark skin. This will be reflected in whole site."
+msgstr "Välj ljust eller mörkt färgtema. Detta kommer återspeglas på hela webbplatsen."
+
+#: inc/customizer.php:621
+msgid "Color Skin"
+msgstr "Färgtema"
+
+#: inc/customizer.php:613
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site."
+msgstr "Detta kommer påverka länkar, knappar och mycket annat. Välj en färg som passar din webbplats."
+
+#: inc/customizer.php:600
+msgid "Primary color option"
+msgstr "Alternativ för primär färg"
+
+#: inc/customizer.php:591
+msgid "Blog Full Content"
+msgstr "Blogg med hela inlägg"
+
+#: inc/customizer.php:590
+msgid "Blog Image Alternate Medium"
+msgstr "Blogg med alternativ medium bild"
+
+#: inc/customizer.php:589
+msgid "Blog Image Medium"
+msgstr "Blogg med medium bild"
+
+#: inc/customizer.php:588
+msgid "Blog Image Large"
+msgstr "Blogg med stor bild"
+
+#: inc/customizer.php:586
+msgid "Choose the display type for the latests posts view or posts page view (static front page)."
+msgstr "Välj vilken visningstyp som ska användas för senaste inlägg eller arkivsidor (statisk startsida)."
+
+#: inc/customizer.php:573
+msgid "Blog Posts display type"
+msgstr "Visningstyp för blogginlägg"
+
+#: inc/customizer.php:558
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post."
+msgstr "Välj standardlayout för inlägg. Denna layout kommer påverka alla inlägg om inte en specifik layout väljs för ett specifikt inlägg."
+
+#: inc/customizer.php:545
+msgid "Default layout for single posts only"
+msgstr "Standardlayout, endast för enskilda inlägg"
+
+#: inc/customizer.php:530
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is set for specific page."
+msgstr "Välj standardlayout för sidor. Denna layout kommer påverka alla sidor om inte en specifik layout väljs för en specifik sida."
+
+#: inc/customizer.php:517
+msgid "Default layout for pages only"
+msgstr "Standardlayout för endast sidor"
+
+#: inc/customizer.php:502
+msgid "Select default layout. This layout will be reflected in whole site archives, search etc. The layout for a single post and page can be controlled from below options."
+msgstr "Välj standardlayout. Layouten kommer påverka webbplatsens arkiv, kategorier, sök, osv. Layouten i enskilda inlägg och på sidor kan ändras genom nedanstående inställningar."
+
+#: inc/customizer.php:489
+msgid "Default layout"
+msgstr "Standardlayout"
+
+#: inc/customizer.php:481
+msgid "Wide layout with content width of 978px"
+msgstr "Bred layout med innehållsbredd på 978px"
+
+#: inc/customizer.php:480
+msgid "Wide layout with content width of 1218px"
+msgstr "Bred layout med innehållsbredd på 1218px"
+
+#: inc/customizer.php:479
+msgid "Boxed layout with content width of 978px"
+msgstr "Inramad layout med innehållsbredd på 978px"
+
+#: inc/customizer.php:478
+msgid "Boxed layout with content width of 1218px"
+msgstr "Inramad layout med innehållsbredd på 1218px"
+
+#: inc/customizer.php:476
+msgid "Choose your site layout. The change is reflected in whole site."
+msgstr "Välj layout för din webbplats. Ändringen återspeglas på hela webbplatsen."
+
+#: inc/customizer.php:463
+msgid "Site Layout"
+msgstr "Webbplatslayout"
+
+#: inc/customizer.php:457
+msgid "Design"
+msgstr "Design"
+
+#: inc/customizer.php:230
+msgid "Position Below: Display the Header image just below the site title and main menu part."
+msgstr "Position under: Visa bild för sidhuvud precis under webbplatstitel och huvudmeny."
+
+#: inc/customizer.php:229
+msgid "Position Above (Default): Display the Header image just above the site title and main menu part."
+msgstr "Position ovanför (standard): Visa bild för sidhuvud precis ovanför webbplatstitel och huvudmeny."
+
+#: inc/customizer.php:226
+msgid "Choose top header image display position."
+msgstr "Välj position för bild i sidhuvud."
+
+#: inc/customizer.php:213
+msgid "Header Image Position"
+msgstr "Position för bild i sidhuvud"
+
+#: inc/customizer.php:125
+msgid "Choose the option that you want."
+msgstr "Välj den inställning du vill ha."
+
+#: inc/customizer.php:112
+msgid "Show"
+msgstr "Visa"
+
+#: inc/customizer.php:131
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: inc/customizer.php:130
+msgid "Show Both"
+msgstr "Visa båda"
+
+#: inc/customizer.php:129
+msgid "Header Text Only"
+msgstr "Endast text i sidhuvud"
+
+#: inc/customizer.php:128
+msgid "Header Logo Only"
+msgstr "Endast logotyp i sidhuvud"
+
+#: inc/customizer.php:105
+msgid "Header Logo"
+msgstr "Logotyp för sidhuvud"
+
+#: inc/customizer.php:99
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: no-results.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar som att vi inte kan hitta det du letar efter. Prova att göra en sökning."
+
+#: no-results.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Beklagar, inget som matchade dina söktermer kunde hittas. Vänligen försök igen med andra sökord."
+
+#: no-results.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+
+#: navigation.php:32
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: navigation.php:31
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: navigation.php:20
+msgid "Next &raquo;"
+msgstr "Nästa &raquo;"
+
+#: navigation.php:19
+msgid "&laquo; Previous"
+msgstr "&laquo; Föregående"
+
+#: inc/widgets/class-spacious-recent-work-widget.php:38
+msgid "Description"
+msgstr "Beskrivning"
+
+#: functions.php:170 functions.php:232
+#: inc/widgets/class-spacious-recent-work-widget.php:14
+msgid "TG: Featured Widget"
+msgstr "TG: Widget för utvalt innehåll"
+
+#: functions.php:170 functions.php:232
+#: inc/widgets/class-spacious-recent-work-widget.php:10
+msgid "Show your some pages as recent work. Best for Business Top or Bottom sidebar."
+msgstr "Visa speciella sidor som senaste jobben. Bäst ämnat för företagsmallens övre och nedre widgetfält."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:72
+msgid "Byline:"
+msgstr "Signatur:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:68
+msgid "Name:"
+msgstr "Namn:"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:65
+msgid "Testimonial Description"
+msgstr "Beskrivning för rekommendation"
+
+#: functions.php:214 inc/widgets/class-spacious-testimonial-widget.php:15
+#: inc/admin/class-spacious-admin.php:678
+msgid "TG: Testimonial"
+msgstr "TG: Rekommendation"
+
+#: inc/widgets/class-spacious-testimonial-widget.php:11
+msgid "Display Testimonial"
+msgstr "Visa rekommendation"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:39
+msgid "Button Redirect Link:"
+msgstr "Knappens omdirigeringslänk:"
+
+#: inc/widgets/class-spacious-call-to-action-widget.php:35
+msgid "Button Text:"
+msgstr "Knapptext:"
+
+#: functions.php:178 inc/widgets/class-spacious-call-to-action-widget.php:32
+msgid "Call to Action Additional Text"
+msgstr "Extra text för åtgärdssektion"
+
+#: functions.php:177 inc/widgets/class-spacious-call-to-action-widget.php:30
+msgid "Call to Action Main Text"
+msgstr "Primär text för åtgärdssektion"
+
+#: functions.php:169 functions.php:231
+#: inc/widgets/class-spacious-call-to-action-widget.php:14
+msgid "TG: Call To Action Widget"
+msgstr "TG: Åtgärdswidget"
+
+#: functions.php:169 functions.php:231
+#: inc/widgets/class-spacious-call-to-action-widget.php:10
+msgid "Use this widget to show the call to action section."
+msgstr "Använd denna widget för att visa åtgärdssektionen."
+
+#: functions.php:168 functions.php:230
+#: inc/widgets/class-spacious-service-widget.php:14
+msgid "TG: Services"
+msgstr "TG: Tjänster"
+
+#: functions.php:168 functions.php:230
+#: inc/widgets/class-spacious-service-widget.php:10
+msgid "Display some pages as services. Best for Business Top or Bottom sidebar."
+msgstr "Visa speciella sidor som tjänster. Bäst ämnat för företagsmallens övre och nedre widgetfält."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:45
+#: inc/widgets/class-spacious-featured-single-page-widget.php:52
+msgid "Show Image After Title"
+msgstr "Visa bild efter rubrik"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:43
+#: inc/widgets/class-spacious-featured-single-page-widget.php:50
+msgid "Show Image Before Title"
+msgstr "Visa bild före rubrik"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:38
+msgid "Remove Featured image"
+msgstr "Ta bort utvald bild"
+
+#: inc/widgets/class-spacious-service-widget.php:30
+#: inc/widgets/class-spacious-featured-single-page-widget.php:33
+#: inc/widgets/class-spacious-recent-work-widget.php:44
+msgid "Page"
+msgstr "Sida"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:30
+msgid "Displays the title of the Page if title input is empty."
+msgstr "Visar rubriken för sidan om titel inte är angiven."
+
+#: inc/widgets/class-spacious-testimonial-widget.php:62
+#: inc/widgets/class-spacious-featured-single-page-widget.php:27
+#: inc/widgets/class-spacious-recent-work-widget.php:35
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:24
+msgid "Suitable for Home Top Sidebar, Home Bottom Left Sidebar and Side Sidbar."
+msgstr "Passande för övre widgetfält på startsida, nedre widgetfält på startsida och sidofält på sidor."
+
+#: inc/widgets/class-spacious-featured-single-page-widget.php:11
+msgid "Display Featured Single Page"
+msgstr "Visa utvald enskild sida"
+
+#: inc/widgets/widgets.php:161
+msgid "Shows widgets at footer sidebar four."
+msgstr "Visar widgetar i sidfotens sidopanel fyra."
+
+#: inc/widgets/widgets.php:159
+msgid "Footer Sidebar Four"
+msgstr "Sidfot sidopanel fyra"
+
+#: inc/widgets/widgets.php:148
+msgid "Shows widgets at footer sidebar three."
+msgstr "Visar widgetar i sidfotens sidopanel tre."
+
+#: inc/widgets/widgets.php:146
+msgid "Footer Sidebar Three"
+msgstr "Sidfot sidopanel tre"
+
+#: inc/widgets/widgets.php:135
+msgid "Shows widgets at footer sidebar two."
+msgstr "Visar widgetar i sidfotens sidopanel två."
+
+#: inc/widgets/widgets.php:133
+msgid "Footer Sidebar Two"
+msgstr "Sidfot sidopanel två"
+
+#: inc/widgets/widgets.php:120
+msgid "Shows widgets at footer sidebar one."
+msgstr "Visar widgetar i sidfotens sidopanel ett."
+
+#: inc/widgets/widgets.php:118
+msgid "Footer Sidebar One"
+msgstr "Sidfot sidopanel ett"
+
+#: inc/widgets/widgets.php:109
+msgid "Shows widgets on Error 404 page."
+msgstr "Visar widgetar på 404-felsidor."
+
+#: inc/widgets/widgets.php:107
+msgid "Error 404 Page Sidebar"
+msgstr "Sidopanel för 404-felsidor"
+
+#: inc/widgets/widgets.php:98
+msgid "Shows widgets on Contact Page Template."
+msgstr "Visar widgetar i mallen för kontaktsida."
+
+#: inc/widgets/widgets.php:96
+msgid "Contact Page Sidebar"
+msgstr "Sidopanel för kontaktsida"
+
+#: functions.php:228 inc/widgets/widgets.php:87
+msgid "Shows widgets on Business Page Template Bottom Section."
+msgstr "Visar widgets i företagsmallens nedre sektion."
+
+#: functions.php:227 inc/widgets/widgets.php:85
+msgid "Business Bottom Sidebar"
+msgstr "Företagsmall nedre widgetfält"
+
+#: functions.php:208 inc/widgets/widgets.php:75
+msgid "Shows widgets on Business Page Template Middle Section Right Half."
+msgstr "Visar widgets i företagsmallens mittersta sektion på höger halva."
+
+#: functions.php:207 inc/widgets/widgets.php:73
+msgid "Business Middle Right Sidebar"
+msgstr "Företagsmall widgetfält i mitten till höger"
+
+#: functions.php:191 functions.php:208 inc/widgets/widgets.php:64
+#: inc/widgets/widgets.php:75
+msgid "Suitable widget: TG: Testimonial, TG: Featured Single Page"
+msgstr "Passande widgets: TG: Rekommendationer, TG: Utvald enskild sida"
+
+#: functions.php:191 inc/widgets/widgets.php:64
+msgid "Shows widgets on Business Page Template Middle Section Left Half."
+msgstr "Visar widgets i företagsmallens mittersta sektion på vänster halva."
+
+#: functions.php:190 inc/widgets/widgets.php:62
+msgid "Business Middle Left Sidebar"
+msgstr "Företagsmall widgetfält i mitten till vänster"
+
+#: functions.php:166 functions.php:228 inc/widgets/widgets.php:53
+#: inc/widgets/widgets.php:87
+msgid "Suitable widget: TG: Services, TG: Call To Action Widget, TG: Featured Widget"
+msgstr "Passande widgets: TG: Tjänster, TG: Åtgärdswidget, TG: Widget för utvalt innehåll"
+
+#: functions.php:166 inc/widgets/widgets.php:53
+msgid "Shows widgets on Business Page Template Top Section."
+msgstr "Visar widgets i företagsmallens övre sektion."
+
+#: functions.php:165 inc/widgets/widgets.php:51
+msgid "Business Top Sidebar"
+msgstr "Företagsmall övre widgetfält"
+
+#: inc/widgets/widgets.php:42
+msgid "Shows widgets in header section just above the main navigation menu."
+msgstr "Visar widgets i sidhuvudet precis ovanför huvudmenyn."
+
+#: inc/widgets/widgets.php:40
+msgid "Header Sidebar"
+msgstr "Sidopanel i sidhuvud"
+
+#: inc/widgets/widgets.php:31
+msgid "Shows widgets at Left side."
+msgstr "Visar widgetar på vänster sida."
+
+#: inc/widgets/widgets.php:20
+msgid "Shows widgets at Right side."
+msgstr "Visar widgetar på höger sida."
+
+#: inc/header-functions.php:308 inc/header-functions.php:318
+msgid "You are here: "
+msgstr "Du är här:"
+
+#: inc/header-functions.php:279
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: inc/header-functions.php:277
+msgid "Page NOT Found"
+msgstr "Sidan kunde inte hittas"
+
+#: sidebar.php:32 sidebar-left.php:29 inc/header-functions.php:273
+msgid "Archives"
+msgstr "Arkiv"
+
+#: inc/header-functions.php:267
+msgid "Links"
+msgstr "Länkar"
+
+#: inc/header-functions.php:264
+msgid "Quotes"
+msgstr "Citat"
+
+#: inc/header-functions.php:261
+msgid "Videos"
+msgstr "Videoklipp"
+
+#: inc/header-functions.php:258
+msgid "Images"
+msgstr "Bilder"
+
+#: inc/header-functions.php:255
+msgid "Asides"
+msgstr "Notiser"
+
+#: inc/header-functions.php:252
+msgid "Year: %s"
+msgstr "År: %s"
+
+#: inc/header-functions.php:249
+msgid "Month: %s"
+msgstr "Månad: %s"
+
+#: inc/header-functions.php:246
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: inc/header-functions.php:238
+msgid "Author: %s"
+msgstr "Författare: %s"
+
+#: inc/functions.php:682
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s av %2$s."
+
+#: inc/functions.php:682
+msgid "Powered by %s."
+msgstr "Drivs med %s."
+
+#: inc/functions.php:682
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Upphovsrätt &copy; %1$s %2$s."
+
+#: inc/functions.php:678
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/functions.php:655
+msgid "Reply"
+msgstr "Svar"
+
+#: inc/functions.php:649
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: inc/functions.php:643
+msgid "<a class=\"comment-permalink\" href=\"%1$s\">Permalink</a>"
+msgstr "<a class=\"comment-permalink\" href=\"%1$s\">Permalänk</a>"
+
+#: inc/functions.php:641
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: inc/functions.php:638
+msgid "Post author"
+msgstr "Inläggsförfattare"
+
+#: inc/functions.php:623
+msgid "(Edit)"
+msgstr "(Redigera)"
+
+#: inc/functions.php:623
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/functions.php:597
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/functions.php:593
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: navigation.php:40 inc/functions.php:588
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: navigation.php:39 inc/functions.php:587
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/functions.php:583
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: inc/admin/meta-boxes.php:48
+msgid "No Sidebar Content Centered"
+msgstr "Ingen sidopanel innehåll centrerat"
+
+#: inc/admin/meta-boxes.php:43
+msgid "No Sidebar Full Width"
+msgstr "Ingen sidopanel full bredd"
+
+#: inc/widgets/widgets.php:29 inc/admin/meta-boxes.php:38
+msgid "Left Sidebar"
+msgstr "Vänster sidopanel"
+
+#: inc/widgets/widgets.php:18 inc/admin/meta-boxes.php:33
+msgid "Right Sidebar"
+msgstr "Höger sidopanel"
+
+#: inc/admin/meta-boxes.php:28
+msgid "Default Layout"
+msgstr "Standardlayout"
+
+#: inc/admin/meta-boxes.php:16 inc/admin/meta-boxes.php:18
+msgid "Select Layout"
+msgstr "Välj layout"
+
+#: inc/header-functions.php:338
+msgid "Menu"
+msgstr "Meny"
+
+#: functions.php:106 functions.php:338
+msgid "Footer Menu"
+msgstr "Sidfotsmeny"
+
+#: functions.php:105 functions.php:326
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: content-single.php:34
+msgid "Tagged on: "
+msgstr "Märkt på:"
+
+#: functions.php:313 functions.php:318 inc/functions.php:784
+#: inc/widgets/class-spacious-service-widget.php:96
+#: inc/widgets/class-spacious-featured-single-page-widget.php:103
+#: inc/customizer.php:885 inc/header-functions.php:166
+msgid "Read more"
+msgstr "Läs mer"
+
+#: inc/functions.php:778 content-page.php:39
+msgid "Edit"
+msgstr "Redigera"
+
+#: inc/functions.php:775
+msgid "Comments Off"
+msgstr "Kommentarer av"
+
+#: inc/functions.php:775
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/functions.php:775
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/functions.php:775
+msgid "No Comments"
+msgstr "Inga kommentarer"
+
+#: content-blog-full-content.php:23 content-single.php:42 content-page.php:30
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: comments.php:40 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:39 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; äldre kommentarer"
+
+#: comments.php:38 comments.php:55
+msgid "Comment navigation"
+msgstr "Kommentarsnavigation"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En reaktion på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reaktion på &ldquo;%2$s&rdquo;"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Try the search below."
+msgstr "Det verkar inte som något kunde hittas här. Försök att söka nedan."
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Den sidan kan inte hittas."
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/spacious"
+msgstr "https://themegrill.com/themes/spacious"
+
+#. Author of the theme
+#: inc/functions.php:680
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

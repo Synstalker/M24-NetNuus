@@ -1,0 +1,300 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Open Graph Metabox\n"
+"POT-Creation-Date: 2017-06-22 15:52+0200\n"
+"PO-Revision-Date: 2017-06-22 15:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-WPHeader: open-graph-metabox.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: open-graph-metabox.php:41
+msgid "Blog"
+msgstr ""
+
+#: open-graph-metabox.php:42
+msgid "Website"
+msgstr ""
+
+#: open-graph-metabox.php:43
+msgid "Article"
+msgstr ""
+
+#: open-graph-metabox.php:47
+msgid "Activity"
+msgstr ""
+
+#: open-graph-metabox.php:48
+msgid "Sport"
+msgstr ""
+
+#: open-graph-metabox.php:52
+msgid "Bar"
+msgstr ""
+
+#: open-graph-metabox.php:53
+msgid "Company"
+msgstr ""
+
+#: open-graph-metabox.php:54
+msgid "Cafe"
+msgstr ""
+
+#: open-graph-metabox.php:55
+msgid "Hotel"
+msgstr ""
+
+#: open-graph-metabox.php:56
+msgid "Restaurant"
+msgstr ""
+
+#: open-graph-metabox.php:60
+msgid "Cause"
+msgstr ""
+
+#: open-graph-metabox.php:61
+msgid "Sports league"
+msgstr ""
+
+#: open-graph-metabox.php:62
+msgid "Sports team"
+msgstr ""
+
+#: open-graph-metabox.php:66
+msgid "Band"
+msgstr ""
+
+#: open-graph-metabox.php:67
+msgid "Government"
+msgstr ""
+
+#: open-graph-metabox.php:68
+msgid "Non_profit"
+msgstr ""
+
+#: open-graph-metabox.php:69
+msgid "School"
+msgstr ""
+
+#: open-graph-metabox.php:70
+msgid "University"
+msgstr ""
+
+#: open-graph-metabox.php:74
+msgid "Actor"
+msgstr ""
+
+#: open-graph-metabox.php:75
+msgid "Athlete"
+msgstr ""
+
+#: open-graph-metabox.php:76
+msgid "Author"
+msgstr ""
+
+#: open-graph-metabox.php:77
+msgid "Director"
+msgstr ""
+
+#: open-graph-metabox.php:78
+msgid "Musician"
+msgstr ""
+
+#: open-graph-metabox.php:79
+msgid "Politician"
+msgstr ""
+
+#: open-graph-metabox.php:80
+msgid "Public figure"
+msgstr ""
+
+#: open-graph-metabox.php:84
+msgid "City"
+msgstr ""
+
+#: open-graph-metabox.php:85
+msgid "Country"
+msgstr ""
+
+#: open-graph-metabox.php:86
+msgid "Landmark"
+msgstr ""
+
+#: open-graph-metabox.php:87
+msgid "State province"
+msgstr ""
+
+#: open-graph-metabox.php:91
+msgid "Album"
+msgstr ""
+
+#: open-graph-metabox.php:92
+msgid "Book"
+msgstr ""
+
+#: open-graph-metabox.php:93
+msgid "Drink"
+msgstr ""
+
+#: open-graph-metabox.php:94
+msgid "Food"
+msgstr ""
+
+#: open-graph-metabox.php:95
+msgid "Game"
+msgstr ""
+
+#: open-graph-metabox.php:96
+msgid "Product"
+msgstr ""
+
+#: open-graph-metabox.php:97
+msgid "Song"
+msgstr ""
+
+#: open-graph-metabox.php:98
+msgid "Movie"
+msgstr ""
+
+#: open-graph-metabox.php:99
+msgid "TV Show"
+msgstr ""
+
+#: open-graph-metabox.php:142
+msgid "Settings"
+msgstr ""
+
+#: open-graph-metabox.php:175 open-graph-metabox.php:176
+msgid "Open Graph settings"
+msgstr ""
+
+#: open-graph-metabox.php:191
+msgid "Open Graph"
+msgstr ""
+
+#: open-graph-metabox.php:223
+msgid ""
+"Please provide optional Open Graph meta values to override the <a href="
+"\"options-general.php?page=open-graph-metabox\">defaults</a>."
+msgstr ""
+
+#: open-graph-metabox.php:226
+msgid ""
+"Open the <a href='https://developers.facebook.com/tools/debug/og/object?q="
+msgstr ""
+
+#: open-graph-metabox.php:232 open-graph-metabox.php:445
+#: open-graph-metabox.php:508
+msgid "Title"
+msgstr ""
+
+#: open-graph-metabox.php:237 open-graph-metabox.php:450
+#: open-graph-metabox.php:513
+msgid "Description"
+msgstr ""
+
+#: open-graph-metabox.php:242 open-graph-metabox.php:455
+#: open-graph-metabox.php:518
+msgid "Image"
+msgstr ""
+
+#: open-graph-metabox.php:245 open-graph-metabox.php:458
+#: open-graph-metabox.php:521
+msgid "Select image"
+msgstr ""
+
+#: open-graph-metabox.php:250 open-graph-metabox.php:463
+#: open-graph-metabox.php:526
+msgid "Type"
+msgstr ""
+
+#: open-graph-metabox.php:430
+msgid "Settings updated successfully."
+msgstr ""
+
+#: open-graph-metabox.php:436
+msgid "Set Open Graph defaults"
+msgstr ""
+
+#: open-graph-metabox.php:439
+msgid "Post and page defaults"
+msgstr ""
+
+#: open-graph-metabox.php:440
+msgid ""
+"Complete this form with the Open Graph defaults you wish to set "
+"automatically when posting or editing a post."
+msgstr ""
+
+#: open-graph-metabox.php:446 open-graph-metabox.php:509
+msgid "When empty the default title will be used."
+msgstr ""
+
+#: open-graph-metabox.php:451 open-graph-metabox.php:514
+msgid "When empty the default excerpt will be used."
+msgstr ""
+
+#: open-graph-metabox.php:487
+msgid "Facebook App ID"
+msgstr ""
+
+#: open-graph-metabox.php:488
+msgid ""
+"Let's the Facebook scraper associate the meta data with your app (fb:app_id)"
+msgstr ""
+
+#: open-graph-metabox.php:492
+msgid "Facebook Admins"
+msgstr ""
+
+#: open-graph-metabox.php:493
+msgid ""
+"Let's Facebook associate admins for the website (fb:admins), multiple ID's "
+"seperated by , (comma)"
+msgstr ""
+
+#: open-graph-metabox.php:499 open-graph-metabox.php:552
+msgid "Save settings"
+msgstr ""
+
+#: open-graph-metabox.php:502
+msgid "Front-page defaults"
+msgstr ""
+
+#: open-graph-metabox.php:503
+msgid "These settings are applied to the frontpage of the website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Open Graph Metabox"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/open-graph-metabox/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin lets you set the Open Graph meta tags per post, page or custom "
+"post type."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Media-Enzo"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://media-enzo.nl"
+msgstr ""

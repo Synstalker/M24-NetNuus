@@ -1,0 +1,54 @@
+# Translation of Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) in Catalan
+# This file is distributed under the same license as the Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-07-04 17:20:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ca\n"
+"Project-Id-Version: Plugins - WordPress Share Buttons Plugin – AddThis - Stable (latest release)\n"
+
+#. Description of the plugin
+msgid "Set up sharing tools from AddThis right in WordPress. With AddThis you can see how your users are engaging with your content, provide a personalized experience for each user and encourage them to share your content in their social networks. Follow tools, recommended content, conversion tools and social analytics available to registered accounts at addthis.com."
+msgstr "Configureu eines d’ús compartit des d'AddThis de WordPress. Amb AddThis podeu veure com els usuaris es comprometen amb el contingut, proporcionen una experiència personalitzada per a cada usuari i els animen a compartir el contingut a les xarxes socials. Seguiu les eines, el contingut recomanat, les eines de conversió i les anàlisis socials disponibles per als comptes registrats a addthis.com."
+
+#. Author URI of the plugin
+msgid "http://www.addthis.com"
+msgstr "http://www.addthis.com"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/addthis/"
+msgstr "https://wordpress.org/plugins/addthis/"
+
+#: backend/AddThisWidgetByDomClass.php:242
+msgid "Tool: "
+msgstr "Eina:"
+
+#: backend/AddThisWidgetByDomClass.php:200
+#: backend/AddThisWidgetByDomClass.php:498
+msgid "Title: "
+msgstr "Títol:"
+
+#: backend/AddThisGlobalOptionsFeature.php:976
+msgid "Terms of Service"
+msgstr "Condicions del servei"
+
+#: backend/AddThisWidgetByDomClass.php:491
+#: backend/AddThisGlobalOptionsFeature.php:931
+msgid "the plugin's settings"
+msgstr "la configuració de l'extensió"
+
+#. Author of the plugin
+msgid "The AddThis Team"
+msgstr "L’equip d'AddThis"
+
+#. Plugin Name of the plugin
+msgid "Share Buttons by AddThis"
+msgstr "Share Buttons d'AddThis"
+
+#: backend/AddThisGlobalOptionsFeature.php:971
+msgid "Privacy Policy"
+msgstr "Política de privadesa"
